@@ -1,0 +1,744 @@
+﻿OBJECTID,Country,Feature Description,Feature Name,Installation Identifier,Controlled Unclassified Information Indicator,Is FIRRMA Site,Is Joint Base,Media Identifier,Metadata Identifier,Primary Key Identifier,Globally Unique Identifier,Site Name,Site Operational Status,Site Reporting Component Code,State Name Code,Shape__Area,Shape__Length
+1,usa,na,NAVMEDCEN Portsmouth VA,N57095,No,No,No,na,na, ,7d7e44c7-47ad-4fb2-84e1-dd138acdfb6c,NAVMEDCEN Portsmouth VA,act,usn,VA,4.75627753075969E-05,0.0388409251126118
+2,usa,na,NAVSUPPACT Hampton Roads VA,N57095,No,No,No,na,na, ,8b011bb7-9e1d-4915-9465-09cad2612ab4,NAVSUPPACT Hampton Roads VA,act,usn,VA,0.000324135278106041,0.0966208663119484
+3,usa,na,NNSY South Gate,N32443,No,No,No,na,na, ,01610704-e8c4-4b42-bc0e-9a172afa4357,NNSY South Gate,act,usn,VA,3.83019339551538E-05,0.0250454514453245
+4,usa,na,Naval Support Activity Wash,N68469,No,No,No,na,na, ,c7359a10-744f-4dcc-930e-ad8894bdcc75,Naval Support Activity Wash,act,usn,dc,3.21666936997644E-05,0.0249714394928397
+5,usa,na,Arlington Service Ctr,N68469,No,No,No,na,na, ,a6845150-ab6a-4f3d-9483-1c4b5432b3bc,Arlington Service Ctr,act,usn,VA,8.14547820482403E-06,0.0137673188909818
+6,usa,na,Gambrills MD,N61152,No,No,No,na,na, ,3876391a-0037-4b49-a043-ce03932d792a,Gambrills MD,act,usn,MD,0.00035183764816793,0.107422091911797
+7,usa,na,Naval Support Activity Crane,N61018,No,Yes,No,na,na, ,61344b2a-a61a-486b-a872-2288c1ecfc2f,Naval Support Activity Crane,act,usn,IN,0.0260294147494733,1.16717747410261
+8,usa,na,Naval Submarine Base New London,N00129,No,Yes,No,na,na, ,bbb4062d-b867-4714-a695-4a49cd716f11,NAVSUBASE New London CT,act,usn,CT,0.000266923043227507,0.107019124058874
+9,usa,na,NAVSUPPACT Mechanicsburg PA,N32414,No,No,No,na,na, ,683d1287-866b-4b9f-a49b-1e4de7976839,NAVSUPPACT Mechanicsburg PA,act,usn,PA,0.000338086326337361,0.104380079438098
+10,usa,na,Naval Research Laboratory – Tilghman,N61152,No,Yes,No,na,na, ,bf3f4cf2-512f-4660-8090-0888597acecb,Tilghman Island,act,usn,MD,1.09098436951172E-06,0.00579359365359316
+11,usa,na,NAVSUPPACT Bethesda MD,N33355,No,No,No,na,na, ,a0ce61ff-d707-4940-baaf-2e82ce7a6c1c,NAVSUPPACT Bethesda MD,act,usn,MD,0.00010010183450504,0.0421077037273761
+12,usa,na,Naval Support Activity Philadelphia,N32414,No,Yes,No,na,na, ,d359d27e-b0e1-48c5-bb38-0b5528a1e2b9,Det Philadelphia PA,act,usn,PA,5.76016172999516E-05,0.0352851950634663
+13,usa,na,Gould Island RI,N32411,No,No,No,na,na, ,ba39f6b5-6490-4131-b87d-e65e71438566,Gould Island RI,act,usn,RI,4.36920731772261E-06,0.0136603228019068
+14,usa,na,Craney Island,N62688,No,No,No,na,na, ,73b4de73-3009-40a0-8895-00163c348e30,Craney Island,act,usn,VA,0.000296264225653431,0.110923105487631
+15,usa,na,Elizabeth Rvr Channel,N62688,No,No,No,na,na, ,f009171e-84ea-41b3-902f-6fb0b7ab19f8,Elizabeth Rvr Channel,act,usn,VA,1.50452553953073E-05,0.0168376097412262
+16,usa,na,Naval Air Station Oceana,N60191,No,Yes,No,na,na, ,2e2a6865-6651-4087-a061-f76f017e93bb,NAS Oceana VA,act,usn,VA,0.00217111143274451,0.235526542833274
+17,usa,na,ALF Fentress Chesapke,N60191,No,No,No,na,na, ,90615497-ef16-4ce6-be46-dad665bad836,ALF Fentress Chesapke,act,usn,VA,0.00105703287476899,0.220481724718301
+18,usa,na,Glenview,N00128,No,No,No,na,na, ,4a5d0592-dc4f-4f2a-ba61-048010dd814b,Glenview,act,usn,IL,1.33209371142584E-05,0.0210617190800968
+19,usa,na,Bratenahl,N00128,No,No,No,na,na, ,2dbcf452-c99b-40ea-a2ea-9c8230681abc,Bratenahl,act,usn,OH,1.34794402129046E-05,0.0186727528994251
+20,usa,na,Naval Station Norfolk,N62688,No,Yes,No,na,na, ,697cec17-38ee-4f84-aee6-4923cd709a79,NAVSTA Norfolk VA,act,usn,VA,0.00166222503526114,0.329579266704086
+23,usa,na,Cheatham Annex,N69212,No,No,No,na,na, ,409a240e-1681-4729-b304-a08250cf6133,Cheatham Annex,act,usn,VA,0.000937734902436205,0.249507495475647
+24,usa,na,Portsmouth Naval Shipyard,N32446,No,Yes,No,na,na, ,e8b29b16-abc7-4079-a498-91c9859f315b,NSY Portsmouth,act,usn,ME,0.000127726377513682,0.0967568359950042
+25,usa,na,Naval Station Great Lakes IL,N00128,No,No,No,na,na, ,6767c11d-91a7-4995-827e-37a50f76aa84,Naval Station Great Lakes IL,act,usn,IL,0.000233629712511174,0.0733399579357546
+26,usa,na,NSA Saratoga Springs NY,N61011,No,No,No,na,na, ,ae7ae6ff-366e-42ac-801a-97bf0e59ca9f,NSA Saratoga Springs NY,act,usn,NY,1.00661618489539E-05,0.0152297513544331
+29,usa,na,Waterfront,N69213,No,No,No,na,na, ,f0145c1c-5ed1-4ba2-bb6b-e56c21e15a25,Waterfront,act,usn,NJ,4.22766640895134E-05,0.0437441585414418
+30,usa,na,Fire Fighters School,N57095,No,No,No,na,na, ,fbf30d63-788e-4489-82ce-7ed11ff813ee,Fire Fighters School,act,usn,VA,5.01573413203005E-06,0.00997709726949889
+32,usa,na,Allegany Ballistics Lab,N91571,No,No,No,na,na, ,d45b7932-3b90-4d74-883f-220a469f4174,Allegany Ballistics Lab,act,usn,WV,0.000643390024833934,0.155943025477015
+33,usa,na,Yorktown Fuel Depot,N69212,No,No,No,na,na, ,068c8f82-f638-4b3b-ba90-2fca2357518f,Yorktown Fuel Depot,act,usn,VA,5.96706886426546E-05,0.0320248825920153
+34,usa,na,GL Camp JPJ,N00128,No,No,No,na,na, ,bde5fb97-2bbb-437a-a8b1-d7a9897ea283,GL Camp JPJ,act,usn,IL,2.15623929307185E-05,0.0186667502574532
+35,usa,na,NWIRP Bedford MA,N93880,No,No,No,na,na, ,,NWIRP Bedford MA,clsd,usn,MA,1.98976963474706E-05,0.0258248212359574
+36,usa,na,St Juliens Creek East,N32443,No,No,No,na,na, ,4302d48d-de09-4c6e-974f-daaeecaa9ed2,St Juliens Creek East,act,usn,VA,0.000122422239428488,0.0458052975918975
+37,usa,na,Det Phil Pny Annex,N32414,No,No,No,na,na, ,a0aebaba-8e38-4914-9580-9208d3bdcf97,Det Phil Pny Annex,act,usn,PA,0.000112548670585966,0.121926670940941
+38,usa,na,Redington Township,N32446,No,No,No,na,na, ,8793bc82-4e07-42d8-890b-fdebce3c08f2,Redington Township,act,usn,ME,0.00574723523936882,0.476781230881467
+39,usa,na,NNSY St Helena,N32443,No,No,No,na,na, ,8639de01-72ce-4a8c-820b-5ecbfe549fa0,NNSY St Helena,act,usn,VA,5.03337651025504E-06,0.0103928251610276
+40,usa,na,SDA Area,N57095,No,No,No,na,na, ,d07f1036-7b22-4d3b-a048-d20cbb18f913,SDA Area,act,usn,VA,3.65897317351482E-05,0.0256192715627842
+41,usa,na,NAVSUPPACT Norfolk NSY,N32443,No,No,No,na,na, ,,NAVSUPPACT Norfolk NSY,act,usn,VA,0.00019024516132049,0.0733841763921186
+42,usa,na,Northwest Chesapeake VA,N57095,No,No,No,na,na, ,814eadf6-d0dc-44cf-8ed2-4e2e96d3ed4d,Northwest Chesapeake VA,act,usn,VA,0.00149380554398704,0.177265118100766
+43,usa,na,Lafayette Rvr Complex,N57095,No,No,No,na,na, ,aa5794e4-8095-408b-b600-a9f53c13ae2c,Lafayette Rvr Complex,act,usn,VA,8.10905657999683E-06,0.0115968962825523
+44,usa,na,Naval Weapons Station Yorktown,N69212,No,No,No,na,na, ,43981128-f3de-499f-9e85-6ee1b60463dc,Naval Weapons Station Yorktown,act,usn,VA,0.00427005174697115,0.294466638863438
+47,usa,na,Naval Station Newport,N32411,No,Yes,No,na,na, ,2530547c-c364-47ba-8bb9-b4ae5ab6c68a,Naval Station Newport RI,act,usn,RI,0.000313801646143474,0.332133434742601
+52,usa,na,Kodiak Tracking Station,N68436,No,Yes,No,na,na, ,9b5bd146-9411-4691-b0e9-2dfd3b5a7137,Kodiak AK,act,usn,AK,7.84343110353802E-05,0.0403708214368913
+56,usa,na,Naval Air Station Oceana Dam Neck Annex,N60191,No,Yes,No,na,na, ,760d2f65-1cbb-4daa-b3c5-cd37c9c3e414,Dam Neck,act,usn,VA,0.000803342328936196,0.239449105371182
+57,usa,na,Fort Adams RI,N32411,No,No,No,na,na, ,d9d07e36-d2d8-4811-9255-163273e4dfe0,Fort Adams RI,act,usn,RI,1.04849034414656E-05,0.0217544518855102
+58,usa,na,Naval Weapons Station Earle NJ,N69213,No,No,No,na,na, ,a4749ce8-ce14-49c2-8a29-f2a1a03ebd73,Naval Weapons Station Earle NJ,act,usn,NJ,0.00366453328410898,0.400633052195127
+59,usa,na,Naval Weapons Systems Training Facility Boardman,N00620,No,Yes,No,na,na, ,4a0836e4-6b4f-4cf2-b2cc-ec3e7b070840,NAVWPNSYSTRAFAC Boardman,act,usn,OR,0.0222392362061328,0.684134601829718
+60,usa,na,Manchester,N68436,No,No,No,na,na, ,fa459a06-176e-449b-9941-5d920792dfb7,Manchester,act,usn,WA,0.000153880771449622,0.0622444851884179
+62,usa,na,Southeast Alaska Acoustic Measurement Facility,N68436,No,Yes,No,na,na, ,c8db6f28-c705-47e8-9ad9-cb88702b7dd7,Back Island AK,act,usn,AK,6.70069312036503E-06,0.0322683699803383
+63,usa,na,Naval Base Kitsap Bangor,N68436,No,Yes,No,na,na, ,8aada513-9d6f-48c6-a1be-2ac53ac4628b,Naval Base Kitsap Bangor,act,usn,WA,0.00353854026434419,0.289381022055232
+65,usa,na,Marysville WA,N68967,No,No,No,na,na, ,4b0d13f5-3ef8-45e9-a807-b187ec70b701,Marysville WA,act,usn,WA,2.54697456512076E-05,0.0195670338082896
+66,usa,na,CNI NAVMAG Indian Island,N61066,No,No,No,na,na, ,19126ba0-1cbb-4c5d-bbf1-8388e7361531,CNI NAVMAG Indian Island,act,usn,WA,0.00144615360795797,0.244901243689792
+67,usa,na,Balboa Hospital,N00245,No,No,No,na,na, ,a517c204-1f88-48d9-9e27-81309eba2107,Balboa Hospital,act,usn,CA,2.94612279958528E-05,0.024539342030538
+68,usa,na,Warner Springs Rts,N00246,No,No,No,na,na, ,0684b97e-4933-413c-981e-7a6158180e4a,Warner Springs Rts,act,usn,CA,0.00194545033400573,0.359497019776883
+69,usa,na,Target B-17,N60495,No,No,No,na,na, ,5c6addae-9a5a-4ff5-b512-7cf3157f8d24,Target B-17,act,usn,NV,0.023050194679854,0.634836510438875
+70,usa,na,Holtville Carrier LS,N60042,No,No,No,na,na, ,6d68084e-10f2-4535-9e61-801a0576382d,Holtville Carrier LS,act,usn,CA,0.000466122142825043,0.13402313278648
+71,usa,na,NAVOBSSTA Flagstaff AZ,N60042,No,No,No,na,na, ,cb1ae26d-8e6b-420c-ae47-903b7a49a3a9,NAVOBSSTA Flagstaff AZ,act,usn,AZ,0.00011496235379127,0.0700485213858739
+72,usa,na,NAS Lemoore CA,N63042,No,No,No,na,na, ,18b5c01a-eaa8-4fb5-853d-57c9a7b187f4,NAS Lemoore CA,act,usn,CA,0.00745546927782925,0.4755471401704
+73,usa,na,Naval Air Weapons Station China Lake,N47609,No,Yes,No,na,na, ,a1791bb8-bcaa-4bd1-9e4c-4c6e7aeae689,NAWS China Lake,act,usn,CA,0.247674468849254,2.8879444897956
+74,usa,na,Amphib Base Coronado East,N00246,No,No,No,na,na, ,c691731a-304c-428e-8a06-2c07511a818f,Amphib Base Coronado East,act,usn,CA,0.000192874139202104,0.0879714743432903
+75,usa,na,Navy Annex,N61014,No,No,No,na,na, ,edc68b5a-0e15-4ef2-a9ba-e89a9d1cffbd,Navy Annex,act,usn,CA,4.94764194627351E-05,0.0405310195376466
+76,usa,na,Naval Base Ventura County – Port Hueneme Operating Facility,N69232,No,Yes,No,na,na, ,fef082bb-5cd2-4623-9295-7ed860ed61af,Port Hueneme,act,usn,CA,0.000636927507684959,0.128216602053983
+77,usa,na,Mission Gorge Rec Area,N00245,No,No,No,na,na, ,3908f185-9b9e-4287-a521-53ce22eeda2e,Mission Gorge Rec Area,act,usn,CA,0.000174210641262107,0.0794833263732463
+78,usa,na,NAVPMOSSP Mtn View,N61014,No,No,No,na,na, ,b13e45a2-d1a3-4280-b2a8-f3cc4de3f47e,NAVPMOSSP Mtn View,act,usn,CA,2.03578847504104E-05,0.0182600615316377
+79,usa,na,Naval Weapons Station Seal Beach Detachment Norco,N61065,No,Yes,No,na,na, ,2347a004-de94-483e-94aa-1c9c281750c8,Norco,act,usn,CA,9.61907896908087E-05,0.0587406321397073
+80,usa,na,National City,N00245,No,No,No,na,na, ,629bff2c-4b43-498e-9d8d-a4ff363aded6,National City,act,usn,CA,5.52881124349369E-06,0.0114507039458451
+81,usa,na,Old Town Site 1,N63406,No,No,No,na,na, ,a07896a1-fd0a-408c-b104-67fd780989a5,Old Town Site 1,act,usn,CA,1.83536176336929E-05,0.0254780234090778
+82,usa,na,Naval Base Point Loma,N63406,No,Yes,No,na,na, ,c98c72e1-ee7f-4307-9ec8-6ffce4318a7d,NAVBASE Point Loma,act,usn,CA,0.000446286099304416,0.180167560356267
+84,usa,na,NAVWPNSTA Seal Beach,N61065,No,No,No,na,na, ,815db7b7-9858-4480-8b8d-f2d9f40ef2fa,NAVWPNSTA Seal Beach,act,usn,CA,0.0018863905404487,0.261924382651377
+85,usa,na,Naval Base Ventura County – Point Mugu Operating Facility,N69232,No,Yes,No,na,na, ,8dff4892-e68e-40ea-b15e-6ed859b1b8c4,NAVBASE Ventura Cty Point Mugu CA,act,usn,CA,0.00176890960869969,0.253794020918661
+95,usa,na,Makaha Ridge,N61064,No,No,No,na,na, ,baa13fa8-3380-4239-82a3-42661007d540,Makaha Ridge,act,usn,HI,7.15891583240591E-05,0.0565293621762285
+97,usa,na,Naval Base San Diego,N00245,No,Yes,No,na,na, ,39123ab7-1504-47f4-8fb0-20c65887a119,NAVBASE San Diego CA,act,usn,CA,0.000276973880545484,0.116583550504932
+98,usa,na,Sewage Evaporation Pond,N63042,No,No,No,na,na, ,40fdecb9-c086-4f18-a738-c49ea2374302,Sewage Evaporation Pond,act,usn,CA,0.000174867213445395,0.0627199872186149
+99,usa,na,South Point,N63406,No,No,No,na,na, ,4b7cc704-9254-4ebe-ac8e-50d9775d849d,South Point,act,usn,CA,1.93227740510338E-05,0.0231049152526788
+100,usa,na,Camp Michael Monsoor,N00246,No,No,No,na,na, ,6d28c068-3163-4e24-98ad-6dc532c4a58f,Camp Michael Monsoor,act,usn,CA,0.00180207119524312,0.495821869018653
+102,usa,na,Pacific Missile Range Facility,N61064,No,Yes,No,na,na, ,daa9bfbb-b04a-4748-ac29-770fb9b00aef,CNIC PMRF Barking Sands HI,act,usn,HI,0.000807493674756188,0.243379717688262
+110,usa,na,Sea Plane Base,N00620,No,No,No,na,na, ,238c88e8-cb6a-48d9-a2b7-8fc43c3bdf1c,Sea Plane Base,act,usn,WA,0.00154549546141425,0.373052282266393
+111,usa,na,CSO Barbers Point HI,N69176,No,No,No,na,na, ,60e4960d-0fb6-4a03-8bf9-8fb8f4c1901b,CSO Barbers Point HI,care,usn,HI,0.000216560011267575,0.17060343307897
+131,usa,na,Santa Cruz Island,N69232,No,No,No,na,na, ,5d5659c2-3b01-44ac-961c-9902b2cd1458,Santa Cruz Island,act,usn,CA,3.13558302877937E-06,0.0145114726691098
+132,usa,na,Amphib Base Coronado West,N00246,No,No,No,na,na, ,1fd44328-d455-4a29-a61d-6f9092309aad,Amphib Base Coronado West,act,usn,CA,2.82664473161276E-05,0.0256958515223239
+133,usa,na,San Clemente IS NALF,N00246,No,No,No,na,na, ,e2032737-df3e-407f-947b-40c01bc88453,San Clemente IS NALF,act,usn,CA,0.0140745737412544,0.917623900352542
+134,usa,na,Target B-19,N60495,No,No,No,na,na, ,22694b62-72ee-47c5-a046-54f274f4e29e,Target B-19,act,usn,NV,0.0122672655456881,0.555946690263485
+135,usa,na,Imperial Beach NOLF,N00246,No,No,No,na,na, ,29da5bf5-220e-4524-a7a0-da27a24bd625,Imperial Beach NOLF,act,usn,CA,0.000468090117692554,0.12562793794411
+136,usa,na,Truman Annex,N00213,No,No,No,na,na, ,c83a360f-7e6b-417d-b335-b94b7de34fa9,Truman Annex,act,usn,FL,4.18314917851603E-05,0.0769817206226551
+137,usa,na,Pumpkin Neck,N61151,No,No,No,na,na, ,53778f6d-5633-43ed-a530-87da522f8ba9,Pumpkin Neck,act,usn,VA,0.000679720620382795,0.157408903856571
+138,usa,na,NMIC Suitland,N68469,No,No,No,na,na, ,de64b132-12c0-43b5-9b5b-82c2bf9e23d8,NMIC Suitland,act,usn,MD,1.7225434021384E-05,0.0179028400365569
+139,usa,na,Naval Support Facility Carderock,N68469,No,Yes,No,na,na, ,f54c18ba-2705-4ae5-9b8a-0e001ba74d64,NSWC Carderock,act,usn,MD,7.65676570608775E-05,0.0554686162884659
+140,usa,na,NRC Solomons,N47608,No,No,No,na,na, ,a583689c-b629-497d-b5ec-d42fb2957f65,NRC Solomons,act,usn,MD,0.000124216528320176,0.087613647772053
+141,usa,na,Chesapeake Bay Detach,N61152,No,No,No,na,na, ,d6f99636-ca75-4e64-8f36-8653ba7c5142,Chesapeake Bay Detach,act,usn,MD,6.7761212676487E-05,0.0547679697715755
+142,usa,na,ALF Waldron,N00216,No,No,No,na,na, ,b6c69915-a664-4646-90de-226b03a04d85,ALF Waldron,act,usn,TX,0.00030860310494063,0.17696751040485
+143,usa,na,CBC Gulfport MS,N62604,No,No,No,na,na, ,c81f6d2e-74da-4358-b72a-31bc09f31d16,CBC Gulfport MS,act,usn,MS,0.000425499578568633,0.11153209320426
+144,usa,na,NOLF Santa Rosa,N60508,No,No,No,na,na, ,b8bd6b33-c4fa-4fb4-8b67-0bd8f9dba21f,NOLF Santa Rosa,act,usn,FL,0.000266382318159231,0.0763162825857619
+145,usa,na,Corry Station,N00204,No,No,No,na,na, ,bc242130-0cb5-47f3-b008-ec6e4ae91660,Corry Station,act,usn,FL,0.00022364018582266,0.0716858409725698
+146,usa,na,NAS Whiting Field Milton FL,N60508,No,No,No,na,na, ,c4a3b2f2-b400-4eb4-8f8d-2aad42007378,NAS Whiting Field Milton FL,act,usn,FL,0.00132259373344823,0.222847075214741
+147,usa,na,NOLF Evergreen,N60508,No,No,No,na,na, ,ce7a0338-bc32-457d-9155-647aa557ab31,NOLF Evergreen,act,usn,AL,0.000146760100506071,0.0863798106543788
+148,usa,na,FLC Fuel Depot Heckscher,N60201,No,No,No,na,na, ,d43ea9ca-5cd9-48df-afc2-d3ca684d32e7,FLC Fuel Depot Heckscher,act,usn,FL,6.27176852958655E-05,0.0454604331446975
+149,usa,na,Naval Air Station Joint Reserve Base New Orleans,N00206,No,Yes,No,na,na, ,dcc6b706-7ec9-4df5-9355-cce4f32aadcd,NAS JRB New Orleans LA,act,usnr,LA,0.00126484820771111,0.227667777776908
+150,usa,na,NOLF Choctaw,N60508,No,No,No,na,na, ,e0065a31-8926-47d8-9189-822456a3191d,NOLF Choctaw,act,usn,FL,0.000566759676303263,0.124006943767576
+151,usa,na,NOLF Wolf,N60508,No,No,No,na,na, ,e23f8eea-c743-4963-83df-ff0cd2bae8d3,NOLF Wolf,act,usn,AL,0.00011822908254544,0.0623199480622775
+152,usa,na,Woolmarket (De Soto),N62604,No,No,No,na,na, ,e41db936-01ef-421c-b05f-882c70c2e5eb,Woolmarket (De Soto),act,usn,MS,0.000939209663329166,0.126659931708673
+153,usa,na,NOLF Spencer,N60508,No,No,No,na,na, ,f40faaa8-16cf-40ff-8e34-d62cb12af1d7,NOLF Spencer,act,usn,FL,0.000241596935438793,0.062364083737935
+154,usa,na,OLF Bravo,N63043,No,No,No,na,na, ,f4b2fa21-7d23-462d-a2ac-bbde2c83e8ab,OLF Bravo,act,usn,MS,0.000476957666023736,0.153795669050364
+155,usa,na,NAVSUPPFAC Beaufort SC,N50173,No,No,No,na,na, ,f6b06eb3-09f6-41d3-ab06-bee45e76d1cf,NAVSUPPFAC Beaufort SC,act,usn,SC,4.69913654796983E-05,0.030015291410698
+158,usa,na,NAS Pensacola FL,N00204,No,No,No,na,na, ,875c9662-90cb-494a-b243-c0cf357f1e8d,NAS Pensacola FL,act,usn,FL,0.00206947378637778,0.41505957918412
+159,usa,na,Randsburg Wash Area,N47609,No,No,No,na,na, ,a585227a-a5d3-465e-92b9-066d7b7b1ac7,Randsburg Wash Area,act,usn,CA,0.212467093871055,2.4268345702519
+161,usa,na,Broadway Complex,N00245,No,No,No,na,na, ,f22d6fc3-0cb2-4ed1-83ca-c64339296d22,Broadway Complex,act,usn,CA,5.94348239246756E-06,0.0104980236536842
+162,usa,na,Target 101 Shade Tree,N60042,No,No,No,na,na, ,44cf4c6e-b5c8-4adc-8e0c-dc469cfae2f0,Target 101 Shade Tree,act,usn,CA,0.00750515349000125,0.501223774690771
+163,usa,na,Target B-16,N60495,No,No,No,na,na, ,5456de8b-6760-4c66-9bd3-0fb7f98bdc16,Target B-16,act,usn,NV,0.0117170225394148,0.747612260554207
+164,usa,na,NAF El Centro,N60042,No,No,No,na,na, ,584dce1b-b066-4c26-a983-c869e6399d76,NAF El Centro,act,usn,CA,0.00104383415077791,0.196553748958181
+165,usa,na,Silver Strand South,N00246,No,No,No,na,na, ,61767c01-3bb9-4ffc-a5f7-b17c7959e7f4,Silver Strand South,act,usn,CA,0.000213496311516792,0.0663176333429127
+166,usa,na,Long Beach Fuel Complex,N61065,No,No,No,na,na, ,bd51cbd3-fcb2-4d7d-802d-35669aec938f,Long Beach Fuel Complex,act,usn,CA,4.36064010500559E-06,0.0131875519611886
+167,usa,na,NAVSUPPACT Monterey CA,N61014,No,No,No,na,na, ,da14247b-840d-4d55-a7ea-cd7864b53bb9,NAVSUPPACT Monterey CA,act,usn,CA,5.42224324817653E-05,0.0323014603176903
+168,usa,na,San Pedro Fuel Depot,N61065,No,No,No,na,na, ,dffd727f-a2be-408c-a2df-9571421a10fa,San Pedro Fuel Depot,act,usn,CA,0.000132529579559559,0.0584869275843094
+171,usa,na,NAVACAD North Severn,N61152,No,No,No,na,na, ,cc507511-04f8-4cf0-b6ab-87f596626f2c,NAVACAD North Severn,act,usn,MD,0.000424683665869452,0.202244662491239
+172,usa,na,Stump Neck Area,N61151,No,No,No,na,na, ,87fb1e0b-a3ea-42ed-86d8-2147c421bf13,Stump Neck Area,act,usn,MD,0.000387363812706099,0.238398999609646
+173,usa,na,Naval Air Station Meridian,N63043,No,Yes,No,na,na, ,0e380ec4-9664-4beb-a6ea-6d85ff487a0a,NAS Meridian MS,act,usn,MS,0.0031413024653375,0.521583854580348
+174,usa,na,Saufley Field,N00204,No,No,No,na,na, ,0952fa34-3e1b-4a02-8d4f-332aaa9e5f65,Saufley Field,act,usn,FL,0.000329066919675824,0.0847970545003296
+175,usa,na,Naval Research Laboratory,N68469,No,Yes,No,na,na, ,c05174f6-62ee-435a-b093-28c5a785ee9d,Naval Research Lab,act,usn,dc,5.52076910480537E-05,0.0418589255785882
+176,usa,na,Naval Support Facility Dahlgren,N61151,No,Yes,No,na,na, ,fa9b2721-9024-4013-bc19-e4709706bd43,NSA South Potomac,act,usn,VA,0.00111460384641759,0.138960971810718
+180,usa,na,Upper Yard Annapolis,N61152,No,No,No,na,na, ,180b6197-2408-4923-b0d1-5ec205d457ea,Upper Yard Annapolis,act,usn,MD,6.85034028720111E-05,0.0464846944153742
+181,usa,na,Naval Observatory,N68469,No,No,No,na,na, ,93775c78-bcb0-49cf-8611-4997235e81cf,Naval Observatory,act,usn,dc,3.03176348097622E-05,0.0197422824919406
+182,usa,na,Webster Field,N47608,No,No,No,na,na, ,1a701bf4-a2f3-46cc-9733-f3b7fc0306d1,Webster Field,act,usn,MD,0.000403889412382341,0.161182572868925
+183,usa,na,NOLF Summerdale,N60508,No,No,No,na,na, ,b292c13e-4ba5-4ce5-a0a2-076584524e5d,NOLF Summerdale,act,usn,AL,0.000241121698536517,0.0946778090478182
+184,usa,na,NAVPMOSSP Magna Utah,N61014,No,No,No,na,na, ,88e28fdb-76f0-44af-8f13-990e55b50635,NAVPMOSSP Magna Utah,act,usn,UT,0.000228975511618046,0.0913193566025282
+185,usa,na,Dryside,N00245,No,No,No,na,na, ,0bf8d261-f305-4227-946b-5a5e71031f57,Dryside,act,usn,CA,0.000126213575640577,0.0770169424134611
+186,usa,na,Camp Morena,N00246,No,No,No,na,na, ,1d919236-0ddc-490c-b80d-1a39b2357ca7,Camp Morena,act,usn,CA,5.05048449213064E-05,0.0352091496476211
+187,usa,na,Fallbrook California,N61065,No,No,No,na,na, ,2dd1f83a-175c-4fa0-b06f-67b1d9ccba48,Fallbrook California,act,usn,CA,0.00349072117091964,0.266308877264346
+188,usa,na,Target B-20,N60495,No,No,No,na,na, ,3da9c578-3e8c-42ca-a492-5cdaf6a6399d,Target B-20,act,usn,NV,0.0175231927278219,0.536629618174867
+189,usa,na,Naval Support Facility Indian Head,N61151,No,Yes,No,na,na, ,73097ac8-bef9-4948-9df2-0c1e0f8ee770,NSF Indian Head,act,usn,MD,0.000827094141413909,0.225755249305471
+190,usa,na,NAVSUPPACT Midsouth Memphis TN,N00639,No,No,No,na,na, ,7ed229b1-d03b-4e71-85bc-fe7a39d134e2,NAVSUPPACT Midsouth Memphis TN,act,usn,TN,0.000416719399481735,0.107133148337391
+191,usa,na,Northside Mid-South,N00639,No,No,No,na,na, ,7ea3567f-34e3-414d-9c45-d6abf5565014,Northside Mid-South,act,usn,TN,0.000167652165828258,0.0881143756555623
+192,usa,na,Naval Air Station Patuxent River,N47608,No,Yes,No,na,na, ,fb9b9195-8540-4434-8d42-c039f1285b9f,Naval Air Station Patuxent River,act,usn,MD,0.00276909420767879,0.300396012751248
+193,usa,na,NAS Jacksonville FL,N00207,No,No,No,na,na, ,88a01fe2-96f0-4460-a794-d8b762202189,NAS Jacksonville FL,act,usn,FL,0.00127957568724923,0.208921581557609
+194,usa,na,ALF Cabaniss,N00216,No,No,No,na,na, ,81376d46-83c3-4e60-9b28-65fb0211d96e,ALF Cabaniss,act,usn,TX,0.000349139159652623,0.149926729554252
+195,usa,na,Trumbo Point Annex,N00213,No,No,No,na,na, ,954de7b4-76e9-47ab-8ea4-9e844e99ed78,Trumbo Point Annex,act,usn,FL,4.4146114760224E-05,0.0452198609515641
+196,usa,na,NAVSTA Mayport FL,N60201,No,No,No,na,na, ,9a5b56f8-3564-4dcd-9e50-2cdfb962aad5,NAVSTA Mayport FL,act,usn,FL,0.00130185712941966,0.243157213855404
+197,usa,na,NAS Kingsville TX,N60241,No,No,No,na,na, ,a1bd625e-387a-4cc2-9b39-534ecd647c1b,NAS Kingsville TX,act,usn,TX,0.00123704610359709,0.205319180567807
+198,usa,na,Yankee Target Range,N60241,No,No,No,na,na, ,a3a2aba6-91ee-4bd7-9d4d-764967604ec9,Yankee Target Range,act,usn,TX,0.00103490427636643,0.134666762224561
+199,usa,na,NOLF Holley,N60508,No,No,No,na,na, ,a6b90319-ef50-4e75-8829-532ec12b3937,NOLF Holley,act,usn,FL,0.000253509989988743,0.0689915623066585
+200,usa,na,NAS Corpus Christi TX,N00216,No,No,No,na,na, ,b01b44b8-190c-4bb0-bee0-5feb29755fe9,NAS Corpus Christi TX,act,usn,TX,0.00104251882908102,0.20872990888213
+201,usa,na,OLF Bronson,N00204,No,No,No,na,na, ,b0335aae-d97f-499a-ae5f-7a5c4ab5ecd0,OLF Bronson,act,usn,FL,0.000381839109650173,0.0957257905147567
+202,usa,na,NAS Fort Worth JRB TX,N83447,No,No,No,na,na, ,249b331a-53a0-4a0b-95e0-6a5b174fa349,NAS Fort Worth JRB TX,act,usnr,TX,0.000668950369799859,0.160945865128298
+203,usa,na,Naval Support Activity Panama City,N61008,No,Yes,No,na,na, ,26a6793b-0ea4-434d-8422-6f041909e5ab,Naval Support Activity Panama City,act,usn,FL,0.000254318598990722,0.118859699437301
+204,usa,na,NSWC Carderock Div,N00639,No,No,No,na,na, ,185f4d7e-9b73-4e97-8039-ab7da599e921,NSWC Carderock Div,act,usn,TN,8.7092653302534E-06,0.014785955253907
+205,usa,na,Barin Field,N60508,No,No,No,na,na, ,313bd362-1bea-46f3-badd-b1d544ef8716,Barin Field,act,usn,AL,0.000318121003374472,0.17432669980094
+207,usa,na,San Nicolas Island,N69232,No,No,No,na,na, ,4efa618d-c893-42a5-ae0d-73db746e09ba,San Nicolas Island,act,usn,CA,0.00682008739045159,0.410635305471646
+208,usa,na,NAVBASE Coronado,N00246,No,No,No,na,na, ,ef08756e-e381-4d77-ab7f-96703ce32cea,NAVBASE Coronado,act,usn,CA,0.00108025413851465,0.147940683888157
+209,usa,na,NOLF Brewton,N60508,No,No,No,na,na, ,430feb0f-c730-48a7-939f-ea525eb752ed,NOLF Brewton,act,usn,AL,0.000246579538952574,0.0825341161465965
+210,usa,na,West Bank,N00206,No,No,No,na,na, ,4c3103ab-bcab-4322-bae9-524df5d9aec5,West Bank,act,usn,LA,1.65437934356305E-05,0.0322619292290658
+211,usa,na,Naval Submarine Base Kings Bay,N42237,No,Yes,No,na,na, ,58a5b71b-2911-4c59-8ca3-b854086c8b5e,Subase Kings Bay GA,act,usn,GA,0.00504116271190469,0.606714638498488
+212,usa,na,Naval Support Activity Orlando,N61007,No,Yes,No,na,na, ,5f456c9b-c0c3-40b5-9e7f-26aac4370650,Naval Support Activity Orlando,act,usn,FL,1.56323033024819E-05,0.0222748832308666
+213,usa,na,OLF Whitehouse,N00207,No,No,No,na,na, ,6713708b-5232-4836-a779-888499ef8d27,OLF Whitehouse,act,usn,FL,0.000722961832479996,0.188460172561603
+214,usa,na,NOLF Silverhill,N60508,No,No,No,na,na, ,79d7f4ee-38e4-42b0-9489-0bd135068837,NOLF Silverhill,act,usn,AL,0.000135245301180476,0.0611504319226254
+215,usa,na,ALF Orange,N60241,No,No,No,na,na, ,1ff5a496-f760-46a7-9503-dfd7a4db44f1,ALF Orange,act,usn,TX,0.00125436160374193,0.356352873766203
+216,usa,na,NALF Goliad,N00216,No,No,No,na,na, ,d396f68e-bf54-4a00-886d-bd511e668d0d,NALF Goliad,act,usn,TX,0.00042431826864231,0.152368903206252
+217,usa,na,Dredgers Key-Sigsbee,N00213,No,No,No,na,na, ,81e29610-b008-43cb-9578-a2f69f558204,Dredgers Key-Sigsbee,act,usn,FL,0.00012939124951572,0.071614809429076
+218,usa,na,Fleming Key Magazine,N00213,No,No,No,na,na, ,5acff40c-02bc-4302-b3b3-867f81ecc0b9,Fleming Key Magazine,act,usn,FL,0.000122292765809107,0.076633040791629
+219,usa,na,Dixie Target Range,N60241,No,No,No,na,na, ,6a02bae4-5ebc-423c-b286-19e78367c477,Dixie Target Range,act,usn,TX,0.00291127968830551,0.28787042389103
+220,usa,na,Pineros Island,N40003,No,No,No,na,na, ,34e1f085-a9b8-4b7d-b54d-5dbeca4eba3f,Pineros Island,care,usn,PR,0.000112786818135646,0.0668297126371705
+221,usa,na,Vieques West PR,N00207,No,No,No,na,na, ,765ace5e-4a23-4f16-9a8a-f30784c9a4a5,Vieques West PR,act,usn,PR,2.98515294616664E-05,0.0258390702508081
+222,usa,na,NAS Key West FL,N00213,No,No,No,na,na, ,9d736c50-43bc-4eec-898f-7512f3c2ad79,NAS Key West FL,act,usn,FL,0.00136233675857511,0.478842825422456
+223,usa,na,Cabeza De Perro,N40003,No,No,No,na,na, ,b796b556-91bb-47ef-8626-39021f98c24d,Cabeza De Perro,care,usn,PR,9.7832751180249E-06,0.0186066878272969
+224,usa,na,Pico Del Este - AFWTF,N00207,No,No,No,na,na, ,9988b313-f3f1-4e59-9927-54ef9541345a,Pico Del Este - AFWTF,clsd,usn,PR,7.50543222238775E-07,0.00537649800576654
+225,usa,na,NSGA Sabana Seca PR,N00207,No,No,No,na,na, ,c35d0607-fe70-43aa-80e3-576428c7a0fe,NSGA Sabana Seca PR,clsd,usn,PR,4.61068907497975E-07,0.00296054910691682
+228,usa,na,Det Concord (BRAC),N69168,No,No,No,na,na, ,6f6e8a39-aaee-423a-962d-10ca1e41e2c7,Det Concord (BRAC),care,usn,CA,0.00219922167752884,0.433824244338818
+229,usa,na,NAS JRB Willow Grove PA,N00158,No,No,No,na,na, ,db079fb9-6536-44c4-85c1-77f674ae6e2d,NAS JRB Willow Grove PA,care,usn,PA,0.000377880078303861,0.13150905580118
+230,usa,na,CSO NAS South Weymouth,N69170,No,No,No,na,na, ,b3a0f85b-7cc1-4bd4-a6a7-a04a9e8e8233,CSO NAS South Weymouth,care,usn,MA,2.68291025804501E-05,0.0197449372682856
+231,usa,na,NAS Brunswick ME,N60087,No,No,No,na,na, ,7af5428a-e47a-4c22-a606-f4fb00c3e5c6,NAS Brunswick ME,care,usn,ME,0.00142176923259285,0.237681037765233
+235,usa,na,Devens Reserve Forces Tng Area,42560,No,No,No,na,na, ,1b1121a9-d734-4ebb-b9fe-371090ce4e30,Devens Reserve Forces Tng Area,act,usar,MA,0.00225438114284771,0.32981712210796
+236,usa,na,Fort Campbell,21145,No,Yes,No,na,na, ,22f9b158-0bf0-4cd3-944e-d5b36f83f413,Fort Campbell,act,usa,TN,0.0426755627133844,1.37896662485391
+237,usa,na,NG Snake Creek TS Miramar,120NG,No,No,No,na,na, ,01ffe731-68f0-4ffc-a731-36c785a71b3b,NG Snake Creek TS Miramar,act,armyNationalGuard,FL,0.000116294876988832,0.0464781622240215
+238,usa,na,Piñon Canyon Maneuver Site,8005,No,Yes,No,na,na, ,f1f5f3cd-c4e8-4562-95ea-af0c11efb528,Pinon Canyon,act,usa,CO,0.0971086053286854,1.77697110787481
+239,usa,na,Stewart Annex,36993,No,No,No,na,na, ,48051304-fb83-46df-8dac-363979388964,Stewart Annex,act,usa,NY,4.40629537479253E-06,0.00989086412174274
+240,usa,na,NG Sandson AASF,510NG,No,No,No,na,na, ,19162121-1d2c-4da7-89a4-25ec2c9518e5,NG Sandson AASF,act,armyNationalGuard,VA,3.75180793525942E-05,0.0279662515755934
+241,usa,na,NG AASF02 Birmingham,010NG,No,No,No,na,na, ,9789c873-c26a-48a1-be3f-c2632c896782,NG AASF02 Birmingham,act,armyNationalGuard,AL,8.75687942425429E-06,0.0120572466455442
+244,usa,na,Allen Stagefield AL,1252,No,No,No,na,na, ,5ddb7b93-a728-4d53-a0fd-fb69a6def0df,Allen Stagefield AL,act,usa,AL,4.3293950966472E-05,0.0266014907205752
+245,usa,na,Anniston Army Depot,1012,No,No,No,na,na, ,83ae64b7-6307-40b7-a4e9-b30bcf8404d9,Anniston Army Depot,act,usa,AL,0.00612764449215319,0.393964045047943
+246,usa,na,NG Arden Hills Army Training Site,270NG,No,No,No,na,na, ,38631a77-837e-442f-8e10-19b2e398dbc6,NG Arden Hills Army Training Site,act,armyNationalGuard,MN,0.000693833479999739,0.143514203728488
+247,usa,na,Arlington National Cemetery,51869,No,No,No,na,na, ,6cfbe09e-b3fc-425b-ae35-465143bf6720,Arlington National Cemetery,act,usa,VA,0.000261561826846446,0.0987602965098661
+248,usa,na,NG Atlanta United Ave,130NG,No,No,No,na,na, ,80cf1c1b-1416-4655-ae2d-869b9574c0a1,NG Atlanta United Ave,act,armyNationalGuard,GA,2.69225236024795E-05,0.0367533347489353
+249,usa,na,NG Auburn Training Site,230NG,No,No,No,na,na, ,ebe39073-7239-40d7-9858-32896690bfe0,NG Auburn Training Site,act,armyNationalGuard,ME,8.01836679329426E-05,0.0584161427520053
+251,usa,na,NG Bangor Training Site,230NG,No,No,No,na,na, ,662a6f32-0575-4e95-80ce-158412fef867,NG Bangor Training Site,act,armyNationalGuard,ME,9.46730872328772E-05,0.0724202259900483
+252,usa,na,NG Beauregard Training Range,22C50,No,No,No,na,na, ,31d9bc1b-ca01-4f06-84cb-eba16da71ff2,NG Beauregard Training Range,act,armyNationalGuard,LA,0.00484349457656208,0.376693631159587
+253,usa,na,NG Beightler Armory,390NG,No,No,No,na,na, ,afe58884-62a1-4f8a-b8f0-c82a7c3fcbca,NG Beightler Armory,act,armyNationalGuard,OH,7.44881867831282E-06,0.0109736302425352
+254,usa,na,NG Bend Cotef,410NG,No,No,No,na,na, ,f68e396d-36cc-463d-af39-d920aaf527da,NG Bend Cotef,act,armyNationalGuard,OR,7.1662817390461E-05,0.0343263543550643
+255,usa,na,NG Bergstrom - (Abia),480NG,No,No,No,na,na, ,51059e66-06bc-40b5-a122-49bd3bbf7f3f,NG Bergstrom - (Abia),act,armyNationalGuard,TX,2.27528960294876E-05,0.0187096824718741
+256,usa,na,NG Biak Training Center COUTES,410NG,No,No,No,na,na, ,38121371-f06e-4057-8714-434065b2d967,NG Biak Training Center COUTES,act,armyNationalGuard,OR,0.0130331999839655,0.8942065358962
+257,usa,na,NG Bismarck RJB Complex,380NG,No,No,No,na,na, ,c5ad6eb9-6bc6-4362-b527-b36d4f685052,NG Bismarck RJB Complex,act,armyNationalGuard,ND,3.99963992094854E-05,0.0463796867378614
+258,usa,na,Naval Research Laboratory – Blossom Point,24015,No,Yes,No,na,na, ,175b173a-394d-4516-beb2-265334034b58,Blossom Point Research Facility,act,usa,MD,0.000661037277041032,0.117664867489262
+259,usa,na,Blue Grass Army Depot,21045,No,No,No,na,na, ,92c4cb77-aa26-4fd7-8a1e-f0b2b40433fe,Blue Grass Army Depot,act,usa,KY,0.00602694653480285,0.341741833401422
+260,usa,na,NG Bog Brook Training Site,230NG,No,No,No,na,na, ,13036425-aec3-4e74-8e7e-568eaee3a625,NG Bog Brook Training Site,act,armyNationalGuard,ME,9.52692314513115E-05,0.101921787324214
+261,usa,na,NG Bremerton,530NG,No,No,No,na,na, ,832e4862-8310-47b7-b551-03b6ff04f375,NG Bremerton,act,armyNationalGuard,WA,3.91337116525392E-05,0.0252300258121748
+262,usa,na,Brown 4b Stagefield AL,1252,No,No,No,na,na, ,d9658d6f-984a-42ad-8648-030eb6921a19,Brown 4b Stagefield AL,act,usa,AL,6.26350606580672E-05,0.0320384000761379
+263,usa,na,Cairns Basefield AL,1252,No,No,No,na,na, ,1dcfa5a8-4705-4731-8b90-d60e6fde7fab,Cairns Basefield AL,act,usa,AL,0.000494519877975108,0.117449684706324
+264,usa,na,NG Camp Adair Corvallis,410NG,No,No,No,na,na, ,be78f8ea-e558-4253-b2bb-f9496a8c4c3f,NG Camp Adair Corvallis,act,armyNationalGuard,OR,0.000242486093156913,0.0650266582411741
+265,usa,na,NG Camp Ashland,31475,No,No,No,na,na, ,7b5446f6-d97e-46db-b7f2-c3e8ed1212de,NG Camp Ashland,act,armyNationalGuard,NE,0.000452715179108054,0.119029021700852
+266,usa,na,NG Camp Atterbury,18055,No,No,No,na,na, ,3d4ba08e-4bcb-4546-a239-af5770529033,NG Camp Atterbury,act,armyNationalGuard,IN,0.0147936128764741,0.674003798896886
+267,usa,na,NG Camp Bowie (State),48409,No,No,No,na,na, ,0b0fe726-72ba-47fb-b119-fd514280886c,NG Camp Bowie (State),act,armyNationalGuard,TX,0.00195676544740309,0.232373929889606
+268,usa,na,NG Camp Dodge Johnston TS,19901,No,yes,No,na,na, ,81170f4b-e983-402d-b31e-c5f13d323d8b,NG Camp Dodge Johnston TS,act,armyNationalGuard,IA,0.0145148832948507,3.7383767975839
+269,usa,na,NG Camp Fogarty Tng Site,440NG,No,No,No,na,na, ,f748c621-41f7-4205-9b43-3cd23bbf61c8,NG Camp Fogarty Tng Site,act,armyNationalGuard,RI,0.000164569751177623,0.0711803632532795
+270,usa,na,NG Camp Grafton,38A45,No,No,No,na,na, ,e0f45741-bda2-4f0f-a3d9-5e6c2e1813f6,NG Camp Grafton,act,armyNationalGuard,ND,0.00561686896617175,0.716618396708815
+271,usa,na,NG Camp Gruber,40580,No,No,No,na,na, ,07422b02-fd24-45f6-ae03-c26f718fbe58,NG Camp Gruber,act,armyNationalGuard,OK,0.0134931294924172,0.613686080910584
+272,usa,na,NG Camp Hartell,090NG,No,No,No,na,na, ,3169b48d-5a9d-4776-a77a-8e26ea9b49d1,NG Camp Hartell,act,armyNationalGuard,CT,2.55913580531342E-05,0.0262629816298874
+273,usa,na,NG Camp Joseph T Robinson,05C55,No,No,No,na,na, ,4db84d37-0d4e-4959-84b8-f24354439427,NG Camp Joseph T Robinson,act,armyNationalGuard,AR,0.013220173365653,0.608883318140999
+274,usa,na,NG Camp Mabry,480NG,No,No,No,na,na, ,63c06012-f754-494a-a395-7b36e07b4441,NG Camp Mabry,act,armyNationalGuard,TX,0.000139747215825992,0.0549226458360869
+275,usa,na,Camp MacKall,37225,No,Yes,No,na,na, ,71852b41-4673-424f-bd69-2674cc36cd5c,Camp Mackall,act,usa,NC,0.00318645849301902,0.392010634369641
+276,usa,na,NG Camp Maxey,48G00,No,No,No,na,na, ,ec9d9988-9c91-43c9-8ee4-385abf099a94,NG Camp Maxey,act,armyNationalGuard,TX,0.0026024248613794,0.370822168487031
+277,usa,na,NG Camp Minden Training Site,22B91,No,No,No,na,na, ,13a7562e-521e-469c-942f-64394ba9b73c,NG Camp Minden Training Site,act,armyNationalGuard,LA,0.00583017139774711,0.403879475723754
+278,usa,na,NG Camp Navajo,76897,No,No,No,na,na, ,979d98e4-ed73-43f8-a648-714ebb3f347d,NG Camp Navajo,act,armyNationalGuard,AZ,0.0113471111353647,0.516591595770515
+279,usa,na,NG State Military Reservation Camp Pendleton,82781,No,No,No,na,na, ,418bc6af-6f70-4012-a7b2-ca4bd14b49a9,NG State Military Reservation Camp Pendleton,act,armyNationalGuard,VA,0.000127899286553657,0.0695299758521356
+280,usa,na,NG Camp Perry Joint Training Center,39D75,No,No,No,na,na, ,0a5b03ea-f77f-4a22-b0e6-32637f2da567,NG Camp Perry Joint Training Center,act,armyNationalGuard,OH,0.000252495634640582,0.104439942443271
+281,usa,na,NG Camp Rapid,46B75,No,No,No,na,na, ,5bedd1fb-fb0c-45fb-839e-18408c68a4fe,NG Camp Rapid,act,armyNationalGuard,SD,3.76873158529634E-05,0.0273553915785736
+282,usa,na,NG Camp Nett,09A35,No,No,No,na,na, ,e1da052c-6546-483b-98bd-7a8a0486e973,NG Camp Nett,act,armyNationalGuard,CT,3.55208533164841E-05,0.0387022799870177
+283,usa,na,NG Camp Ripley,27B40,No,No,No,na,na, ,7f5aa3a3-b283-492f-b613-b4010c984f8d,NG Camp Ripley,act,armyNationalGuard,MN,0.0248906506726598,1.65203276618908
+284,usa,na,NG Camp Sherman Joint Training Center,390NG,No,No,No,na,na, ,8027edb4-7d57-4250-ba27-45b8fcde7b63,NG Camp Sherman Joint Training Center,act,armyNationalGuard,OH,0.000192751419717752,0.0794955347814804
+285,usa,na,NG Camp Smith Tng Site,36D35,No,No,No,na,na, ,48619c6b-7d1b-46a5-8efb-358ceb36af35,NG Camp Smith Tng Site,act,armyNationalGuard,NY,0.000684509135908229,0.144209527619923
+286,usa,na,NG Camp Swift,48555,No,No,No,na,na, ,b11c0552-beee-4254-9376-31171f1b813d,NG Camp Swift,act,armyNationalGuard,TX,0.00444690974245532,0.316591379175875
+287,usa,na,NG Camp Villere,44502,No,No,No,na,na, ,c0c20c0c-e0f8-4a63-adf0-bc86dca17182,NG Camp Villere,act,armyNationalGuard,LA,0.00058231284606336,0.104395041057597
+288,usa,na,NG Camp Williams Tomah MTA,550NG,No,No,No,na,na, ,1efedcdb-4d40-48e3-b076-5ffb0d472a02,NG Camp Williams Tomah MTA,act,armyNationalGuard,WI,5.16318032168783E-05,0.0478918855004509
+289,usa,na,NG Camp Withycombe Clackamas,410NG,No,No,No,na,na, ,42b6e728-fc45-42dc-a20c-e8bbc30541ad,NG Camp Withycombe Clackamas,act,armyNationalGuard,OR,3.75385520783311E-05,0.0414836188783176
+291,usa,na,NG Carville Gillis Long Center,220NG,No,No,No,na,na, ,64b55d1d-e483-4b34-be5c-f40dc6f821da,NG Carville Gillis Long Center,act,armyNationalGuard,LA,0.000134905392997098,0.0472825896821653
+292,usa,na,Military Ocean Terminal Concord,0696A,No,No,No,na,na, ,c45ce906-008f-4b30-9845-1eb4b324d630,Military Ocean Terminal Concord,act,usa,CA,0.00238301816534658,1.03054763325684
+293,usa,na,NG CTA Camp Mccain,28475,No,No,No,na,na, ,245b8cc4-b2b8-4d75-a9eb-14fce8aa5693,NG CTA Camp Mccain,act,armyNationalGuard,MS,0.00510619523493006,0.456725495642351
+294,usa,na,NG CTC Camp Dawson-Kingwood,54A75,No,No,No,na,na, ,a73f9531-9486-4cd9-ba8d-aeb9f47b62e3,NG CTC Camp Dawson-Kingwood,act,armyNationalGuard,WV,0.00338815091822653,0.710596726322508
+295,usa,na,NG CTC Fort Custer Trng Center,26105,No,No,No,na,na, ,031a93af-db7b-4fa4-9b44-0bda91212db0,NG CTC Fort Custer Trng Center,act,armyNationalGuard,MI,0.00331493511566805,0.320624290836888
+296,usa,na,Camp Frank D Merrill,13025,No,No,No,na,na, ,bb48aacb-c87e-4393-b3e0-edc10f389a0d,Camp Frank D Merrill,act,usa,GA,0.000114629029667412,0.0647580624698969
+297,usa,na,Def Gen Supply Center,51315,No,No,No,na,na, ,4dc2fc26-8b4f-48a8-9af8-68413ce545a6,Def Gen Supply Center,act,usa,VA,0.000235862461522629,0.100561848957595
+298,usa,na,Defense Distrib Depot Susq,36993,No,No,No,na,na, ,96616fd7-0fe0-45f0-8ddd-2d6b20425200,Defense Distrib Depot Susq,act,usa,PA,0.000359028652155757,0.110160195116351
+299,usa,na,Defense Supply Center Columbus,21405,No,No,No,na,na, ,6c04133c-0a43-4972-9acc-5cd48ef20a30,Defense Supply Center Columbus,act,usa,OH,0.000246776933636284,0.0723006561186488
+300,usa,na,Tooele Army Depot South,49575,No,No,No,na,na, ,2ee356bc-2a1d-478c-9df7-b39d2fca48ee,Tooele Army Depot South,act,usa,UT,0.00838589398517797,0.388094580669037
+301,usa,na,Destin Moreno Point,13025,No,No,No,na,na, ,8cd57d04-9994-4c45-ad20-419af3ca4fe8,Destin Moreno Point,act,usa,FL,4.85207033307233E-06,0.00954849045296191
+302,usa,na,Detroit Arsenal,26155,No,No,No,na,na, ,1041b5b8-594e-49b9-9896-79e3dc3e6806,Detroit Arsenal,act,usa,MI,8.15369094198104E-05,0.0435165438865057
+304,usa,na,West Desert Test Center,49295,No,Yes,No,na,na, ,ff62e59b-a2b2-4a15-9089-75c1a7dc8cce,Dugway Proving Ground,act,usa,UT,0.342422623582934,2.96339687133554
+305,usa,na,NG Duluth NG Armory,270NG,No,No,No,na,na, ,fb10bf42-f09a-477f-af2f-75fcba71a612,NG Duluth NG Armory,act,armyNationalGuard,MN,3.28569467455964E-06,0.00728484308848215
+306,usa,na,NG Edgemeade TS Mtn Home,160NG,No,No,No,na,na, ,55bba637-780d-4c97-ac1b-bf8e70e60d20,NG Edgemeade TS Mtn Home,act,armyNationalGuard,ID,6.65823631607054E-05,0.0393883034510942
+307,usa,na,England Authority,22725,No,No,No,na,na, ,c65190a4-75ee-4cb8-a033-35e5c86fbf18,England Authority,act,usa,LA,0.000146359660902817,0.0947821059503908
+308,usa,na,NG Esler Field,22C50,No,No,No,na,na, ,6755b27c-578a-4ac5-9f00-116a21a3781f,NG Esler Field,act,armyNationalGuard,LA,0.00082018818375218,0.148962784452646
+309,usa,na,NG Florence Military Reservation,040NG,No,No,No,na,na, ,94e5ca84-3ef8-4972-8d69-fe1a770b48c0,NG Florence Military Reservation,act,armyNationalGuard,AZ,0.00249025838070338,0.373917783903853
+310,usa,na,NG Floyd Edsall Training Center,320NG,No,No,No,na,na, ,8fa88f9a-bf40-4752-a16f-f55ea573ef64,NG Floyd Edsall Training Center,act,armyNationalGuard,NV,0.000679784413478046,0.141268054564924
+311,usa,na,Fort Walker,51290,No,No,No,na,na, ,a55c17ff-cbb4-4fa7-8db8-55a5c6825113,Fort A P Hill,act,usa,VA,0.0310205516918813,0.94709353743277
+312,usa,na,Fort Belvoir,51105,No,Yes,No,na,na, ,2f2697eb-af4a-48ec-b157-1c3c74cd44c3,Fort Belvoir,act,usa,VA,0.00348821884904282,0.485923347709058
+313,usa,na,Fort Benjamin Harrison,17775,No,No,No,na,na, ,bfa4242d-1333-4488-8540-1e7e74efe6c5,Fort Benjamin Harrison,clsd,usa,IN,2.84634420495422E-05,0.0326663392501139
+314,usa,na,Fort Moore,13025,No,Yes,No,na,na, ,ced09ced-bca1-4b54-8507-b7d7e803fc09,Fort Moore,act,usa,GA,0.0704285161202733,1.94977169585054
+316,usa,na,Fort Liberty,37225,No,Yes,No,na,na, ,2cb60158-b1ec-4181-867d-46dc155cf4b8,Fort Liberty,act,usa,NC,0.0619953339009953,1.99852533269413
+317,usa,na,Fort Buchanan,RQ327,No,No,No,na,na, ,d4fbc5ea-c29c-4154-890c-4449b73a7468,Fort Buchanan,act,usar,PR,0.00025856356114673,0.103210056153498
+318,usa,na,Fort Carson,8005,No,Yes,No,na,na, ,1d7af54f-dc62-46db-b622-41e0af8c726c,Fort Carson,act,usa,CO,0.0576935201856941,1.16000573037341
+319,usa,na,NG Fort Chaffee MTC,5401,No,No,No,na,na, ,97a1725a-4793-4244-886d-bc78b6fdf60f,NG Fort Chaffee MTC,act,armyNationalGuard,AR,0.0261024063554487,1.37591551888566
+321,usa,na,Fort Detrick,24225,No,Yes,No,na,na, ,1f5a3e82-5b95-4b12-a835-e2bee0e7e850,Fort Detrick,act,usa,MD,0.000516465808459543,0.162605441302509
+322,usa,na,Fort Drum,36205,No,Yes,No,na,na, ,f868d969-18e8-442b-bf61-babf36281113,Fort Drum,act,usa,NY,0.0495503047395687,1.5037328569614
+324,usa,na,Fort Eisenhower,13055,No,Yes,No,na,na, ,6afb5971-59e4-4c12-a257-1706ce23ffe2,Fort Eisenhower,act,usa,GA,0.0217607497274912,0.822894545062221
+325,usa,na,Fort Greely,2871,No,Yes,No,na,na, ,cb999535-f500-487c-8f20-5350c5011b48,Fort Greely,act,usa,AK,0.00506266156844504,0.350145289181255
+326,usa,na,Fort Hamilton,36325,No,No,No,na,na, ,35734bcb-c926-4842-9290-4a35fb45d92a,Fort Hamilton,act,usa,NY,5.16573074946791E-05,0.042502569591018
+328,usa,na,Fort Huachuca,4005,No,Yes,No,na,na, ,979daa8d-0086-4663-8336-24793d6b6169,Fort Huachuca,act,usa,AZ,0.031128900399608,1.08810714843725
+329,usa,na,Fort Hunter Liggett,6685,No,No,No,na,na, ,10eac16d-19b0-44ba-a6c5-276ff47ff2eb,Fort Hunter Liggett,act,usar,CA,0.0649730972763791,1.9794037087661
+330,usa,na,NG Fort Indiantown Gap,42307,No,No,No,na,na, ,8a5d196d-ddd6-48c3-8cd1-aaa88476a3be,NG Fort Indiantown Gap,act,armyNationalGuard,PA,0.00772503615053211,0.872052256680626
+331,usa,na,Fort Jackson,45455,No,No,No,na,na, ,442f1274-620f-455f-8dc3-257cdc5dc341,Fort Jackson,act,usa,SC,0.0202903634892664,0.661043346651091
+332,usa,na,Fort Knox,21405,No,Yes,No,na,na, ,54dd4ea9-7197-4b34-a8f6-28c7e276c52b,Fort Knox,act,usa,KY,0.0452269993381833,1.43845190582255
+333,usa,na,Fort Leavenworth,20395,No,Yes,No,na,na, ,2e571358-eb33-4eed-a42d-b127dae89331,Fort Leavenworth,act,usa,KS,0.00241208942520643,0.267293701726275
+334,usa,na,Fort Gregg-Adams,51315,No,Yes,No,na,na, ,4e59658b-1b52-4d9c-ba22-2aff0841faf4,Fort Gregg-Adams,act,usa,VA,0.00232886774006147,0.381112529945245
+335,usa,na,Fort Leonard Wood,29995,No,Yes,No,na,na, ,69b17206-14f5-4a50-adf2-5c4be677b894,Fort Leonard Wood,act,usa,MO,0.025513699088151,0.872386577581596
+338,usa,na,NG Fort McClellan ARNG Tng Center,1910,No,No,No,na,na, ,6e25aaaa-6379-41a6-a0de-d9605af75f5d,NG Fort McClellan ARNG Tng Center,act,armyNationalGuard,AL,0.000194473634792303,0.091938894293189
+339,usa,na,Fort McCoy,55425,No,No,No,na,na, ,1f027ff4-259a-4bcf-a794-d2a03d5987bc,Fort McCoy,act,usar,WI,0.0271206513473317,1.12439961710121
+340,usa,na,Fort Monmouth Main Post,34855,No,No,No,na,na, ,81b5425b-4c5e-4374-8c0d-e72d4350816c,Fort Monmouth Main Post,clsd,usa,NJ,0.000428941437803587,0.284638987358389
+341,usa,na,Fort Monroe,51315,No,No,No,na,na, ,f238f2e2-03f1-455a-943e-765525d83de0,Fort Monroe,care,usa,VA,0.00023004053105069,0.164760264182169
+343,usa,na,NG Fort Barfoot MTC & FMS 15,51541,No,No,No,na,na, ,a00c7723-fd5d-436f-a466-135721f6eedf,NG Fort Barfoot MTC & FMS 15,act,armyNationalGuard,VA,0.0168477945735503,1.08254415910371
+344,usa,na,Fort Johnson,22725,No,Yes,No,na,na, ,d0eb9361-dbd6-4b23-bcf7-2a9dcdaafc9a,Fort Johnson,act,usa,LA,0.0919892484025695,5.37541039685317
+345,usa,na,Fort Riley,20605,No,Yes,No,na,na, ,6114198a-444e-4714-9345-0ab99d54b13d,Fort Riley,act,usa,KS,0.0429186224785099,1.28899130567441
+346,usa,na,Fort Novosel AL,1252,No,No,No,na,na, ,0d99ed80-0bc6-4601-a10b-cddd0686fd24,Fort Novosel AL,act,usa,AL,0.0223086222508755,0.946589568970086
+348,usa,na,Fort Sill,40755,No,Yes,No,na,na, ,cbc146eb-0f93-4650-864d-008a736dc575,Fort Sill,act,usa,OK,0.0373099243388424,1.2574247117635
+349,usa,na,Fort Stewart,13305,No,Yes,No,na,na, ,1065ef04-2360-4d88-aded-f92e18def9fd,Fort Stewart,act,usa,GA,0.107905080156115,1.54541569709582
+350,usa,na,Fort Wainwright,2871,No,Yes,No,na,na, ,583880c8-9598-45c0-b1a4-1ed160cfabcb,Fort Wainwright,act,usa,AK,0.499892081569669,5.39857060499549
+351,usa,na,Fort Wingate Depot Activity,35955,No,No,No,na,na, ,2fc7ce87-e0d8-465b-b47e-73d8847017d8,Fort Wingate Depot Activity,clsd,usa,NM,0.00513622815469716,0.381911855428327
+352,usa,na,NG Fort Wolters,48409,No,No,No,na,na, ,520de82c-9205-400e-b74a-0764fcca8b31,NG Fort Wolters,act,armyNationalGuard,TX,0.00159384887888336,0.33351847233922
+353,usa,na,NG Fort Worth - Shoreview,480NG,No,No,No,na,na, ,5506051f-4912-4827-9adc-fe73d8f752d0,NG Fort Worth - Shoreview,act,armyNationalGuard,TX,3.23326446505234E-05,0.030227003938693
+354,usa,na,NG Frankfort Boone NG Center,210NG,No,No,No,na,na, ,5b09480c-4d40-430f-90ac-a7d4fcd82ca2,NG Frankfort Boone NG Center,act,armyNationalGuard,KY,0.00014810837569712,0.112611595264818
+355,usa,na,NG Ft Allen Rq 177,RQ577,No,No,No,na,na, ,af5ec41e-4816-444d-a009-88eef0d584fd,NG Ft Allen Rq 177,act,armyNationalGuard,PR,0.000258228343227529,0.129282883102783
+356,usa,na,NG Ft Ruger,150NG,No,No,No,na,na, ,f331f5c9-b501-47ee-ab5c-dfe8b2cb9f3d,NG Ft Ruger,act,armyNationalGuard,HI,0.000113420437401146,0.0673038310278479
+357,usa,na,Goldberg Stagefield AL,1252,No,No,No,na,na, ,0b279fb7-a049-4f9d-abed-643be153efc1,Goldberg Stagefield AL,act,usa,AL,3.95899601244309E-05,0.0270323081588708
+358,usa,na,NG Grand Island AASF/RC,310NG,No,No,No,na,na, ,04f6d379-43c8-483a-9c91-ffe1e1fb4207,NG Grand Island AASF/RC,act,armyNationalGuard,NE,2.15957550153689E-05,0.0179751710507012
+359,usa,na,Grand Prairie Reserve Complex,6510,No,No,No,na,na, ,9c8f2c50-b62e-420c-b6be-ef2aaa5a03d4,Grand Prairie Reserve Complex,act,usar,TX,2.90492835119949E-05,0.0247736437250511
+360,usa,na,NG Grayling Airfield,26B15,No,No,No,na,na, ,9a61f319-2e5f-4ac1-8c17-f136dc105797,NG Grayling Airfield,act,armyNationalGuard,MI,0.000423562230025709,0.086438992872153
+361,usa,na,Green River Test Complex UT,35955,No,No,No,na,na, ,a3f7b4ec-797c-4fc6-8d7e-bc6abaac81c1,Green River Test Complex UT,semi,usa,UT,0.00106718511369763,0.25975665876405
+362,usa,na,NG Greenlief TS/UTES 01,31480,No,No,No,na,na, ,13096388-4d58-4f5f-a7d8-14416e16ebb3,NG Greenlief TS/UTES 01,act,armyNationalGuard,NE,0.00141637499905301,0.164857814540592
+364,usa,na,NG Gulfport AVCRAD,280NG,No,No,No,na,na, ,9e3486f5-5d86-46b5-8f6a-147491462978,NG Gulfport AVCRAD,act,armyNationalGuard,MS,2.7489165404404E-05,0.0316034270416762
+365,usa,na,NG Hammond Airport,220NG,No,No,No,na,na, ,542fbecd-e9cf-42a2-bcb1-b1548f4a9184,NG Hammond Airport,act,armyNationalGuard,LA,5.68399257190322E-05,0.032280808660953
+366,usa,na,NG Havre De Grace Military Res,240NG,No,No,No,na,na, ,e7eb8974-ea42-4e8d-bd67-0c36aa310091,NG Havre De Grace Military Res,act,armyNationalGuard,MD,3.21943728067708E-05,0.0315713848916591
+367,usa,na,Hawthorne Army Depot,32225,No,No,No,na,na, ,1976f859-c9f4-453e-8833-18330722be29,Hawthorne Army Depot,act,usa,NV,0.0610821039813345,2.61551180348977
+369,usa,na,NG Helena Aviation RC- AASF- C12,300NG,No,No,No,na,na, ,85b28704-c403-485d-bde5-becd9e18e838,NG Helena Aviation RC- AASF- C12,act,armyNationalGuard,MT,2.84763327726978E-05,0.0235403395824764
+370,usa,na,Highbluff Stagefield AL,1252,No,No,No,na,na, ,2a9a7baf-76c1-4c94-bb16-36be0ecfba18,Highbluff Stagefield AL,act,usa,AL,7.16164063305769E-05,0.0381672057950962
+371,usa,na,NG Hollidaysburg Readiness Center,420NG,No,No,No,na,na, ,32be4a0f-5733-474a-a032-83fcfbdb026e,NG Hollidaysburg Readiness Center,act,armyNationalGuard,PA,9.61390651355032E-06,0.016220587857262
+372,usa,na,NG Hollis Plains Training Site,230NG,No,No,No,na,na, ,011053d2-4472-4399-97c7-72fbea611660,NG Hollis Plains Training Site,act,armyNationalGuard,ME,0.000185800094868682,0.0590937949797217
+374,usa,na,Hunt Stagefield AL,1252,No,No,No,na,na, ,0fc8957d-08b0-4a02-94bf-2f1d363f7f44,Hunt Stagefield AL,act,usa,AL,4.92111246330751E-05,0.0297821486849751
+375,usa,na,Hunter Army Airfield,13305,No,No,No,na,na, ,5f31323b-a97e-4cee-a9ea-77276df3915f,Hunter Army Airfield,act,usa,GA,0.00209296572938911,0.276262170557586
+376,usa,na,Indiana Army Ammunition Plant,18226,No,No,No,na,na, ,e3c7fd53-3f8d-4556-b1a2-d6dc128a1bac,Indiana Army Ammunition Plant,clsd,usa,IN,0.000642305349629169,0.114146121048948
+377,usa,na,NG Indianapolis 38 ID,180NG,No,No,No,na,na, ,04afba30-2d7a-4c29-a660-9c738058c8c2,NG Indianapolis 38 ID,act,armyNationalGuard,IN,1.99054218228412E-05,0.0182703791904932
+378,usa,na,Iowa AAP,19105,No,No,No,na,na, ,5c495235-f315-4a5b-af91-17e43fca136f,Iowa AAP,act,usa,IA,0.00929178518595108,0.453397669582128
+379,usa,na,NG ITC Camp San Luis Obisbo,06F35,No,No,No,na,na, ,cfab22a5-b30e-4a13-b3c4-a309109a3b59,NG ITC Camp San Luis Obisbo,act,armyNationalGuard,CA,0.00221424636447409,0.388555752958055
+380,usa,na,NG Jackson Airport Armory,470NG,No,No,No,na,na, ,af72192f-4630-48d9-84a6-fbf85c0ffb8a,NG Jackson Airport Armory,act,armyNationalGuard,TN,2.58600987308455E-05,0.0205566416871403
+381,usa,na,NG Jackson Bks,44502,No,No,No,na,na, ,5b55c593-2a63-4ac4-bcdb-35702c9ce8d7,NG Jackson Bks,act,armyNationalGuard,LA,4.51502796749992E-05,0.0623620397520375
+382,usa,na,Jefferson Proving Ground,18255,No,No,Yes,na,na, ,7df786d0-d7d4-485f-ac23-e3998f163362,Jefferson Proving Ground,clsd,usa,IN,0.0221981082593175,1.09944580856295
+383,usa,na,NG Montgomery JFHQ AFRC / CSMS 01,010NG,No,No,No,na,na, ,62fb0851-ffea-499c-ac20-5ced3d81ac22,NG Montgomery JFHQ AFRC / CSMS 01,act,armyNationalGuard,AL,2.59299449680839E-05,0.0205701245682066
+384,usa,na,NG Johnson City Gray,470NG,No,No,No,na,na, ,abe2c0ca-e96b-4976-8b1c-1ed00db7d982,NG Johnson City Gray,act,armyNationalGuard,TN,4.36333496054431E-05,0.0275086579751585
+386,usa,na,Kahuku Tng Area,15815,No,No,No,na,na, ,74023e88-a197-4465-80a2-c1a6a11e3532,Kahuku Tng Area,act,usa,HI,0.0032127405090705,0.364122479211239
+387,usa,na,NG Kalaeloa,150NG,No,No,No,na,na, ,e14d6c9c-d6f8-40be-ba43-e7a98344ef36,NG Kalaeloa,act,armyNationalGuard,HI,6.09194908065547E-05,0.0495628761972409
+388,usa,na,Kawaihae Mil Reserve,15815,No,No,No,na,na, ,24657d7c-5b70-41c8-a78c-8fb9bd50413d,Kawaihae Mil Reserve,act,usa,HI,3.77808191842632E-06,0.0140088107777364
+390,usa,na,Kipapa Ammo Storage Site,15815,No,No,No,na,na, ,86cc8fc9-1827-4538-8380-7c52b766584f,Kipapa Ammo Storage Site,excs,usa,HI,0.000142741930176271,0.110191121570445
+391,usa,na,Lake City AAP,29405,No,No,No,na,na, ,60b1a108-7ff2-4cfa-85ff-e1cf49bc531d,Lake City AAP,act,usa,MO,0.00182346041765413,0.19640012858274
+392,usa,na,Lake Of The Ozarks Recreation,29995,No,No,No,na,na, ,804d01ae-25af-4f76-ba31-1cca8a1c7089,Lake Of The Ozarks Recreation,act,usa,MO,0.000133150065039445,0.0639325870690123
+393,usa,na,NG Lane County AFRC FMS 5,410NG,No,No,No,na,na, ,0b0b34fb-797c-49a0-8d39-92ec3b237291,NG Lane County AFRC FMS 5,act,armyNationalGuard,OR,1.0205630587734E-05,0.0195027253459904
+394,usa,na,NG Lansing Joint Forces Readiness Center,260NG,No,No,No,na,na, ,70dc86e7-ecd8-4988-b4e6-b0f31dfbaaeb,NG Lansing Joint Forces Readiness Center,act,armyNationalGuard,MI,2.58645807207358E-05,0.0238832085750813
+395,usa,na,NG Las Cruces,350NG,No,No,No,na,na, ,145f5721-75be-46d8-a625-2d47a20fda8a,NG Las Cruces,act,armyNationalGuard,NM,3.62087973826419E-05,0.0347863632235892
+396,usa,na,NG Lawrenceville,340NG,No,No,No,na,na, ,9eac0ea6-b718-4c09-9eac-e9c39fec21af,NG Lawrenceville,act,armyNationalGuard,NJ,3.39140831329132E-05,0.0273335687537285
+397,usa,na,Letterkenny Army Depot,42345,No,No,No,na,na, ,3725c6ea-3ddc-413d-950e-1cac732c82dc,Letterkenny Army Depot,act,usa,PA,0.00765593074629578,0.457786097774504
+398,usa,na,NG Lexington AASF No 1,400NG,No,No,No,na,na, ,4d8005e1-7ecf-46f2-8e08-d320b71b7fea,NG Lexington AASF No 1,act,armyNationalGuard,OK,0.000125043019579607,0.0593010036275221
+399,usa,na,NG Lincoln AASF/Readiness Center,310NG,No,No,No,na,na, ,2530f67a-2dab-4580-a43c-53ae0c417dc3,NG Lincoln AASF/Readiness Center,act,armyNationalGuard,NE,2.82183675608394E-05,0.0257424042635981
+400,usa,na,Longhorn AAP,48315,No,No,No,na,na, ,260d71d2-3d97-4dd0-9f97-ba4913cb768d,Longhorn AAP,excs,usa,TX,0.000565669811976477,0.356856823825993
+401,usa,na,Louisville Stagefield AL,1252,No,No,No,na,na, ,2c35052c-95e1-465a-90d2-4534d62c2ef5,Louisville Stagefield AL,act,usa,AL,4.0052771282717E-05,0.0282136385499267
+402,usa,na,NG Anthony Cometa Complex,320NG,No,No,No,na,na, ,4558cdc6-bfcb-40d0-80d9-75a5609543c0,NG Anthony Cometa Complex,act,armyNationalGuard,NV,2.33125765589648E-05,0.0265258822307928
+403,usa,na,NG Macon Readiness Center,130NG,No,No,No,na,na, ,c0a9c867-a955-4e25-bd44-bb61ac491405,NG Macon Readiness Center,act,armyNationalGuard,GA,1.12296631868958E-05,0.0134043262979198
+404,usa,na,NG Macon TS,290NG,No,No,No,na,na, ,15600dce-00e7-4cab-b353-811e28f5df11,NG Macon TS,act,armyNationalGuard,MO,0.00130708731376217,0.372904122522693
+405,usa,na,Makua Mil Reserve,15815,No,No,No,na,na, ,6300fd56-beb3-4f59-97e1-762e87d075b4,Makua Mil Reserve,act,usa,HI,0.00154523737296586,0.231208044996207
+406,usa,na,NG Marseilles (MTA Tng Area),17B60,No,No,No,na,na, ,c1e9f927-4f21-46b0-a561-9a9d26a4b595,NG Marseilles (MTA Tng Area),act,armyNationalGuard,IL,0.00124201582116257,0.186522773219143
+407,usa,na,NG Martindale - AASF,480NG,No,No,No,na,na, ,aff02482-4695-4e91-b8c5-efeb556379b3,NG Martindale - AASF,act,armyNationalGuard,TX,8.21720802832715E-05,0.0465109501238536
+408,usa,na,McAlester AAP,40520,No,No,No,na,na, ,06ed78d1-0331-4522-8b99-91c41330a3b5,McAlester AAP,act,usa,OK,0.0179085665436105,0.632367496958571
+409,usa,na,NG McConnelsville Training Site,390NG,No,No,No,na,na, ,7ab3e5af-bc1b-445d-b8db-b89c29d5743f,NG McConnelsville Training Site,act,armyNationalGuard,OH,0.000190550152410651,0.0869299286121936
+410,usa,na,NG McNary Field Salem AASF,410NG,No,No,No,na,na, ,ca088bc8-01ea-415a-a440-1c68612d6fbb,NG McNary Field Salem AASF,act,armyNationalGuard,OR,3.66048075193248E-05,0.0378320824810168
+411,usa,na,NG Mead TS/FMS 06/Utes 02,31475,No,No,No,na,na, ,2717f1cf-6f70-4d89-ace5-b3717ecf98d3,NG Mead TS/FMS 06/Utes 02,act,armyNationalGuard,NE,0.00051746310668932,0.106218889667752
+412,usa,na,Military Ocean Tml Sunny Point,37745,No,No,No,na,na, ,0b57bee8-515b-4829-9758-7dfcb4c3418d,Military Ocean Tml Sunny Point,act,usa,NC,0.00455814746169381,0.650728971207165
+413,usa,na,NG Mitchell Complex,460NG,No,No,No,na,na, ,6fc0fe51-04c3-40db-b0de-14bb46940aec,NG Mitchell Complex,act,armyNationalGuard,SD,2.74426279247564E-05,0.0244387353397706
+414,usa,na,NG MTA Camp Clark Nevada,45914,No,No,No,na,na, ,072dfad1-601f-435c-9b61-54cacb90ea32,NG MTA Camp Clark Nevada,act,armyNationalGuard,MO,0.00052205177939868,0.101400810094553
+415,usa,na,NG MTA Camp Crowder Neosho,29155,No,No,No,na,na, ,5cb49ae7-19e7-458d-8b02-c5b45b0523cd,NG MTA Camp Crowder Neosho,act,armyNationalGuard,MO,0.00175484833494011,0.294624815206373
+416,usa,na,NG MTA Camp Curtis Guil,250NG,No,No,No,na,na, ,c8fbdfa5-adf6-4686-bf45-94fc791ff6a6,NG MTA Camp Curtis Guil,act,armyNationalGuard,MA,0.00031166489543466,0.121829956289763
+417,usa,na,NG MTA Camp Edwards,25175,No,No,No,na,na, ,b463ad85-2901-40f9-a720-9e7479ddc771,NG MTA Camp Edwards,act,armyNationalGuard,MA,0.00899886868296562,0.64047522669507
+418,usa,na,NG MTA Camp Fretterd,240NG,No,No,No,na,na, ,3c60eba2-6552-4b16-be25-cbd53a28503c,NG MTA Camp Fretterd,act,armyNationalGuard,MD,0.00024888146936064,0.0754213979810937
+419,usa,na,NG MTA Camp Rilea,41C30,No,No,No,na,na, ,e48548a0-ea1c-43d9-8d33-b943c7f3d699,NG MTA Camp Rilea,act,armyNationalGuard,OR,0.000855039186262729,0.155589248585288
+420,usa,na,NG MTA Camp Santiago,RQ577,No,No,No,na,na, ,ea9bae97-c5b9-4f28-9ae7-c8450bebb9dd,NG MTA Camp Santiago,act,armyNationalGuard,PR,0.00436783959878539,0.320259064201839
+421,usa,na,Camp Shelby,28941,No,Yes,No,na,na, ,23f9f090-074b-49d8-be82-56367ac748ed,NG MTA Camp Shelby,act,armyNationalGuard,MS,0.0529580210577478,1.77161803801862
+422,usa,na,NG MTA Clarks Hill Reservation,450NG,No,No,No,na,na, ,ae26641a-e84b-40da-845b-f076b5dde581,NG MTA Clarks Hill Reservation,act,armyNationalGuard,SC,0.000341312295631724,0.22844899661711
+423,usa,na,NG MTA Ft Wm Henry Harrison,30655,No,No,No,na,na, ,5da8851f-8a5c-4777-8b9b-9356228b58af,NG MTA Ft Wm Henry Harrison,act,armyNationalGuard,MT,0.00311887959651358,0.400328522285628
+424,usa,na,NG MTA Gunpowder Military Reservation,240NG,No,No,No,na,na, ,02b7682b-9d25-45ff-b36f-cee48701b7ca,NG MTA Gunpowder Military Reservation,act,armyNationalGuard,MD,0.000107524198710962,0.0525047689323913
+425,usa,na,NG MTA Limestone Hills,30655,No,No,No,na,na, ,b3e16a7a-5fed-44e7-8a6b-2267f425c53f,NG MTA Limestone Hills,act,armyNationalGuard,MT,0.0100687324461433,0.525394134342135
+426,usa,na,NG MTA-L Camp Williams,49911,No,No,No,na,na, ,fa82e583-d1ea-403e-92c1-897d22d608f3,NG MTA-L Camp Williams,act,armyNationalGuard,UT,0.0103599547232989,0.612767283962936
+427,usa,na,NG MTC-H Camp Grayling,26B15,No,No,No,na,na, ,87647a1a-a6aa-4a91-b0cc-ff5bda7e6b1b,NG MTC-H Camp Grayling,act,armyNationalGuard,MI,0.0671350886077562,4.90975340842636
+428,usa,na,NG MTC-H Camp Roberts,6740,No,No,No,na,na, ,576a9a00-efc7-44bf-9e6a-a5818cfe937a,NG MTC-H Camp Roberts,act,armyNationalGuard,CA,0.0171896731549168,0.693040891860552
+429,usa,na,NG MTCH Camp Guernsey,56A55,No,No,No,na,na, ,7c0b6dd3-9d37-4623-a051-75adaad637c4,NG MTCH Camp Guernsey,act,armyNationalGuard,WY,0.0348660632225801,2.31234456712662
+430,usa,na,NG Nashville,470NG,No,No,No,na,na, ,35340597-b2f7-4dcd-8e0c-c8a4bcacadfe,NG Nashville,act,armyNationalGuard,TN,2.66741585619457E-05,0.0280545677651805
+432,usa,na,NG New Castle Readiness Center/FMS 9,420NG,No,No,No,na,na, ,c98d8193-d26e-4ac8-8a22-06fc6d0ee061,NG New Castle Readiness Center/FMS 9,act,armyNationalGuard,PA,2.55373606705689E-06,0.00645882766610626
+433,usa,na,NG Alcantra Armory Complex,020NG,No,No,No,na,na, ,fbb9c0df-82ce-43ea-b92e-c2bcbdde9f27,NG Alcantra Armory Complex,act,armyNationalGuard,AK,0.000218969196794205,0.0750839355162908
+434,usa,na,NG Buckeye TS,040NG,No,No,No,na,na, ,2c6f6edf-449b-4823-b688-f7d04f779e41,NG Buckeye TS,act,armyNationalGuard,AZ,0.000588943410321008,0.136765164823223
+435,usa,na,NG Ethan Allen AFB MTA,500NG,No,No,No,na,na, ,f048f823-16fa-48f7-aac4-84bb6ff0caa5,NG Ethan Allen AFB MTA,act,armyNationalGuard,VT,0.000300890534617793,0.0855051142789844
+436,usa,na,NG River Road Training Site,100NG,No,No,No,na,na, ,54edf600-61c5-4b94-a3c8-1648edcc42b9,NG River Road Training Site,act,armyNationalGuard,DE,8.09583393674984E-05,0.0399397464788509
+437,usa,na,NG Youngstown Tng Site,360NG,No,No,No,na,na, ,6ea56f7d-45a0-4f4c-a799-c24c6ce68cdb,NG Youngstown Tng Site,act,armyNationalGuard,NY,0.000384798006507481,0.0855939515912691
+438,usa,na,NG Training Site,330NG,No,No,No,na,na, ,00576fb5-ec0d-4e12-946a-9aa052f613ca,NG Training Site,act,armyNationalGuard,NH,4.692585707744E-05,0.038699547166122
+439,usa,na,NG Norman CSMS,400NG,No,No,No,na,na, ,b895d6d4-3568-4ba2-bd77-539660327099,NG Norman CSMS,act,armyNationalGuard,OK,3.11500555199018E-05,0.0273629564473263
+440,usa,na,Fort Irwin,6225,No,Yes,No,na,na, ,467e2cc1-8d1a-47c3-a555-e8d0c618963e,NTC and Fort Irwin,act,usa,CA,0.303139616843737,2.84909317660998
+441,usa,na,NG Oglethorpe Armory,130NG,No,No,No,na,na, ,6f803c99-c35d-4596-bc9a-71373128e06f,NG Oglethorpe Armory,act,armyNationalGuard,GA,1.2737261613438E-05,0.018554461304193
+442,usa,na,NG Santa Fe - Onate Complex TS,350NG,No,No,No,na,na, ,7623ac5c-8217-4c41-8fa3-15814fab322f,NG Santa Fe - Onate Complex TS,act,armyNationalGuard,NM,0.00013340828741093,0.0602365139913375
+444,usa,na,Orchard Combat Training Center,16A25,No,Yes,No,na,na, ,8043e3a8-20a5-4bff-9291-cc61edbf9647,NG Orchard Combat Training Center,act,armyNationalGuard,ID,0.0643134137103516,1.29051170795856
+445,usa,na,NG Papago Military Reservation,040NG,No,No,No,na,na, ,44234eec-0f08-4332-b28e-ff08b81c6c42,NG Papago Military Reservation,act,armyNationalGuard,AZ,0.000153219097683177,0.0772418445402225
+446,usa,na,NG Williamstown,540NG,No,No,No,na,na, ,2bd0987a-8185-42c1-ba95-67018f6e6114,NG Williamstown,act,armyNationalGuard,WV,4.350781159701E-05,0.0442240426827878
+447,usa,na,Parks Reserve Forces Tng Area,6685,No,No,No,na,na, ,4f602500-559b-4a39-9912-3197dcbd2185,Parks Reserve Forces Tng Area,act,usar,CA,0.00094425519773722,0.17638345683663
+448,usa,na,NG Picacho Aviation TS,040NG,No,No,No,na,na, ,517b17d0-b609-4573-a5e9-c3f44692d873,NG Picacho Aviation TS,act,armyNationalGuard,AZ,0.00012783000397576,0.0481269399765458
+449,usa,na,Picatinny Arsenal,34855,No,Yes,No,na,na, ,2ce038ed-ab03-4160-bb62-74e2d59bd3f7,Picatinny Arsenal,act,usa,NJ,0.00284619430158273,0.371408630371513
+452,usa,na,NG Thunderbird Youth Academy,400NG,No,No,No,na,na, ,9034f491-5486-4975-b46a-ab78067266cc,NG Thunderbird Youth Academy,act,armyNationalGuard,OK,0.000214690077655177,0.0966925118061321
+453,usa,na,Pueblo Chemical Depot,8505,No,No,No,na,na, ,62bb6c5d-1c7b-4faf-ad8c-2a16188e6dea,Pueblo Chemical Depot,act,usa,CO,0.00951518459623912,0.430763733006847
+454,usa,na,Pupukea Paalaa Uka Mil Road,15815,No,No,No,na,na, ,ca717f18-a0a7-44ac-a278-032dfa5151ad,Pupukea Paalaa Uka Mil Road,act,usa,HI,0.00463004036123493,0.290101545319503
+455,usa,na,NG RW Shepherd Hope Hull,010NG,No,No,No,na,na, ,fd5a6bfc-b5d8-48d8-8edc-e95b57a2cab5,NG RW Shepherd Hope Hull,act,armyNationalGuard,AL,2.6796819838637E-05,0.033877934293112
+456,usa,na,Radford Army Ammunition Plant,51565,No,Yes,No,na,na, ,142952bc-62ba-4a79-b312-b45bc19abfed,Radford AAP,act,usa,VA,0.00165446358482768,0.350431547736031
+457,usa,na,NG Raleigh,370NG,No,No,No,na,na, ,d624bf5e-b2c2-4002-9076-9a8a8c305e1e,NG Raleigh,act,armyNationalGuard,NC,3.25914515997283E-05,0.0340436737674561
+458,usa,na,NG Camp Ravenna Joint Military Training Center,39430,No,No,No,na,na, ,41db6aa1-fc17-45a5-afe2-ef1edea1412b,NG Camp Ravenna Joint Military Training Center,act,armyNationalGuard,OH,0.00941992561729421,0.531883744668331
+459,usa,na,Red River Army Depot,48515,No,No,No,na,na, ,db22b668-9bce-4841-b5f2-c5c52539e717,Red River Army Depot,act,usa,TX,0.00585381445193889,0.36115403686437
+460,usa,na,Redstone Arsenal,1202,No,Yes,No,na,na, ,af4904a0-454f-4433-92d9-da1782079ce0,Redstone Arsenal,act,usa,AL,0.0151896916893293,0.592297388000984
+461,usa,na,Fort Detrick Forest Glen Annex,24225,No,No,No,na,na, ,5e7828c2-ce5f-4da8-b681-297c4d402ef1,Fort Detrick Forest Glen Annex,act,usa,MD,5.24136235071637E-05,0.0368470486074015
+462,usa,na,Fort Detrick Glen Haven Annex,24225,No,No,No,na,na, ,e5627fd1-9a6f-40ef-bc1e-463070baf813,Fort Detrick Glen Haven Annex,act,usa,MD,8.23468963062624E-06,0.0155313532695956
+463,usa,na,NG Rickenbacker,390NG,No,No,No,na,na, ,5c647b78-7f94-405d-a3d3-6a15d0c05521,NG Rickenbacker,act,armyNationalGuard,OH,5.28390505678544E-05,0.0309408980214858
+464,usa,na,NG Rio Rancho TS,350NG,No,No,No,na,na, ,cd7b680b-59f2-4a04-8b28-2d3bbc11576c,NG Rio Rancho TS,act,armyNationalGuard,NM,4.79119337342127E-05,0.0293126646975286
+465,usa,na,Rivanna Station,51105,No,No,No,na,na, ,76455640-3eea-4183-ba18-805c933b237b,Rivanna Station,act,usa,VA,3.10315554088447E-05,0.0289660300433075
+466,usa,na,NG Rochester NGA and OMS 2,270NG,No,No,No,na,na, ,b5271feb-b26a-447d-aea2-36641cb445d7,NG Rochester NGA and OMS 2,act,armyNationalGuard,MN,5.1788022119581E-06,0.0110962830973876
+469,usa,na,NG Rosemount NG Armory,270NG,No,No,No,na,na, ,b02465a7-cc08-4dae-a2b0-9416af1c83a8,NG Rosemount NG Armory,act,armyNationalGuard,MN,5.51937318959972E-06,0.00980929719222593
+470,usa,na,Runkle Stagefield AL,1252,No,No,No,na,na, ,a637c927-e00a-4481-92d1-cb567c3e6dea,Runkle Stagefield AL,act,usa,AL,0.000100503764542736,0.0455338996065613
+471,usa,na,NG Saginaw,480NG,No,No,No,na,na, ,023eb4a3-89b8-40b8-ae76-fa112439f83a,NG Saginaw,act,armyNationalGuard,TX,5.74479595343291E-05,0.0457102102295315
+472,usa,na,NG Saint George/FMS 5B,490NG,No,No,No,na,na, ,a95376b5-a480-4d47-8ad5-0ec8d88d4bb0,NG Saint George/FMS 5B,act,armyNationalGuard,UT,2.82107480416016E-05,0.0232659125549105
+473,usa,na,NG Salina KS Training Center,200NG,No,No,No,na,na, ,87d6d8b7-7fae-409c-a5a3-635e825bfce9,NG Salina KS Training Center,act,armyNationalGuard,KS,2.93077380320028E-05,0.0704517773334397
+474,usa,na,Savanna Depot Act,17795,No,No,No,na,na, ,6f567e3c-6416-455f-ac95-7b4c61a64579,Savanna Depot Act,clsd,usa,IL,0.00376296962417655,0.837751748972958
+475,usa,na,Tropic Regions Test Center,15815,No,Yes,No,na,na, ,adf9cda7-30dd-4d28-b177-e3b990c97b2e,Schofield Barracks Military Reservation,act,usa,HI,0.0065285127336665,1.78556619913415
+476,usa,na,Scranton AAP,42755,No,No,No,na,na, ,c79bc8fe-a426-42bb-9cbb-38391b531b5a,Scranton AAP,act,usa,PA,6.42387476545991E-06,0.0108307408100714
+477,usa,na,NG Sea Girt  NJ NGTC,340NG,No,No,No,na,na, ,784f28db-ae65-4572-a1db-5f185b1c689d,NG Sea Girt  NJ NGTC,act,armyNationalGuard,NJ,7.42426902888838E-05,0.0408413104143016
+478,usa,na,Seward Recreation Area,2871,No,No,No,na,na, ,d4c7394a-45d3-48f7-9a95-33f02b585458,Seward Recreation Area,act,usa,AK,7.57807447371306E-06,0.0110210677731367
+479,usa,na,NG Shelbyville,180NG,No,No,No,na,na, ,84c63128-9ca7-46de-b17b-c5f55ee2c475,NG Shelbyville,act,armyNationalGuard,IN,1.95891425391892E-05,0.0213216302679142
+480,usa,na,Shell Basefield AL,1252,No,No,No,na,na, ,8d275be4-9cad-4a0c-bfb8-068c8700b120,Shell Basefield AL,act,usa,AL,9.37903134854423E-05,0.0385894461190352
+481,usa,na,Sierra Army Depot,6815,No,No,No,na,na, ,8ea4504d-7e88-4639-9a0b-41b3813036b5,Sierra Army Depot,act,usa,CA,0.0111266448575407,0.475684936706654
+482,usa,na,NG Silver Bell Army Heliport,040NG,No,No,No,na,na, ,897858a9-b9df-4bcb-92e7-4e795dbf610e,NG Silver Bell Army Heliport,act,armyNationalGuard,AZ,6.21982908342034E-05,0.0359257232778392
+483,usa,na,NG Sioux Falls Benson Rd Complex,460NG,No,No,No,na,na, ,e4782586-4dda-4049-ab4a-4c03650e1d00,NG Sioux Falls Benson Rd Complex,act,armyNationalGuard,SD,2.56390244430804E-05,0.0216831552454389
+484,usa,na,Skelly Stagefield AL,1252,No,No,No,na,na, ,6f584146-bc9d-4a0a-8578-8d268d884ab5,Skelly Stagefield AL,act,usa,AL,5.71654493342066E-05,0.0365848625173243
+485,usa,na,NG Camp Beauregard,22C50,No,No,No,na,na, ,b624df7b-64c3-48fb-9023-069ba9f1d1d8,NG Camp Beauregard,act,armyNationalGuard,LA,0.000275437087566388,0.12286854154263
+486,usa,na,U.S. Army Natick Soldier Systems Center,25690,No,Yes,No,na,na, ,4c00fd28-22eb-4d7d-8247-e545f03c43d7,US Army Soldier Systems Center Natick,act,usa,MA,2.84137665857997E-05,0.0301294665653902
+487,usa,na,NG Sparta Armory,170NG,No,No,No,na,na, ,117fa685-f6e8-4a31-9cad-e743ca20bea5,NG Sparta Armory,act,armyNationalGuard,IL,0.00109547759348061,0.219591413900862
+488,usa,na,NG Spring City Readiness Center,420NG,No,No,No,na,na, ,5dc96315-0fa7-481a-9f73-b3b3bb6ee174,NG Spring City Readiness Center,act,armyNationalGuard,PA,2.25795661208394E-05,0.0203462038212667
+489,usa,na,NG Springfield (TS Cp Lincoln),170NG,No,No,No,na,na, ,081bf908-0a7d-46c8-a404-a9fe803d6209,NG Springfield (TS Cp Lincoln),act,armyNationalGuard,IL,8.93284923222382E-05,0.0476402290374325
+490,usa,na,NG St Cloud AASF,270NG,No,No,No,na,na, ,c5ee98ac-14dd-49a9-a32f-53d571f07505,NG St Cloud AASF,act,armyNationalGuard,MN,2.49754061769636E-05,0.0213980723528553
+491,usa,na,NG St Cloud NG Armory,270NG,No,No,No,na,na, ,4e1c0610-8b4e-4bc3-9282-43440bb8d5bb,NG St Cloud NG Armory,act,armyNationalGuard,MN,3.02278294839198E-06,0.00975456628574221
+492,usa,na,Stinson 5AB Stagefield AL,1252,No,No,No,na,na, ,5e187022-f09f-44ca-88dc-7a796e917ece,Stinson 5AB Stagefield AL,act,usa,AL,6.65201157517004E-05,0.0339613874625467
+493,usa,na,NG Stones Ranch Military Res,09A35,No,No,No,na,na, ,5a93bcc5-c10f-46dc-89bd-a95964a527d0,NG Stones Ranch Military Res,act,armyNationalGuard,CT,0.000811813705695386,0.238020428414188
+494,usa,na,Tac X Stagefield AL,1252,No,No,No,na,na, ,7522f9af-8549-4849-a9a5-d9d5ee3feb1c,Tac X Stagefield AL,act,usa,AL,1.94594549611793E-05,0.0268243211160867
+495,usa,na,Tobyhanna Army Depot,42780,No,No,No,na,na, ,19ef10e8-8d9b-4317-9602-16af08b151ca,Tobyhanna Army Depot,act,usa,PA,0.000610213429808937,0.115947297259637
+496,usa,na,NG JFHQ-Kansas,200NG,No,No,No,na,na, ,d44a2b9a-75e7-4f46-a8af-da82a17ffbe0,NG JFHQ-Kansas,act,armyNationalGuard,KS,2.3783421738699E-05,0.0255666492762571
+497,usa,na,Toth Stagefield AL,1252,No,No,No,na,na, ,8f7479a5-9b33-4ab2-81cc-f3a671a127ab,Toth Stagefield AL,act,usa,AL,4.66038516151457E-05,0.0289593796777457
+499,usa,na,NG Los Alamitos JFTB,060NG,No,No,No,na,na, ,450d0374-4c15-47b7-862a-eb0e9c620ee2,NG Los Alamitos JFTB,act,armyNationalGuard,CA,0.00052019251143065,0.111671668211446
+500,usa,na,NG Bethany Beach Training Site,100NG,No,No,No,na,na, ,b7b54fa2-19db-4db3-9a2c-281ceb7c054b,NG Bethany Beach Training Site,act,armyNationalGuard,DE,4.17580351950164E-05,0.0267353688174769
+501,usa,na,NG TS Camp Johnson,500NG,No,No,No,na,na, ,57fcc86b-233e-404d-b92b-27cbc6d20ee2,NG TS Camp Johnson,act,armyNationalGuard,VT,2.81020741113025E-05,0.0288126331271291
+502,usa,na,NG TS Mark Twain Natl Forest Wapp,290NG,No,No,No,na,na, ,ff082a0e-f91e-456f-9ebc-543fec2e1081,NG TS Mark Twain Natl Forest Wapp,act,armyNationalGuard,MO,0.000837498825603689,0.167007502043008
+503,usa,na,NG TS Ethan Allen Range,50340,No,No,No,na,na, ,ea0e567d-9676-45c2-8880-f302e006d0e2,NG TS Ethan Allen Range,act,armyNationalGuard,VT,0.00506990721305556,0.349698307894651
+504,usa,na,NG TS Ike Skelton Jefferson City,290NG,No,No,No,na,na, ,ee040bd1-6eb0-4a8b-82cb-f1d236bea68b,NG TS Ike Skelton Jefferson City,act,armyNationalGuard,MO,0.000197040473722154,0.0705099741375331
+505,usa,na,NG TS Keaukaha Mil Res,150NG,No,No,No,na,na, ,307510fc-5733-4458-b1b1-f19e06a1e0e5,NG TS Keaukaha Mil Res,act,armyNationalGuard,HI,0.000175688810031716,0.100668833174657
+507,usa,na,Us Army Joint Sys Mfg CtrLima,39335,No,No,No,na,na, ,fc9000d8-ad35-4592-860d-b2890a92bbbf,Us Army Joint Sys Mfg CtrLima,act,usa,OH,0.000158945639441299,0.062242755289061
+508,usa,na,Adelphi Laboratory Center,24015,No,Yes,No,na,na, ,58fc593f-d2f7-44ca-ac8c-6c9613fffcb3,US Army Adelphi Laboratory Center,act,usa,MD,8.6611595861541E-05,0.0591908133016228
+509,usa,na,USA Field Station Kunia,15815,No,No,No,na,na, ,c1cd852f-0816-4492-bfbf-6180c0bce400,USA Field Station Kunia,act,usa,HI,3.37541061981028E-05,0.0440957330003265
+510,usa,na,Joliet USARC/JTA,27864,No,No,No,na,na, ,49b2002a-6c1e-4a64-8c5a-4ea3c4e939ee,Joliet USARC/JTA,act,usar,IL,0.00155748640099773,0.219544046550355
+512,usa,na,NG Volkstone,540NG,No,No,No,na,na, ,754a3a20-1c9d-41b6-9be3-0f6bdf217e12,NG Volkstone,act,armyNationalGuard,WV,0.000213518457258033,0.0998487379247727
+513,usa,na,NG VTS Catoosa,13255,No,No,No,na,na, ,6d5abbdd-665d-42bf-9fe0-33fcfb13c409,NG VTS Catoosa,act,armyNationalGuard,GA,0.000650641112997619,0.15612722816378
+514,usa,na,NG VTS Smyrna,470NG,No,No,No,na,na, ,e2160d1d-4fb7-4ea3-b9c6-0212881a9ae4,NG VTS Smyrna,act,armyNationalGuard,TN,0.000345329427091201,0.121434070469273
+515,usa,na,W Silver Spring Complex,27864,No,No,No,na,na, ,4a6c844c-4420-455e-9e61-53b93f1a869c,W Silver Spring Complex,act,usar,WI,5.64552676678431E-05,0.0362967739296716
+516,usa,na,NG WH Ford Regional Tng Ctr,21A95,No,No,No,na,na, ,ede8c1bb-1aeb-49c4-b53c-d18599195ccb,NG WH Ford Regional Tng Ctr,act,armyNationalGuard,KY,0.00462225501291869,0.98541699830389
+517,usa,na,Waianae Kai Military Reservation,15815,No,No,No,na,na, ,aee1f2a3-33ad-4ec5-b43e-4a3b6c5c63ad,Waianae Kai Military Reservation,act,usa,HI,4.82021914649522E-06,0.015822369709695
+518,usa,na,Watervliet Arsenal,36990,No,Yes,No,na,na, ,416586f6-6f82-4a4c-90b0-aad18e1aaba0,Watervliet Arsenal,act,usa,NY,5.89954331644549E-05,0.0479734846610808
+519,usa,na,NG West Camp,46B75,No,No,No,na,na, ,e9afc71d-decf-4352-9897-8c8f50091ada,NG West Camp,act,armyNationalGuard,SD,0.000347562836850557,0.0974292220244953
+520,usa,na,West Point Military Reservation,36993,No,No,No,na,na, ,4db5f102-3164-468a-a70f-abd5751c21ec,West Point Military Reservation,act,usa,NY,0.00690547759336368,0.639528863721525
+521,usa,na,NG Westminster Training Site,500NG,No,No,No,na,na, ,12dffdf5-783b-49a3-b656-349acd2ad962,NG Westminster Training Site,act,armyNationalGuard,VT,2.14606218378322E-05,0.0257802989705582
+522,usa,na,Wheeler Army Airfield,15815,No,No,No,na,na, ,69cc1342-1816-4b78-96d4-4d7f8cc9720b,Wheeler Army Airfield,act,usa,HI,0.000487740545850102,0.165420012814221
+523,usa,na,White Sands Missile Range,35955,No,Yes,No,na,na, ,2a60d364-fadd-49ed-9709-4a7af9d6b1b9,White Sands Missile Range NM,act,usa,NM,0.888366136531658,5.14751093118122
+525,usa,na,Yuma Proving Ground,4985,No,Yes,No,na,na, ,e7601367-5980-4f96-a574-5f049d89b18e,Yuma Proving Ground,act,usa,AZ,0.327243028915291,4.27435828391135
+526,usa,na,NG Ayer,250NG,No,No,No,na,na, ,4d4d9ef9-661e-4084-b02c-0a672c439cd6,NG Ayer,act,armyNationalGuard,MA,2.90138370928616E-05,0.0260579104256184
+527,usa,na,NG MTA Camp Butner,33224,No,No,No,na,na, ,0285254a-0923-438e-a34f-1c9972d7cf16,NG MTA Camp Butner,act,armyNationalGuard,NC,0.00199285826647611,0.21437082204935
+528,usa,na,NG Springfield AVCRAD (New),290NG,No,No,No,na,na, ,aab4b89f-b6a2-4116-8915-fbe02e492730,NG Springfield AVCRAD (New),act,armyNationalGuard,MO,4.40853559666721E-05,0.0286278791949988
+529,usa,na,NG Muscatatuck Urban Training Center,18055,No,No,No,na,na, ,99ec7ef0-f291-4b97-8e5e-cfd916fd77b7,NG Muscatatuck Urban Training Center,act,armyNationalGuard,IN,0.000404582662440589,0.11948591619818
+530,usa,na,NG Cambridge Springs Readiness Center and FMS 5,420NG,No,No,No,na,na, ,83034a45-28f8-4a3c-963f-7290074dbb15,NG Cambridge Springs Readiness Center and FMS 5,act,armyNationalGuard,PA,4.64879587980249E-05,0.037181463461724
+531,usa,na,NG General Lucius D Clay National Guard Center,130NG,No,No,No,na,na, ,f276ebae-31e6-44d0-acad-0d038f0ab50b,NG General Lucius D Clay National Guard Center,act,armyNationalGuard,GA,4.15432534737192E-05,0.0366635017855
+532,usa,na,NG Cumming,130NG,No,No,No,na,na, ,a2b72a91-d4ac-4c4e-bd13-91e5fb957175,NG Cumming,act,armyNationalGuard,GA,5.18135857419111E-06,0.00913529981158209
+534,usa,na,NG Jackson County AFRC,540NG,No,No,No,na,na, ,ddb3c620-2555-4628-b568-b8cc55709945,NG Jackson County AFRC,act,armyNationalGuard,WV,0.000151480069916943,0.0909120692831552
+535,usa,na,NG Elkins AFRC,540NG,No,No,No,na,na, ,489444b1-7d05-43bd-bf0d-8254ba673eff,NG Elkins AFRC,act,armyNationalGuard,WV,6.14273094470263E-05,0.0379141248160788
+536,usa,na,NG Muskogee AFRC,400NG,No,No,No,na,na, ,9125ce84-1b6f-4158-9a7a-80e58787dadb,NG Muskogee AFRC,act,armyNationalGuard,OK,2.34606029607676E-05,0.0229854284378141
+537,usa,na,NG Clarke Range Complex - Fort McClellan,1910,No,No,No,na,na, ,a437808a-f379-4ade-8d8e-91994ec169af,NG Pelham Range Training Site - Fort McClellan,act,armyNationalGuard,AL,0.00874838837376046,0.423872991279169
+538,usa,na,NG Collegeville FMS 4,420NG,No,No,No,na,na, ,edcc688d-adb5-4c39-b66f-0e712befec7c,NG Collegeville FMS 4,act,armyNationalGuard,PA,2.21427740143554E-05,0.0210470428231053
+539,usa,na,NG Baton Rouge AFRC,220NG,No,No,No,na,na, ,71a555eb-8def-44a9-8233-404844b1352b,NG Baton Rouge AFRC,act,armyNationalGuard,LA,2.31299077313452E-05,0.0282214297562075
+540,usa,na,NG Knightstown,180NG,No,No,No,na,na, ,a38dbcdd-3418-4185-a5a1-4a544a676b66,NG Knightstown,act,armyNationalGuard,IN,0.000164873705898572,0.0690334785275117
+542,usa,na,Fort Gillem Enclave Site,13055,No,No,No,na,na, ,03cb6d13-5522-4e56-81fe-5d11abd7eba1,Fort Gillem Enclave Site,act,usa,GA,0.000498603326832381,0.22653657891757
+544,usa,na,Riverbank AAP,6305,No,No,No,na,na, ,cac8087a-cff4-47c1-af70-ff1ca04be267,Riverbank AAP,clsd,usa,CA,5.64736797059595E-05,0.0330530792723977
+545,usa,na,Presidio of Monterey,6305,No,No,No,na,na, ,e131f68e-0f3f-4563-a0d9-9b5862bcafc6,Presidio of Monterey,act,usa,CA,0.000159373330461676,0.0776837282407056
+546,usa,na,Milan AAP,47475,No,No,No,na,na, ,21c0aa3e-7b55-473a-92fd-4f8f45981bb6,Milan AAP,act,usa,TN,0.00902795602473816,0.552679273180434
+547,usa,na,NG VTS Milan,47545,No,No,No,na,na, ,539b3ad0-39b5-4ff9-bfb9-a1d463bd2b73,NG VTS Milan,act,armyNationalGuard,TN,0.00100580128219008,0.331066963872516
+549,usa,na,Saylor Creek Air Force Range,QYZH,No,No,No,na,na, ,629e826a-8b20-4c5f-8e57-54cfe58434cd,Saylor Creek Air Force Range,act,usaf,ID,0.0487168238473714,0.966088632190755
+550,usa,na,Eglin Air Force Auxiliary Field 6,FTFA,No,No,No,na,na, ,890043ef-7388-40d6-9e14-114da74e0ac6,Eglin Air Force Auxiliary Field 6,act,usaf,FL,0.000325637513924448,0.0989992477279762
+551,usa,na,Utah Test and Training Range,KRSM,No,Yes,No,na,na, ,9ebc9f1f-b61e-4f9f-af3f-5b379673cd35,Utah Test and Training Range South UT,act,usaf,UT,0.247831648476676,2.81914899523764
+552,usa,na,Hill Air Force Base,KRSM,No,Yes,No,na,na, ,bfe8f612-b3ad-46f4-89a6-3f9c5eac2e5f,Hill AFB,act,usaf,UT,0.00287839070051632,0.312344409906477
+553,usa,na,Mountain Home Air Force Base,QYZH,No,Yes,No,na,na, ,d89ab5d0-e359-4084-b26b-51f7379e4189,Mountain Home AFB,act,usaf,ID,0.00269359950880244,0.219919724147159
+554,usa,na,Cannon AFB,CZQZ,No,No,No,na,na, ,1ccdea73-29c7-4746-a726-03c01c467538,Cannon AFB,act,usaf,NM,0.00137004149132736,0.16116463323852
+555,usa,na,Tyndall Air Force Base,XLWU,No,Yes,No,na,na, ,28e158c0-2c4f-4002-8ada-d679e2a342a4,Tyndall AFB,act,usaf,FL,0.0109599509387408,1.90034522862093
+556,usa,na,Cannon AFB Site 2,CZQZ,No,No,No,na,na, ,f63916fc-becd-4ca1-a3df-5b6f29bc8b41,Cannon AFB Site 2,act,usaf,NM,0.000112149199594569,0.0487025769142878
+557,usa,na,Melrose Air Force Range,CZQZ,No,No,No,na,na, ,dd9aa868-5bf6-41c7-9c6c-17d03f57507c,Melrose Air Force Range,act,usaf,NM,0.023248930885984,0.805524011863816
+558,usa,na,Poinsett Electronic Combat Range,VLSB,No,No,No,na,na, ,ec155ffe-ef50-4d1f-8008-c7a396951e53,Poinsett Electronic Combat Range,act,usaf,SC,0.00493507290912021,0.347081055096955
+560,usa,na,Davis-Monthan Air Force Base,FBNV,No,Yes,No,na,na, ,e86b7064-c77f-4768-8093-e7a3d3199fa1,Davis Monthan AFB,act,usaf,AZ,0.00408512502940539,0.392054643307668
+564,usa,na,Peterson Space Force Base,TDKA,No,Yes,No,na,na, ,6b251820-9142-4d0a-8d2c-69c243a54074,Peterson Space Force Base,act,usaf,CO,0.000684766428548755,0.217690415288705
+565,usa,na,Creech Air Force Base,LKTC,No,Yes,No,na,na, ,468002a7-d268-4536-b95e-ddeeec141e73,Creech AFB,act,usaf,NV,0.0550951072127646,1.70735138802568
+572,usa,na,Joint Base San Antonio,JBSA,No,Yes,Yes,na,na, ,9d646e1a-a88d-41c5-8cf8-1c5f29cb900a,Lackland AFB,act,usaf,TX,0.0173868292331463,1.88540970992309
+576,usa,na,Robins AFB,UHHZ,No,No,No,na,na, ,f465729c-18cc-4dbe-92b1-ce7a5f9bdab3,Robins AFB,act,usaf,GA,0.0026054634790853,0.286612470298091
+588,usa,na,Little Rock AFB,NKAK,No,No,No,na,na, ,d01fbf77-575f-44f5-99a9-5000ce16b80d,Little Rock AFB,act,usaf,AR,0.00248131628200099,0.247399034193699
+590,usa,na,Cape Cod Space Force Station,CRWU,No,Yes,No,na,na, ,2553f84c-c0d3-42e7-b84e-ab45e3de8c15,Cape Cod Space Force Station,act,usaf,MA,4.39418013229442E-05,0.0625497488953416
+591,usa,na,Cheyenne Mountain Space Force Station,TDKA,No,Yes,No,na,na, ,507df1ff-d78b-4584-81b5-d30cd313c70c,Cheyenne Mountain Space Force Station,act,usaf,CO,0.000206902208674364,0.0824728360088967
+592,usa,na,Vandenberg Space Force Base,XUMU,No,Yes,No,na,na, ,661de795-3cea-4eb4-a24d-61f6ce57606b,Vandenberg Main Base,act,usaf,CA,0.039445472488751,1.58131250055232
+593,usa,na,Pillar Point Space Force Station,XUMU,No,No,No,na,na, ,51aafad6-989e-415d-b859-f5d4ca1f27aa,Pillar Point Space Force Station,act,usaf,CA,2.61435543507105E-05,0.0314086869798075
+594,usa,na,Fort Fisher Recreation Site,VKAG,No,No,No,na,na, ,74d1de9b-d2d9-47fe-bcf0-b78757b4cc0f,Fort Fisher Recreation Site,act,usaf,NC,1.6438434840893E-05,0.0308730067361145
+595,usa,na,Seymour Johnson Air Force Base,VKAG,No,Yes,No,na,na, ,6aea55ec-3494-4bfe-aad3-9bf7982d7c2c,Seymour Johnson AFB,act,usaf,NC,0.00129679600399868,0.213067790038032
+596,usa,na,Dare County Range,VKAG,No,Yes,No,na,na, ,2e0a8036-0598-4a52-ac4f-0e730e673de9,Dare County Range,act,usaf,NC,0.0187947745932888,0.643544466652545
+597,usa,na,Kirtland Air Force Base,MHMV,No,Yes,No,na,na, ,86dbd9e8-cd1c-416f-816a-0d215b948cb8,Kirtland,act,usaf,NM,0.020068375164783,0.906754970255602
+598,usa,na,Wright-Patterson Air Force Base,ZHTV,No,Yes,No,na,na, ,be581b86-bc22-4903-a92e-b66c2f57c894,Wright-Patt AFB,act,usaf,OH,0.00222483044740329,0.251926497835432
+601,usa,na,Eglin Air Force Auxiliary Field 3 Duke Fld,FTFA,No,No,No,na,na, ,c8b8a6bf-1ac1-41b7-a01b-5c9d36f5e612,Eglin Air Force Auxiliary Field 3 Duke Fld,act,usaf,FL,0.000741451791327563,0.132970145808774
+602,usa,na,Hanscom Air Force Base,MXRD,No,Yes,No,na,na, ,dde7add3-75d8-4278-8200-924ed7031c0e,Hanscom AFB,act,usaf,MA,0.000343604372574191,0.114735872511221
+603,usa,na,Eglin AFB Site 2 Santa Rosa Island,FTFA,No,No,No,na,na, ,cd4260f9-4b27-49d1-94e4-3fb7126a622e,Eglin AFB Site 2 Santa Rosa Island,act,usaf,FL,0.00121015540798908,0.559852415968173
+606,usa,na,Laughlin AFB Aux 1,MXDP,No,yes,No,na,na, ,1df09251-78aa-4ed3-8363-be5680b6bb09,Laughlin AFB Aux 1,act,usaf,TX,0.000150683894162285,0.0636377380590318
+607,usa,na,Laughlin AFB,MXDP,No,yes,No,na,na, ,224ee0e0-d50a-47c9-bcbd-be5dc71f205c,Laughlin AFB,act,usaf,TX,0.00153763109642568,0.207060524802282
+615,usa,na,Hurlburt Field,FTEV,No,No,No,na,na, ,c067fe96-6f4e-4670-b9b0-c2ce51075415,Hurlburt Field,act,usaf,FL,0.00242739365921807,0.246748691069176
+617,usa,na,Schriever Air Force Base,GLEN,No,Yes,No,na,na, ,c97c88a9-1f30-4056-9250-353154a9b710,Schriever Space Force Base,act,usaf,CO,0.0022755670377137,0.201794816933357
+618,usa,na,Offutt Air Force Base,SGBP,No,Yes,No,na,na, ,3166a3bb-b649-45e8-82f6-9d2ea2b69b9f,Offut AFB,act,usaf,NE,0.000829717155738763,0.173520810443192
+619,usa,na,Cavalier Space Force Station,CRWU,No,Yes,No,na,na, ,3adc0cc2-df27-4073-94bd-0c8f8338fa23,Cavalier Space Force Station,act,usaf,ND,0.000138971962769574,0.0634106997400151
+620,usa,na,White Bluff,GJKZ,No,No,No,na,na, ,e07a3b51-9ff7-4ebe-880a-c086efcff899,White Bluff,act,usaf,WA,4.18883983002161E-05,0.0314034679846684
+621,usa,na,Cusick Survival Training Site,GJKZ,No,No,No,na,na, ,1ea51473-fc76-4a98-9c2f-05b661392052,Cusick Survival Training Site,act,usaf,WA,3.70055427083571E-05,0.0369596208321023
+622,usa,na,Arnold Air Force Base,ANZY,No,Yes,No,na,na, ,7485dc39-fe1c-43b7-ab51-b0e75e2a2f18,Arnold,act,usaf,TN,0.0156092863660433,1.18059418788863
+623,usa,na,DFAS Annex,YWHG,No,No,No,na,na, ,72f71e7d-671d-47d2-8618-76edd3ec43c3,DFAS Annex,act,usaf,ME,6.85326949678711E-06,0.0110369083074491
+624,usa,na,Newington Defense Fuel Support Point,YWHG,No,No,No,na,na, ,469701bf-a1c3-4f1a-b966-dab2c8ae2736,Newington Defense Fuel Support Point,act,usaf,NH,4.98274562232837E-06,0.0152065196470627
+625,usa,na,Whiteman AFB,YWHG,No,No,No,na,na, ,bd3a7188-b7ac-466e-bc86-f79e7e5b82e8,Whiteman AFB,act,usaf,MO,0.00220246652224887,0.295822745867508
+626,usa,na,Fairchild Air Force Base,GJKZ,No,Yes,No,na,na, ,f27dd0cb-45d7-4566-b1c6-a92ef3e51bb9,Fairchild AFB,act,usaf,WA,0.00204948015425543,0.262385146342022
+627,usa,na,Patrick Space Force Base,SXHT,No,Yes,No,na,na, ,7c3b7f09-36d1-43fa-9604-1cd3c28cb6d8,Patrick Space Force Base,act,usaf,FL,0.000733725466261603,0.307752203484018
+628,usa,na,Ellsworth AFB Site 2,FXBM,No,yes,No,na,na, ,b8da5ff4-1bb6-4d1c-b2c0-655dccb1a5ad,Ellsworth AFB Site 2,act,usaf,SD,0.000582890961595695,0.17020471502418
+629,usa,na,Grand Forks AFB,JFSD,No,yes,No,na,na, ,7d0db0cc-ca8f-413a-aebc-dc76f02710eb,Grand Forks AFB,act,usaf,ND,0.00256007780262735,0.28493390558383
+630,usa,na,Ellsworth AFB,FXBM,No,yes,No,na,na, ,b6950fdf-82c2-4ac3-8f3f-bf6795cc0815,Ellsworth AFB,act,usaf,SD,0.00180510663767564,0.204206993698226
+631,usa,na,USAF Academy,XQPZ,No,No,No,na,na, ,7081c0f9-7efa-4d11-8b4c-7460dd922be2,USAF Academy,act,usaf,CO,0.00779217917238384,0.409969696042945
+632,usa,na,USAF Academy Auxiliary Airfield,XQPZ,No,No,No,na,na, ,fdcb4b95-db48-4bc9-b273-f18392ae0561,USAF Academy Auxiliary Airfield,act,usaf,CO,8.23563118501625E-05,0.100002189811131
+633,usa,na,The Farish Memorial Recreational Annex,XQPZ,No,No,No,na,na, ,1927e722-1a73-4dcc-970b-2a3d78620ac1,The Farish Memorial Recreational Annex,act,usaf,CO,0.000283882774965605,0.101893073987076
+634,usa,na,Francis E. Warren Air Force Base,GHLN,No,Yes,No,na,na, ,b70a7b5b-e3a0-4f31-8950-5c13ae8897ab,F E Warren AFB,act,usaf,WY,0.00255129181368829,0.277023033069952
+635,usa,na,Clear Space Force Station,CRWU,No,Yes,No,na,na, ,b3a33804-cccc-4ad5-8378-c2076c2290c0,Clear Space Force Station,act,usaf,AK,0.00860569515225507,0.500134143451573
+641,usa,na,Barksdale AFB,AWUB,No,No,No,na,na, ,c76a1248-937c-4f7a-b5fa-7b9cf9a4f621,Barksdale AFB,act,usaf,LA,0.008522110852482,0.483032903274474
+642,usa,na,Fort Yukon Long Range Radar Site,VNMH,No,Yes,No,na,na, ,12989a66-0a84-4b14-8ca3-c12765aef518,Fort Yukon Long Range Radar Site,act,usaf,AK,7.44315393603756E-05,0.0659909320771028
+643,usa,na,Oliktok Long Range Radar Site,VNMH,No,Yes,No,na,na, ,4d64e16a-aaa1-4ed7-9cfb-81f07d0ceb00,Oliktok Long Range Radar Site,act,usaf,AK,0.0007311442595892,0.186209117537891
+644,usa,na,Eareckson Air Station,VNMH,No,Yes,No,na,na, ,7cc3aa3f-7e5e-4e21-a783-16f2631a4b34,Eareckson AS,act,usaf,AK,0.00188052590510779,0.344203921718587
+645,usa,na,Cape Newenham Long Range Radar Site,VNMH,No,Yes,No,na,na, ,667d71cf-ea25-43b4-9910-e7aac3ef3bee,Cape Newenham Long Range Radar Site,act,usaf,AK,0.00142223291004484,0.161338678901342
+646,usa,na,Tin City Long Range Radar Site,VNMH,No,Yes,No,na,na, ,97ea654a-c6a4-4bc2-b656-db405e7161e9,Tin City Long Range Radar Site,act,usaf,AK,0.000545707614946878,0.296916604906783
+648,usa,na,Point Barrow Long Range Radar Site,VNMH,No,Yes,No,na,na, ,756a9f70-a01e-46a6-9990-ec4ba41068ee,Point Barrow Long Range Radar Site,act,usaf,AK,0.000267631227870879,0.124906941403902
+649,usa,na,Air Force Plant 6,TTQK,No,No,No,na,na, ,6f17edbf-e6fb-4a18-9ff9-3a42dd540a99,Air Force Plant 6,act,usaf,GA,0.000298965326692269,0.126085534504483
+650,usa,na,Dobbins ARB,FGWB,No,No,No,na,na, ,3480addf-038d-4041-bbf6-bff93bed15d2,Dobbins ARB,act,afr,GA,0.000697419844755132,0.283107490220827
+651,usa,na,Grissom ARB,CTGB,No,No,No,na,na, ,6abb6328-264c-4234-949e-1bcdd24f89ac,Grissom ARB,act,afr,IN,0.00116920824916633,0.224252795767632
+652,usa,na,Isabela Puerto Rico,AAWZ,No,No,No,na,na, ,6f680525-3515-47cf-a6d2-7ce2fbb5cd35,Isabela Puerto Rico,act,usaf,PR,0.000143448542303304,0.0518459399001476
+653,usa,na,Homestead ARB,KYJM,No,No,No,na,na, ,7458b073-4ba0-4054-a8cc-6433fce28d3b,Homestead ARB,act,afr,FL,0.000355850004098102,0.160417966721326
+655,usa,na,Norwalk 2,PDPG,No,No,No,na,na, ,2eb20721-c486-444c-8374-ff99866b188a,Norwalk 2,act,afr,CA,1.97449037386832E-05,0.0182066501087536
+656,usa,na,Minn-St Paul,QJKL,No,No,No,na,na, ,354afdac-7cdf-4f85-a424-6bbc871cd02c,Minn-St Paul,act,afr,MN,0.000128114724248007,0.0872988337660433
+657,usa,na,Niagara Falls,RVKQ,No,No,No,na,na, ,88b1b634-0acb-48ee-956e-90b6e8bddf6b,Niagara Falls,act,afr,NY,0.000282474125469889,0.129485259124042
+658,usa,na,Pittsburgh IAP ARS,JLSS,No,No,No,na,na, ,905e2d2d-b1d9-4b70-8c44-8012292a4142,Pittsburgh IAP ARS,act,afr,PA,5.88755842727551E-05,0.0330173162084509
+659,usa,na,Westover ARB,YTPM,No,No,No,na,na, ,e6fe7312-1b33-4664-9073-be045b53d00a,Westover ARB,act,afr,MA,0.00105305961665181,0.209788225902375
+660,usa,na,Youngstown,ZQEL,No,No,No,na,na, ,81b3d3d1-b501-40f3-b9b2-f969e8a8f13d,Youngstown,act,afr,OH,0.000138682047236216,0.099859469540693
+661,usa,na,Yukon Weapons Range,FTQW,No,No,No,na,na, ,5ef9327c-e2ad-41c6-8c95-af310882df2c,Yukon Weapons Range,act,usaf,AK,0.0151433365754201,1.06559938182758
+662,usa,na,Bellows,LXEZ,No,No,No,na,na, ,c46932f3-f885-4ecb-806e-1a290fbdb5f9,Bellows,act,usaf,HI,0.000144974363593064,0.0813968562288528
+678,usa,na,Birch Lake Recreation Annex,FTQW,No,No,No,na,na, ,8ca89ed6-6269-417a-a2fb-a71a0eb2732c,Birch Lake Recreation Annex,act,usaf,AK,3.65376172339893E-05,0.0272778587086696
+679,usa,na,Dover AFB,FJXT,No,No,No,na,na, ,2a74c47d-9f95-44e0-aeee-a9b3dc3f46f3,Dover AFB,act,usaf,DE,0.0013349065040984,0.302734362942538
+680,usa,na,Charlotte/Douglas IAP,FJRP,No,No,No,na,na, ,29f4dc11-83b3-4be2-a43c-c4b02c91eb4a,Charlotte/Douglas IAP,act,airNationalGuard,NC,4.22441808041185E-05,0.0319202755850571
+681,usa,na,Goodfellow AFB,JCGU,No,No,No,na,na, ,e73c8eaf-ccbb-4245-8fc2-96ca935ee277,Goodfellow AFB,act,usaf,TX,0.0004145456682636,0.0935178532671683
+684,usa,na,Vance AFB,XTLF,No,No,No,na,na, ,b462f7d8-5c23-4fe3-b3d2-0d9adeb8e194,Vance AFB,act,usaf,OK,0.0013750861171502,0.223266833730348
+685,usa,na,Kegelman Air Force Auxiliary Field,XTLF,No,No,No,na,na, ,2d06e0c6-b521-4d53-bf72-228c04f70d11,Kegelman Air Force Auxiliary Field,act,usaf,OK,0.000495371006763889,0.126929988957063
+687,usa,na,Columbus Auxiliary Airfield,EEPZ,No,No,No,na,na, ,7ec046e1-c742-4421-801c-44389531f35d,Columbus Auxiliary Airfield,act,usaf,MS,0.000352123738593946,0.109982464109017
+688,usa,na,Columbus AFB,EEPZ,No,No,No,na,na, ,c13e3ecb-75c4-4944-bf8a-1da7010cda89,Columbus AFB,act,usaf,MS,0.00172673522774858,0.197505407449676
+689,usa,na,Luke Air Force Auxiliary Field No 1,NUEX,No,yes,No,na,na, ,423ce10d-2e7f-49d4-a193-e8122510a8f3,Luke Air Force Auxiliary Field No 1,act,usaf,AZ,0.000433614732401111,0.114968099776877
+690,usa,na,Barry M Goldwater Range,NUEX,No,No,No,na,na, ,eecfa0ad-7355-4ef8-a8e5-d1b0bc7c582b,Barry M Goldwater Range,act,usaf,AZ,0.00078463836712217,0.117713077524226
+691,usa,na,Luke Waste Annex,NUEX,No,yes,No,na,na, ,dc63fa1d-3b3c-4504-95d1-fd811b00c19a,Luke Waste Annex,act,usaf,AZ,1.52713255374692E-05,0.0156953061762112
+692,usa,na,The Barry M Goldwater Air Force Range,NUEX,No,No,No,na,na, ,da34c246-ab6b-48ee-ab5a-652e3857ed37,The Barry M Goldwater Air Force Range,act,usaf,AZ,0.408474461088417,3.82949703686773
+694,usa,na,George AFB,CZQZ,No,No,No,na,na, ,35f6d632-a981-4855-bfb4-f3bb41c2eb24,George AFB,clsd,usaf,CA,3.33831349053071E-06,0.00737422819445767
+695,usa,na,Tinker Air Force Base,WWYK,No,Yes,No,na,na, ,1629b3b1-e56e-436f-925b-c9468a59636a,Tinker AFB,act,usaf,OK,0.00224868670784417,0.376963750576779
+696,usa,na,Tinker Support Annex,WWYK,No,No,No,na,na, ,07c67dfc-9b66-4540-9649-46f821702be2,Tinker Support Annex,act,usaf,OK,6.60648597659019E-05,0.0432957502044574
+697,usa,na,Tinker Aerospace Complex,WWYK,No,No,No,na,na, ,7967b793-15a7-4471-b212-437f33fbbe5a,Tinker Aerospace Complex,act,usaf,OK,0.000237024222542459,0.0721353183902488
+700,usa,na,Gen Mitchell IAP,HTUV,No,No,No,na,na, ,be38ae97-3afd-47c5-b652-7d868f0316f0,Gen Mitchell IAP,act,airNationalGuard,WI,2.94338408366457E-05,0.0268017789253944
+701,usa,na,Duluth IAP,FMKM,No,No,No,na,na, ,7aa47031-9d66-4141-acee-fcef8cf7271d,Duluth IAP,act,airNationalGuard,MN,0.000101806379461777,0.12138876306194
+702,usa,na,Mansfield Lahm Airport ANG 179th AW,PBXP,No,No,No,na,na, ,60fe18cb-55fa-4c33-8188-8651b82e06a1,Mansfield Lahm Airport ANG 179th AW,act,airNationalGuard,OH,2.85591302144894E-05,0.0371185968140648
+703,usa,na,Alpena County Regional Airport,TDVG,No,No,No,na,na, ,9401625c-d494-48db-8550-7d2588a66218,Alpena County Regional Airport,act,airNationalGuard,MI,0.00025069048979276,0.10419053167662
+704,usa,na,Point Arena Air Force Station,BAEY,No,No,No,na,na, ,a5a57bc8-c08d-490d-89af-458782cce75f,Point Arena Air Force Station,care,usaf,CA,3.36621169481077E-05,0.0481106732708451
+705,usa,na,McClellan AFB,BAEY,No,No,No,na,na, ,101ccc64-ec85-4ef1-b242-48be21923ef5,McClellan AFB,clsd,usaf,CA,0.00120816118305811,0.221425212093829
+706,usa,na,Malmstrom Air Force Base,NZAS,No,Yes,No,na,na, ,5159a88e-2f75-4ed8-b0fc-b588890b3856,Malmstrom AFB,act,usaf,MT,0.00158568532469872,0.223070748229876
+707,usa,na,Fort Smith Map,HKRZ,No,No,No,na,na, ,,Fort Smith Map,act,airNationalGuard,AR,0.000461714794937507,0.132015648244695
+708,usa,na,Tucson IAP,XHEA,No,No,No,na,na, ,,Tucson IAP,act,airNationalGuard,AZ,3.62931016297807E-05,0.0289955839940361
+709,usa,na,Hector IAP,KKGA,No,No,No,na,na, ,910c2ccd-3f09-460e-8318-11f30baf3364,Hector IAP,act,airNationalGuard,ND,0.000123194228308421,0.0587320584749212
+710,usa,na,McEntire Joint National Guard Base,PSTE,No,No,No,na,na, ,5aedcd83-1ac8-49e8-848a-772fe47810d3,McEntire Joint National Guard Base,act,airNationalGuard,SC,0.000962058883260397,0.165135833625701
+711,usa,na,Minot Air Force Base,QJVF,No,Yes,No,na,na, ,f4c64ce8-78d9-4d54-8eed-3b7ccbff35ef,Minot AFB,act,usaf,ND,0.00244169615370993,0.336465583043924
+712,usa,na,Fresno Yosemite International ANG,HAYW,No,No,No,na,na, ,,Fresno Yosemite International ANG,act,airNationalGuard,CA,4.81109800603008E-05,0.0554943222396872
+713,usa,na,Great Falls IAP,JKSE,No,No,No,na,na, ,,Great Falls IAP,act,airNationalGuard,MT,6.45453724246181E-05,0.0413722429346918
+714,usa,na,Atlantic City IAP,AQRC,No,No,No,na,na, ,,Atlantic City IAP,act,airNationalGuard,NJ,0.004134246176136,0.419683363164181
+715,usa,na,Montgomery Regional Airport ANGB,FAKZ,No,No,No,na,na, ,9d142949-3705-4624-ac7b-46ab8428924f,Montgomery Regional Airport ANGB,act,airNationalGuard,AL,3.37196174768906E-05,0.0339387897108916
+716,usa,na,Pittsburgh IAP ANG,JLSQ,No,No,No,na,na, ,8135c9f0-a451-43cd-b123-0c6fcf4d6f69,Pittsburgh IAP ANG,act,airNationalGuard,PA,7.62697902700893E-05,0.0389049157948302
+717,usa,na,McLaughlin ANGB,LYBH,No,No,No,na,na, ,75f13f38-c695-4f02-8ed2-9196a45c688a,MCLAUGHLIN ANGB,act,airNationalGuard,WV,5.15226815878123E-05,0.0361692397275382
+718,usa,na,New Castle Airport,JLWS,No,No,No,na,na, ,038156bf-0cac-4bc6-b263-3bdc366c117a,New Castle Airport,act,airNationalGuard,DE,3.28660842114914E-05,0.0347480735124437
+719,usa,na,Jacksonville IAP,LSGA,No,No,No,na,na, ,,Jacksonville IAP,act,airNationalGuard,FL,0.000206323435122613,0.0944912775020575
+720,usa,na,W K Kellogg,MBMV,No,No,No,na,na, ,,W K Kellogg,act,airNationalGuard,MI,0.000140761520015076,0.134292672445584
+721,usa,na,Hancock Field,HAAW,No,No,No,na,na, ,,Hancock Field,act,airNationalGuard,NY,0.000159467856747142,0.104809860791704
+722,usa,na,Bangor IAP,FKNN,No,No,No,na,na, ,,Bangor IAP,act,airNationalGuard,ME,0.000124870229228691,0.0875839391482991
+723,usa,na,General Wayne A Downing Peoria IAP,JLQN,No,No,No,na,na, ,626deefb-281b-467d-b2dc-de112bad6ef3,General Wayne A Downing Peoria IAP,act,airNationalGuard,IL,0.000155851468662149,0.0632993969817122
+724,usa,na,Hulman Fld,LDXF,No,No,No,na,na, ,,Hulman Fld,act,airNationalGuard,IN,4.10817558531562E-05,0.0532955785266363
+725,usa,na,Toledo/Exp Airport,WYTD,No,No,No,na,na, ,,Toledo/Exp Airport,act,airNationalGuard,OH,5.91536877436738E-05,0.0509919139745503
+726,usa,na,Truax ANGB,XGFG,No,No,No,na,na, ,,Truax ANGB,act,airNationalGuard,WI,6.78296264595701E-05,0.0533317720099376
+728,usa,na,Francis S Gabreski Airport,WKVB,No,No,No,na,na, ,,Francis S Gabreski Airport,act,airNationalGuard,NY,3.87693066841166E-05,0.0757870360075344
+729,usa,na,Volk ANGB,YAQF,No,No,No,na,na, ,,Volk ANGB,act,airNationalGuard,WI,0.00431685549028771,0.489964686806933
+730,usa,na,Hardwood Range,YAQF,No,Yes,No,na,na, ,,Hardwood Weapons Range (ANG),act,airNationalGuard,WI,0.00331098361630211,0.287943320008041
+731,usa,na,Smoky Hill ANG Range,VUBV,No,No,No,na,na, ,,Smoky Hill ANG Range,act,airNationalGuard,KS,0.0142227718708909,0.637550930587354
+732,usa,na,Capital Airport,DCFT,No,No,No,na,na, ,,Capital Airport,act,airNationalGuard,IL,4.00881192490488E-05,0.0306978765542213
+733,usa,na,Salt Lake City IAP,USEB,No,No,No,na,na, ,,Salt Lake City IAP,act,airNationalGuard,UT,6.04449696766096E-05,0.0338341340609482
+734,usa,na,Goldwater ANGB,VTNB,No,No,No,na,na, ,,Goldwater ANGB,act,airNationalGuard,AZ,2.36240450703917E-05,0.0238877929269821
+735,usa,na,Portland IAP ANG,TQKD,No,No,No,na,na, ,76deba76-85c2-486c-8dff-54c84f004004,Portland IAP ANG,act,airNationalGuard,OR,0.000103419015431427,0.0522273512247024
+736,usa,na,Lincoln Map,NGCB,No,No,No,na,na, ,,Lincoln Map,act,airNationalGuard,NE,4.93109935177927E-05,0.0347621563290403
+737,usa,na,Rickenbacker,NLZG,No,No,No,na,na, ,,Rickenbacker,act,airNationalGuard,OH,7.17381490176194E-05,0.0544833135489595
+738,usa,na,Quonset State Airport,TWLR,No,No,No,na,na, ,,Quonset State Airport,act,airNationalGuard,RI,4.61424926925247E-05,0.0433803149151253
+740,usa,na,Selfridge ANGB,VGLZ,No,No,No,na,na, ,,Selfridge ANGB,act,airNationalGuard,MI,0.0013719145279083,0.207419542873658
+741,usa,na,Stewart IAP,WHAY,No,No,No,na,na, ,,Stewart IAP,act,airNationalGuard,NY,0.000113252068331349,0.0487837036809599
+742,usa,na,Pease ANGB NH,SZCQ,No,No,No,na,na, ,,Pease ANGB NH,act,airNationalGuard,NH,9.75743355411396E-05,0.0557326070540171
+743,usa,na,MCLB Albany,M67004,No,No,No,na,na, ,cfed841c-2342-4417-ba7a-16bdb6fa9349,MCLB Albany,act,usmc,GA,0.00125383123145184,0.203412024970446
+744,usa,na,MCLB Barstow,M62204,No,No,No,na,na, ,60651db3-2817-4625-8a18-17162cabed11,MCLB Barstow,act,usmc,CA,0.00150800111555327,0.224233998357705
+745,usa,na,Yermo Area,M62204,No,No,No,na,na, ,b2d7625d-3395-40ec-abbc-e1f480debe91,Yermo Area,act,usmc,CA,0.000674742497267289,0.149377771382243
+746,usa,na,Marine Corps Air Station Beaufort,M60169,No,Yes,No,na,na, ,9c1014a8-1220-4a9f-a7ae-320a611c9486,MCAS Beaufort,act,usmc,SC,0.00291409242049667,0.965519922839169
+747,usa,na,TBR Main,M60169,No,No,No,na,na, ,3c8641a5-d38a-47da-b186-0a4217b0b375,TBR Main,act,usmc,GA,0.021229662997257,2.92915816801905
+748,usa,na,MCSF Blount Island (FL),M67695,No,No,No,na,na, ,d4849d61-27fc-4bc1-ba17-ec0623fdd906,MCSF Blount Island (FL),act,usmc,FL,0.000350173335391446,0.089140229124434
+749,usa,na,Bridgeport,M67399,No,No,No,na,na, ,d90251c7-33bc-44f2-8796-03f24946b181,Bridgeport,act,usmc,CA,0.0258218493427194,1.07134318851069
+750,usa,na,Point of Marsh Target,M00146,No,No,No,na,na, ,2a5cf414-8a0b-4e42-8100-96cae7c8ceec,Point of Marsh Target,act,usmc,NC,0.00476180547821059,0.832266566433512
+751,usa,na,ALF Bogue,M00146,No,No,No,na,na, ,453955f5-b854-4663-8078-d90a1793a3dc,ALF Bogue,act,usmc,NC,0.000359639677299128,0.134261754307246
+752,usa,na,OLF Atlantic,M00146,No,No,No,na,na, ,e4ef33c2-a766-4674-8209-6557c3cda64e,OLF Atlantic,act,usmc,NC,0.000586528089115745,0.13275738395181
+753,usa,na,Oak Grove,M00146,No,No,No,na,na, ,cb85041c-d46f-4fd6-9503-b058ec06e307,Oak Grove,act,usmc,NC,0.000379787453766767,0.10719138461072
+754,usa,na,Marine Corps Air Station Cherry Point,M00146,No,Yes,No,na,na, ,0c82fb47-d16b-44c9-95bc-a172ea24eddc,MCAS Cherry Point,act,usmc,NC,0.0045351536355156,0.896729286628641
+755,usa,na,MC Trng Area Bellows,M00318,No,No,No,na,na, ,02cf0e5c-d799-4b8c-a9c5-e388335b4cde,MC Trng Area Bellows,act,usmc,HI,0.000363459386107934,0.137776490315923
+756,usa,na,Puuloa-Oahu,M00318,No,No,No,na,na, ,7e17b1b6-6e3a-4c22-8244-03af7b2003e9,Puuloa-Oahu,act,usmc,HI,5.57724742975552E-05,0.0345102833234319
+757,usa,na,"Marine Corps Base Hawaii, Camp H.M. Smith",M00318,No,Yes,No,na,na, ,e750c1dd-a4cd-4e28-bc79-75e9e534a582,MCB Camp Smith,act,usmc,HI,7.77194361489819E-05,0.0456671536921886
+758,usa,na,Pearl City Annex,M00318,No,No,No,na,na, ,53a812ce-f226-4378-a5fe-b3a6a873f443,Pearl City Annex,act,usmc,HI,9.56323674472515E-06,0.0133774300585058
+759,usa,na,Marine Corps Base Hawaii,M00318,No,Yes,No,na,na, ,f49e846f-d22a-4905-ac6c-82c716a435a3,MCB Hawaii (Kaneohe Bay),act,usmc,HI,0.00106958477317676,0.19344237913269
+760,usa,na,Marine Corps Air Station New River,M67001,No,Yes,No,na,na, ,8c0d6d10-8698-422c-82a6-e4ee257600ff,MCB Camp Lejeune (West Site),act,usmc,NC,0.0107335648558546,1.59511266997148
+762,usa,na,Marine Corps Air Station Miramar,M67865,No,Yes,No,na,na, ,8d24c057-a525-4e2f-8110-24a4e67cb95a,MCAS Miramar,act,usmc,CA,0.00880453206718812,0.73552597534323
+763,usa,na,Brooklyn NY,M68479,No,No,No,na,na, ,fc35296f-0241-4380-9d36-816bfcc7f697,Brooklyn NY,act,usmcr,NY,2.18505010707304E-05,0.0373589766610626
+764,usa,na,Dyess AFB,FNWZ,No,yes,No,na,na, ,031f047a-2bea-41d9-91ef-89b26728ca6b,Dyess AFB,act,usaf,TX,2.40052077060682E-06,0.0067872939113647
+765,usa,na,Syracuse MCRC,M68479,No,No,No,na,na, ,141e38a5-339a-4efb-9470-f5bcba131364,Syracuse MCRC,act,usmcr,NY,0.000114314048687447,0.0692707004325354
+766,usa,na,MCRD Parris Island,M00263,No,No,No,na,na, ,2b9bccfc-5982-4746-9fcf-13e7a40af3eb,MCRD Parris Island,act,usmc,SC,0.00394692312829648,0.294467199488311
+767,usa,na,Marine Corps Base Quantico,M00264,No,Yes,No,na,na, ,4a65a07b-d1d5-43c1-8cc1-b0fd615cf7b3,MCB Quantico,act,usmc,VA,0.0246878977184224,1.23881402465382
+768,usa,na,Former NTC,M00243,No,No,No,na,na, ,47361682-b63c-45d6-af0a-512e2b6fab42,Former NTC,act,usmc,CA,2.78433890343877E-05,0.027839449786147
+769,usa,na,MCRD San Diego,M00243,No,No,No,na,na, ,96c077e4-0568-44d2-80da-abfa03c10c29,MCRD San Diego,act,usmc,CA,0.000165790751680106,0.0692895659102345
+770,usa,na,Harbor Drive,M00243,No,No,No,na,na, ,f9a30a5a-48b5-4bab-93f3-7d125400f0be,Harbor Drive,act,usmc,CA,3.03700880976976E-06,0.00964949392056101
+771,usa,na,Marine Corps Air Ground Combat Center Twentynine Palms,M67399,No,Yes,No,na,na, ,5ed7d8e9-6057-4c20-ab83-b31e350751e8,Twentynine Palms,act,usmc,CA,0.302383415095392,3.15707565794447
+772,usa,na,Marine Corps Air Station Yuma,M62974,No,Yes,No,na,na, ,4d352e8d-4812-4e79-a964-6cd21b64a271,MCAS Yuma,act,usmc,AZ,0.00184606464699755,0.213534945262811
+773,usa,na,Barry Goldwater Range,M62974,No,No,No,na,na, ,de13aec4-e374-463b-af1b-436adfd696c3,Barry Goldwater Range,act,usmc,AZ,0.269050107739986,2.70907450343228
+774,usa,na,Choc Mt Air Gnry Rng,M62974,No,No,No,na,na, ,329a5f34-8d78-4e5b-a0be-abf29f68d058,Choc Mt Air Gnry Rng,act,usmc,CA,0.179590501644498,2.87245578384834
+775,usa,na,Air Force Office of Scientific Research,WHS01,No,Yes,No,na,na, ,b464a05a-a6b5-449b-aaa0-309d955300fd,One Liberty Center,act,whs,VA,4.55495410278672E-07,0.00272253396167369
+777,usa,na,Pentagon,WHS01,No,Yes,No,na,na, ,bbacf11d-3872-4c1e-9c41-c756ae9b8ae1,Pentagon Building Site,act,whs,VA,9.4073527634464E-05,0.0786037085266943
+778,usa,na,Mark Center,WHS01,No,Yes,No,na,na, ,cc4e73ff-9252-42af-b180-94c4f3cafc08,Mark Center,act,whs,VA,7.81186258791422E-06,0.0196942185111123
+779,usa,na,Arbuckle Airfield,QSEU,No,No,No,na,na, ,d283dca8-f6fe-45fa-813f-d9d9216c303c,Arbuckle Airfield,act,usaf,FL,0.000651963496920871,0.140798450762782
+780,usa,na,Avon Park AF Range,QSEU,No,No,No,na,na, ,eaf47168-c845-464f-95ed-a9c40046ffe7,Avon Park AF Range,act,usaf,FL,0.0393830424832231,1.20555691329449
+783,usa,na,Maxwell AFB Gunter Annex,PNQS,No,No,No,na,na, ,7532e70a-b136-4db4-a0db-eec9a8ffa5bd,Maxwell AFB Gunter Annex,act,usaf,AL,0.000146536749525694,0.100778870453101
+784,usa,na,Holloman Air Force Base,KWRD,No,Yes,No,na,na, ,7fe1e060-1b36-41dc-bc41-3879fe69ecb4,Holloman AFB,act,usaf,NM,0.0198655658107327,0.848140070102901
+785,usa,na,Maxwell AFB,PNQS,No,No,No,na,na, ,a9078f07-6ebb-4052-90d8-7c97b8b55dd0,Maxwell AFB,act,usaf,AL,0.000868840035536778,0.152062884914105
+786,usa,na,Scott AFB,VDYD,No,No,No,na,na, ,e32f80b9-71b5-45b0-aa4a-2a2d15068e17,Scott AFB,act,usaf,IL,0.00121276693243999,0.240447299500669
+787,usa,na,St Louis Air Force Station,VDYD,No,No,No,na,na, ,b482f220-e5b4-4d84-a729-99e7b6425bc6,St Louis Air Force Station,act,usaf,MO,1.30455227917992E-05,0.0206647049016682
+788,usa,na,NGA Arnold Site,VDYD,No,No,No,na,na, ,9150e292-6d44-4c50-b26d-80de35251293,NGA Arnold Site,act,usaf,MO,2.64316836364742E-05,0.030588070885644
+789,usa,na,MacDill Air Force Base,NVZR,No,Yes,No,na,na, ,c51ec62e-0880-459a-92a6-dc64a1459f64,MacDill AFB,act,usaf,FL,0.00211237196549519,0.22652940296686
+790,usa,na,McConnell AFB,PRQE,No,No,No,na,na, ,7db565f8-3838-47ea-aabc-be62659e5cc6,McConnell AFB,act,usaf,KS,0.00573265580328552,0.30475351749438
+792,usa,na,McGhee Tyson Airport,PSXE,No,No,No,na,na, ,,McGhee Tyson Airport,act,airNationalGuard,TN,0.000147650150893242,0.0796305323488627
+794,usa,na,Los Angeles Space Force Annex No4,ACJP,No,No,No,na,na, ,2f3d6667-b281-42da-ab14-6618d46e3558,Los Angeles Space Force Annex No4,act,usaf,CA,1.6324606804119E-06,0.00529356346530049
+795,usa,na,New Boston Space Force Station,GLEN,No,Yes,No,na,na, ,578d64db-d44d-489e-9f2b-48be37a0745e,New Boston Air Station,act,usaf,NH,0.00128831166375676,0.166665108949811
+796,usa,na,Nashville IAP,BKTZ,No,No,No,na,na, ,,Nashville IAP,act,airNationalGuard,TN,3.56207572167477E-05,0.0259165459641207
+797,usa,na,Birmingham Airport,BRKR,No,No,No,na,na, ,,Birmingham Airport,act,airNationalGuard,AL,5.53846455204621E-05,0.0781942587131982
+798,usa,na,Bradley IAP,CEKT,No,No,No,na,na, ,,Bradley IAP,act,airNationalGuard,CT,6.48366433324554E-05,0.0413519385991004
+799,usa,na,Forbes Field ANG,GUQE,No,No,No,na,na, ,,Forbes Field ANG,act,airNationalGuard,KS,8.61324751895154E-05,0.0600304544842826
+801,usa,na,Des Moines IAP,FFAN,No,No,No,na,na, ,,Des Moines IAP,act,airNationalGuard,IA,7.06871126112674E-05,0.0473981105140662
+802,usa,na,Otis ANG Base,SPBN,No,No,No,na,na, ,,Otis ANG Base,act,airNationalGuard,MA,0.00156017732297187,0.522112962156272
+803,usa,na,Luis Munoz Marin IAP,TUMR,No,No,No,na,na, ,,Luis Munoz Marin IAP,act,usaf,PR,3.30149193814577E-05,0.0277333385195409
+804,usa,na,Joe Foss Field,LUXC,No,No,No,na,na, ,,Joe Foss Field,act,airNationalGuard,SD,7.59646154619986E-05,0.0731969730458258
+805,usa,na,Jackson IAP Thompson Field,LRXQ,No,No,No,na,na, ,,Jackson IAP Thompson Field,act,airNationalGuard,MS,4.67354013835575E-05,0.0507712421260061
+806,usa,na,Martin State Airport,PJMS,No,No,No,na,na, ,,Martin State Airport,act,airNationalGuard,MD,7.4201641837135E-05,0.0479669466135665
+807,usa,na,Memphis IAP,PYKL,No,No,No,na,na, ,,Memphis IAP,act,airNationalGuard,TN,4.75076783459372E-05,0.0315482904709984
+808,usa,na,Gulfport-Biloxi Regional Airport (ANG),JTVE,No,No,No,na,na, ,,Gulfport-Biloxi Regional Airport (ANG),act,airNationalGuard,MS,4.09795479754393E-05,0.0325288643980571
+809,usa,na,Channel Islands ANG Station,DJCF,No,No,No,na,na, ,,Channel Islands ANG Station,act,airNationalGuard,CA,7.24302499293117E-05,0.0358324667366232
+810,usa,na,Louisville IAP-Standiford FL Site 1,WEAS,No,No,No,na,na, ,,Louisville IAP-Standiford FL Site 1,act,airNationalGuard,KY,3.38919339810673E-05,0.0317067909298187
+811,usa,na,Reno Tahoe IAP,UCTL,No,No,No,na,na, ,,Reno Tahoe IAP,act,airNationalGuard,NV,2.54963538282027E-05,0.0227621518697411
+812,usa,na,Springfield Beckley,WAAR,No,No,No,na,na, ,,Springfield Beckley,act,airNationalGuard,OH,5.63472965495748E-05,0.0488771423596389
+813,usa,na,Schenectady ANG MAP,VBDZ,No,No,No,na,na, ,,Schenectady ANG MAP,act,airNationalGuard,NY,5.61851750262576E-05,0.0424835679149364
+814,usa,na,Will Rogers World Airport,YZEU,No,No,No,na,na, ,,Will Rogers World Airport,act,airNationalGuard,OK,5.42594004855346E-05,0.0291788087550418
+816,usa,na,Burlington IAP,CURZ,No,No,No,na,na, ,,Burlington IAP,act,airNationalGuard,VT,0.000113756623022709,0.0769145747949914
+817,usa,na,Tulsa IAP,XHZG,No,No,No,na,na, ,,Tulsa IAP,act,airNationalGuard,OK,4.0758267914498E-05,0.0375858744154764
+818,usa,na,Boise Air Terminal,BXRH,No,No,No,na,na, ,,Boise Air Terminal,act,airNationalGuard,ID,0.000264813681042142,0.113512373442912
+819,usa,na,EWVRA Shepherd Field,PJVY,No,No,No,na,na, ,,EWVRA Shepherd Field,act,airNationalGuard,WV,0.000131670014980045,0.0882944731738276
+820,usa,na,Jacksonville FL Maint,M68479,No,No,No,na,na, ,00000000-0000-0000-0000-000000000000,Jacksonville FL Maint,act,usmcr,FL,4.46926776476175E-05,0.0401075581565764
+821,usa,na,NAVSUPPACT Annapolis,N61152,No,No,No,na,na, ,,NAVSUPPACT Annapolis,act,usn,MD,7.90481353760697E-05,0.0468596633754891
+822,usa,na,Dania Beach (Lauderdale),N00213,No,No,No,na,na, ,e73218ef-ee3a-42b7-a5ea-fc802ebdbf55,Dania Beach (Lauderdale),act,usn,FL,3.56343821295013E-06,0.0101072173087283
+823,usa,na,Naval Research Laboratory – Stennis Space Center,N62604,No,Yes,No,na,na, ,8d8806d3-571e-4f5b-8acf-ec9818baf7d4,Stennis Space Center,act,usn,MS,0.00529258109509101,0.368851173198218
+824,usa,na,Rome Research Laboratory,MXRD,No,Yes,No,na,na, ,,Rome Laboratory,act,usaf,NY,4.67546358322579E-05,0.0386621717801256
+825,usa,na,Savannah/Hilton Head IAP,XDQU,No,No,No,na,na, ,,Savannah/Hilton Head IAP,act,airNationalGuard,GA,7.97626710209443E-05,0.0771121792866327
+826,usa,na,Air Force Maui Optical and Supercomputing Site,TDKA,No,Yes,No,na,na, ,,Remote Maui Experimental Site,act,usaf,HI,1.85174963007739E-06,0.00585070872920185
+827,usa,na,Ramey AF Solar Observatory Research Site,SXHT,No,No,No,na,na, ,,Ramey AF Solar Observatory Research Site,act,usaf,PR,9.84000280368491E-07,0.00449199668911592
+828,usa,na,Verona Defense Fuel Support Point,MXRD,No,No,No,na,na, ,,Verona Defense Fuel Support Point,act,usaf,NY,5.84624490329588E-06,0.0100287662170488
+829,usa,na,Brooks AFB,CNBC,No,No,No,na,na, ,,Brooks AFB,envh,usaf,TX,0.0004914676108001,0.0957333554118392
+830,usa,na,Air Force Plant 44,TTQK,No,No,No,na,na, ,,Air Force Plant 44,act,usaf,AZ,0.00049556748035684,0.0982030569225636
+831,usa,na,Marine Corps Museum,M00264,No,No,No,na,na, ,a8595b4e-a30b-491f-a187-d5446e3c9a97,Marine Corps Museum,act,usmc,VA,4.21750951318245E-05,0.0308239521526202
+832,usa,na,Barnes Map ANG,AXQD,No,No,No,na,na, ,,Barnes Map ANG,act,airNationalGuard,MA,4.88027114897704E-05,0.0329259710715562
+834,usa,na,Air Force Plant 4,TTQK,No,No,No,na,na, ,,Air Force Plant 4,act,usaf,TX,0.000178185624235994,0.0631184597596378
+835,usa,na,Chanute AFB,VDYD,No,No,No,na,na, ,,Chanute AFB,care,usaf,IL,0.000946530889450514,0.191866786251757
+836,usa,na,Air Force Plant 42,TTQK,No,yes,No,na,na, ,,Air Force Plant 42,act,usaf,CA,0.00207159480214614,0.266156520902065
+837,usa,na,Rosecrans MAP (139AG),ULYB,No,No,No,na,na, ,,Rosecrans MAP (139AG),act,airNationalGuard,MO,3.80100339043565E-05,0.0298922694687404
+838,usa,na,Kaena Point Space Force Station,GLEN,No,Yes,No,na,na, ,,Kaena Point Space Force Station,act,usaf,HI,5.91957268625265E-06,0.0224467783132833
+839,usa,na,Eglin Air Force Base,FTFA,No,Yes,No,na,na, ,70149253-9aff-4de5-8b6c-48f07991c797,Eglin AFB (Eglin Main and Reservation),act,usaf,FL,0.171243825838474,3.79769498936898
+840,usa,na,Army Futures Command,,no,Yes,no,na,na, ,,,act,usa,tx,2.92857293970883E-10,6.1044064219512E-05
+841,usa,na,Army Research Lab – Raleigh Durham,,no,Yes,no,na,na, ,,,act,usa,nc,3.13548298436217E-10,6.33016721586814E-05
+843,usa,na,Army Research Lab – Orlando Simulations and Training Technology Center,,no,Yes,no,na,na, ,,,act,usa,fl,2.02495584744611E-07,0.00246355358694127
+846,usa,na,Biometric Technology Center (Biometrics Identity Management Activity),,no,Yes,no,na,na, ,,,act,other,wv,0.000181797950062901,0.0541922209416867
+847,usa,na,Defense Advanced Research Projects Agency,WHS01,no,Yes,no,na,na, ,,,,whs,va,2.43690010393038E-07,0.00198961052484086
+849,usa,na,Altus AFB,AGGN,No,No,No,na,na, ,8e6367c3-ec65-422b-a037-befa6dcf1ac5,Altus AFB,act,usaf,OK,0.00162995204323124,0.238510967286931
+857,usa,na,Dillingham Mil Res,15815,No,No,No,na,na, ,ae518b89-f488-4593-b88a-10ec33c3e540,Dillingham Mil Res,act,usa,HI,0.000229522896461276,0.119931884177731
+858,usa,na,Fort De Russy,15815,No,No,No,na,na, ,8246b7e1-ba34-444f-ad1e-e60fed018985,Fort De Russy,act,usa,HI,2.55888880928978E-05,0.0253244739119383
+863,usa,na,Helemano Military Reservation,15815,No,No,No,na,na, ,c75a02e6-7615-47b7-b413-945782b94a5d,Helemano Military Reservation,act,usa,HI,9.93507389921433E-05,0.0441713101056086
+864,usa,na,Kilauea Mil Reserve,15815,No,No,No,na,na, ,1dcf4f0f-f2e0-41bd-9fa5-cbf58032b6fd,Kilauea Mil Reserve,act,usa,HI,2.27572716084978E-05,0.0271207746894236
+868,usa,na,March ARB,PDPG,No,No,No,na,na, ,cac20c3b-0b6a-42c6-8af1-be5bc0123f19,March ARB,act,afr,CA,0.00271477519049768,0.414166025488827
+885,usa,na,OLF Coupeville,N00620,No,No,No,na,na, ,78f95ffc-e90b-47a3-9961-69b7ac219f3c,OLF Coupeville,act,usn,WA,0.000382155178158428,0.179358486359209
+886,usa,na,Pohakuloa Training Area,15815,No,Yes,No,na,na, ,51fd1412-c81c-4026-a32c-f8cce5a517bd,Pohakuloa Training Area,act,usa,HI,0.0460697410405828,1.31267065051134
+891,usa,na,Shipyard Puget Sound,N68436,No,No,No,na,na, ,1e8019d5-9ffe-4a29-9b2f-f0b2a183723c,Shipyard Puget Sound,act,usn,WA,0.000149568989854743,0.0644523218335644
+892,usa,na,Travis Air Force Base,XDAT,No,Yes,No,na,na, ,0b19f11c-88cf-43fc-8f51-1cb2d9ecf1e4,Travis AFB,act,usaf,CA,0.00255577249981798,0.34837211652605
+897,usa,na,Travis System Annex No 2,XDAT,No,No,No,na,na, ,28a92f84-81dd-44c5-922a-be00bcf3d4e2,Travis System Annex No 2,act,usaf,CA,8.65197630446346E-05,0.0447504609980761
+898,usa,na,Tripler Army Medical Center,15815,No,No,No,na,na, ,6eac0a94-412b-43f5-8b8b-248feed23ef7,Tripler Army Medical Center,act,usa,HI,0.000125932291211939,0.0511756030333933
+901,usa,na,Aliamanu Military Reservation,15815,No,No,No,na,na, ,bfb29cb9-fa51-49f8-842c-37c58805552d,Aliamanu Military Reservation,act,usa,HI,0.000187477544159265,0.0670692600437387
+902,usa,na,Ellington Field Joint Reserve Base,FWJH,No,Yes,No,na,na, ,,Ellington Field,act,airNationalGuard,TX,7.88555958024517E-05,0.0432132985178408
+903,usa,na,NG Camp Orchard Cantonement Area,16A25,No,No,No,na,na, ,fec4b834-7adc-43f1-9eb3-73669aeff56e,NG Camp Orchard Cantonement Area,act,armyNationalGuard,ID,0.00028803483428419,0.123066267279671
+916,usa,na,Aberdeen Proving Ground,24015,No,Yes,No,na,na, ,0e45b74d-0a10-420a-9c07-f7a644cc9665,Aberdeen Proving Ground,act,usa,MD,0.030540461260216,0.963338261830483
+924,usa,na,Badger AAP,55125,No,No,No,na,na, ,7a194eb9-d831-4b2d-a8b3-abad459f0d03,Badger AAP,excs,usa,WI,0.000626268753194381,0.344156043529485
+925,usa,na,Naval Surface Warfare Center Carderock Division – Acoustic Research Detachment,N68967,No,Yes,No,na,na, ,724d945f-93aa-4f0b-9999-8121ebbe2128,Bayview Idaho,act,usn,ID,1.27329417409783E-05,0.0262765504021929
+938,usa,na,Buckley Space Force Base,CRWU,No,Yes,No,na,na, ,cd2a156d-94eb-40bc-955b-9de7d7aa66d3,Buckley Space Force Base,act,usaf,CO,0.0014034415066817,0.206335954699729
+961,usa,na,Cape Canaveral Space Force Station,SXHT,No,Yes,No,na,na, ,5717bf22-b815-4a1d-a87e-dec178c88448,Cape Canaveral Space Force Station,act,usaf,FL,0.00597201227128608,0.533657073919215
+962,usa,na,Carlisle Barracks,42155,No,No,No,na,na, ,75f52197-201a-4bd8-8f79-12f726cc7c03,Carlisle Barracks,act,usa,PA,0.000176770425923678,0.0846918912662744
+964,usa,na,Twin Cities AAP,27650,No,No,No,na,na, ,3a6127f9-d83b-4f72-a629-73d760e239a3,Twin Cities AAP,semi,usa,MN,7.73745455262542E-05,0.0957889796027815
+966,usa,na,Tooele Army Depot,49575,No,No,No,na,na, ,66b430dc-d3fd-416a-8621-96ab3c200a18,Tooele Army Depot,act,usa,UT,0.00976771270643439,0.480548981619547
+971,usa,na,Sioux Gateway Airport (ANG),VSSB,No,No,No,na,na, ,,Sioux Gateway Airport (ANG),act,airNationalGuard,IA,4.06933777412632E-05,0.0434401796851089
+974,usa,na,Sheppard AFB,VNVP,No,No,No,na,na, ,a8ad9288-fa32-463f-ae8c-3b5e27127018,Sheppard AFB,act,usaf,TX,0.00177011713481079,0.196156880249386
+992,usa,na,Shaw Air Force Base,VLSB,No,Yes,No,na,na, ,d7a93e17-e577-4e76-a1c4-d068bc8e8ac8,Shaw AFB,act,usaf,SC,0.00133991811867418,0.283982805855564
+1054,usa,na,Rocky Mountain Arsenal,8605,No,No,No,na,na, ,d9d44799-3310-4028-89b1-ec840cd0eaa1,Rocky Mountain Arsenal,clsd,usa,CO,0.00158038188010323,0.484726249884739
+1136,usa,na,Rock Island Arsenal,17775,No,Yes,No,na,na, ,79503139-b953-4306-a46b-371e078004f1,Rock Island Arsenal,act,usa,IL,0.000377383866180026,0.164228911699365
+1161,usa,na,Pine Bluff Arsenal,5087,No,No,No,na,na, ,139e418c-68be-4c0f-9124-47935dab9e4b,Pine Bluff Arsenal,act,usa,AR,0.00512443903903659,0.414149468955328
+1162,usa,na,Ozol Defense Fuel Support Point,XDAT,No,No,No,na,na, ,9d5bbbf0-e21d-4de8-b46a-aec60dfa3d80,Ozol Defense Fuel Support Point,act,usaf,CA,2.13419307328877E-05,0.0293791774377787
+1166,usa,na,Nellis Air Force Base,RKMF,No,Yes,No,na,na, ,c9ab2d33-dde1-41a6-bd6c-b4ad3173e739,Nellis,act,usaf,NV,0.00764250221072871,0.735320753124758
+1206,usa,na,Nevada Test and Training Range,RKMF,No,Yes,No,na,na, ,d156e7c8-dd0a-45ea-9963-154f792dd633,Nellis Air Force Range,act,usaf,NV,1.18817468297448,8.16114374291508
+1215,usa,na,Cheyenne Regional Airport,DPEZ,No,No,No,na,na, ,,Cheyenne Regional Airport,act,airNationalGuard,WY,2.88964806713921E-05,0.030374373831917
+1219,usa,na,Edwards Air Force Base,FSPM,No,Yes,No,na,na, ,a5c41d7a-bae9-4a1b-a140-631839625098,Edwards AFB,act,usaf,CA,0.1230406590646,1.81074043411605
+1220,usa,na,Eielson Air Force Base,FTQW,No,Yes,No,na,na, ,e1519884-ce88-4d2d-8d34-17c2abd85194,Eielson AFB,act,usaf,AK,0.0151187289593508,0.97985041603502
+1227,usa,na,Fort Bliss,48125,No,Yes,No,na,na, ,fbed10df-15e2-41da-85d3-90617216608b,Fort Bliss,act,usa,TX,0.431945012582901,5.5732699403778
+1234,usa,na,Fort Meade,24355,No,Yes,No,na,na, ,cbd66f34-edc6-4fb4-9024-01cc74fad822,Fort George G Meade,act,usa,MD,0.00196923413932382,0.378603535937036
+1237,usa,na,Fort Cavazos,48255,No,Yes,No,na,na, ,51b7ca7e-023e-4273-899b-32f08dcbd1a6,Fort Cavazos,act,usa,TX,0.084011169289397,2.59483845461259
+1242,usa,na,Fort Shafter,15815,No,Yes,No,na,na, ,580b63b5-4745-417a-a1c9-852e005dea00,Fort Shafter,act,usa,HI,0.000207452802214902,0.105883326558719
+1245,usa,na,Fort Sheridan,N00128,No,No,No,na,na, ,1f614ecd-baf1-4a09-8312-7a5608cef102,Fort Sheridan,act,usn,IL,5.28697196386929E-05,0.0595959248995346
+1247,usa,na,NAVSTA Everett WA,N68967,No,No,No,na,na, ,afaf1973-e8a8-48f0-981a-62011328fcf8,NAVSTA Everett WA,act,usn,WA,0.000104978405488509,0.0694001250826454
+1248,usa,na,Naval Base Kitsap Bremerton WA,N68436,No,Yes,No,na,na, ,bf7f3e84-24e4-4b9c-bcfb-ca381c7a6134,Naval Base Kitsap Bremerton WA,act,usn,WA,0.000189915472219582,0.0998410538352039
+1256,usa,na,Naval Air Station Whidbey Island,N00620,No,Yes,No,na,na, ,fa3c88a0-386c-44ba-b74f-07a347c6064e,NAS Whidbey Island WA,act,usn,WA,0.00214159178221962,0.384543294109629
+1262,usa,na,Fallon Range Complex,N60495,No,Yes,No,na,na, ,d6ef694f-817e-4bcd-9250-25c69941cd0e,NAS Fallon NV,act,usn,NV,0.00360385249177853,0.375094857765256
+1266,usa,na,NARL Barrow Camp Tr1,N68436,No,No,No,na,na, ,7ec65456-8235-42a8-b1b6-fcfaa4a953aa,NARL Barrow Camp Tr1,act,usn,AK,0.000634308849839726,0.207534819554157
+1275,usa,na,Holston Army Ammunition Plant,47305,No,Yes,No,na,na, ,3e677777-fdef-410d-a232-c310759f2b73,Holston AAP,act,usa,TN,0.00250245283541517,0.609538435480162
+1278,usa,na,Moody Air Force Base,QSEU,No,Yes,No,na,na, ,f5eebd16-d984-4920-9bcd-9d1e9e36a8e7,Moody AFB,act,usaf,GA,0.00415605831994981,0.403562770906771
+1287,usa,na,Joint Base McGuire-Dix-Lakehurst,PTFL,no,Yes,Yes,na,na, ,7e9feba9-bb9c-4618-8d59-8f2a358eed05,Dix,act,usaf,NJ,0.0177638436794041,1.15168021592048
+1302,usa,na,Marine Corps Base Camp Lejeune,M67001,No,Yes,No,na,na, ,d125b3b1-e29d-4c81-9f71-25f7547a1524,MCB Camp Lejeune (East Site),act,usmc,NC,0.0388331208350792,3.52615903850687
+1305,usa,na,Luke AFB,NUEX,No,yes,No,na,na, ,96dbd92b-7524-4c28-b083-2f75968c1d6b,Luke AFB,act,usaf,AZ,0.00116209446946414,0.253469903610882
+1311,usa,na,Jim Creek,N68967,No,No,No,na,na, ,ac0b1b1a-0c3b-4999-82e7-eb0b98140d93,Jim Creek,act,usn,WA,0.00236098799223328,0.272366955284098
+1312,usa,na,Los Angeles Air Force Base,ACJP,No,Yes,No,na,na, ,a99f8c0a-61e0-4472-8a27-39c5beef77d5,Los Angeles AFB,act,usaf,CA,2.05653273042117E-05,0.019229648769769
+1317,usa,na,Joliet AAP Elwood,17305,No,No,No,na,na, ,0aff2743-f305-4697-831b-4800cd65d8cd,Joliet AAP Elwood,excs,usa,IL,0.000260732213519077,0.14114153635584
+1319,usa,na,Kingsley Field Cantonement Site 1,KJAQ,No,No,No,na,na, ,,Kingsley Field Cantonement Site 1,act,airNationalGuard,OR,7.01793937878392E-05,0.0688695304863527
+1326,usa,na,Kamokala Ridge,N61064,No,No,No,na,na, ,567fe9af-2148-4ce6-84ed-5eb905c6f579,Kamokala Ridge,act,usn,HI,3.14256371893862E-05,0.0255396767363829
+1331,usa,na,Keesler AFB,MAHG,No,No,No,na,na, ,1e6f8d19-ada7-4e81-963f-ef8d87a73974,Keesler AFB,act,usaf,MS,0.000540626999509186,0.152295156587697
+1335,usa,na,Naval Base Kitsap - Keyport,N68436,No,Yes,No,na,na, ,b795abdd-ba2c-44f1-bd17-00dca2a08896,Naval Base Kitsap - Keyport,act,usn,WA,0.000145146862450929,0.0531078206193606
+1343,usa,na,King Salmon Long Range Radar Site,VNMH,No,Yes,No,na,na, ,628b8a7d-10b2-429a-b55b-3a89552cf9b9,King Salmon Airport,act,usaf,AK,0.000229538716666866,0.0790060634951253
+1345,usa,na,Joint Base Charleston,DKFX,No,No,Yes,na,na, ,9b495236-37de-404e-8efd-11da9ae74f96,Joint Base Charleston,act,usaf,SC,0.00794535176896716,1.67329311120823
+1370,usa,na,Joint Base Charleston North Field SBML,DKFX,No,No,Yes,na,na, ,9b495236-37de-404e-8efd-11da9ae74f96,Joint Base Charleston North Field SBML,act,usaf,SC,0.000882522062738644,0.212967635386011
+1372,usa,na,JEB Little Creek-Fort Story,N50092,no,Yes,Yes,na,na, ,b7da1072-6c1b-41af-9bf4-c8b2cfa56b0a,JNTEXPBASE Little Creek FS VA,act,usn,VA,0.00153869097857751,0.384886636620788
+1377,usa,na,JEBLCFS Wallops Island,N50092,no,Yes,Yes,na,na, ,b7da1072-6c1b-41af-9bf4-c8b2cfa56b0a,JEBLCFS Wallops Island,act,usn,VA,0.00268324672629205,0.628488418001989
+1378,usa,na,Marine Corps Base Camp Pendleton,M00681,no,yes,No,na,na, ,bee9b928-b311-45c3-9fc5-d6c4707ba15c,Marine Corps Base Camp Pendleton,act,usmc,CA,0.0493737747137857,1.22634687502052
+1437,usa,na,Joint Base Pearl Harbor-Hickam,N62813,No,Yes,Yes,na,na, ,ca575806-c68a-45cc-ad65-9ce6b8996403,JBPHH Pearl Harbor HI,act,usn,HI,0.00757070677695992,2.31250115843529
+1586,usa,na,Andersen Air Force Base,N41557,No,Yes,No,na,na, ,,Andersen Air Force Base,act,usn,GU,0.0047765749309292,0.392843581478602
+1598,usa,na,NAVBASE Guam,N61755,No,Yes,No,na,na, ,,NAVBASE Guam,act,usn,GU,0.00516190024904972,1.19151751694255
+1658,usa,na,Camp Blas,N61159,no,No,No,na,na, ,,Camp Blas,act,usn,GU,0.00191227150037321,0.369955264944078
+1678,usa,na,Beale Air Force Base,BAEY,No,Yes,No,na,na, ,123385c6-7ae7-46b1-9f17-1037ea5a20f5,Beale AFB,act,usaf,CA,0.00976257140973757,0.511545377267998
+1680,usa,na,Joint Base Anacostia-Bolling,JBAB,no,no,no,na,na, ,,Joint Base Anacostia-Bolling,act,usaf,dc,0.000414625326357054,0.108727355158929
+1684,usa,na,Joint Base Andrews,AJXF,No,Yes,Yes,na,na, ,d5582f10-2b7c-438e-8d97-23f18a6cd363,JB Andrews,act,usaf,MD,0.00184783182135106,0.181325893165666
+1691,usa,na,Joint Base Elmendorf-Richardson,FXSB,No,Yes,Yes,na,na, ,68e623ef-da4a-45df-89f7-70f7a4336f4b,Elmendorf AFB,act,usaf,AK,0.0494325449162716,2.05325697183789
+1703,usa,na,Haarp Research Station,FXSB,No,No,Yes,na,na, ,9c258b09-2ae9-4272-96de-65ee9baa8c85,Haarp Research Station,act,usaf,AK,0.00381339538580505,0.290018422983276
+1709,usa,na,Joint Base Langley-Eustis,MUHJ,No,Yes,Yes,na,na, ,b7817584-13e4-443c-a456-3988262b5c4d,Langley AFB,act,usaf,VA,0.00452435545889784,0.773987396818331
+1714,usa,na,Joint Base Lewis-McChord,53465,No,Yes,Yes,na,na, ,474ea3b8-9ddc-4adf-892b-c17634aaa220,Fort Lewis,act,usa,WA,0.20891309265653,5.57009228777541
+1731,usa,na,Joint Base Myer-Henderson Hall,51375,No,No,Yes,na,na, ,d2fc2ee0-4229-4ca9-8979-8b34cf5065a0,Joint Base Myer-Henderson Hall,act,usa,VA,0.000159826399112717,0.119486680075433
