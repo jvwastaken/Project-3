@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Spread in the US</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+        .dropdown {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <label for="date-select">Select Month:</label>
+        <select id="date-select" onchange="updateMap()">
+            <option value="2020-04-01">April 2020</option>
+            <option value="2020-05-01">May 2020</option>
+            <option value="2020-06-01">June 2020</option>
+            <option value="2020-07-01">July 2020</option>
+            <option value="2020-08-01">August 2020</option>
+            <option value="2020-09-01">September 2020</option>
+            <option value="2020-10-01">October 2020</option>
+            <option value="2020-11-01">November 2020</option>
+            <option value="2020-12-01">December 2020</option>
+            <option value="2021-01-01">January 2021</option>
+            <option value="2021-02-01">February 2021</option>
+            <option value="2021-03-01">March 2021</option>
+            <option value="2021-04-01">April 2021</option>
+            <option value="2021-05-01">May 2021</option>
+            <option value="2021-06-01">June 2021</option>
+            <option value="2021-07-01">July 2021</option>
+            <option value="2021-08-01">August 2021</option>
+            <option value="2021-09-01">September 2021</option>
+            <option value="2021-10-01">October 2021</option>
+            <option value="2021-11-01">November 2021</option>
+            <option value="2021-12-01">December 2021</option>
+            <option value="2022-01-01">January 2022</option>
+            <option value="2022-02-01">February 2022</option>
+            <option value="2022-03-01">March 2022</option>
+            <option value="2022-04-01">April 2022</option>
+            <option value="2022-05-01">May 2022</option>
+            <option value="2022-06-01">June 2022</option>
+            <option value="2022-07-01">July 2022</option>
+            <option value="2022-08-01">August 2022</option>
+            <option value="2022-09-01">September 2022</option>
+            <option value="2022-10-01">October 2022</option>
+            <option value="2022-11-01">November 2022</option>
+            <option value="2022-12-01">December 2022</option>
+            <option value="2023-01-01">January 2023</option>
+            <option value="2023-02-01">February 2023</option>
+            <option value="2023-03-01">March 2023</option>
+        </select>
+    </div>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="logic.js"></script>
+</body>
+</html>
