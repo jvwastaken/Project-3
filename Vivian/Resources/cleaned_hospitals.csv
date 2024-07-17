@@ -98,7 +98,7 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 72790503,Providence Little Company Of Mary Transitional Care Center,4320 Maricopa Street,Torrance,Los Angeles,California,Open,33.8393481160001,-118.359721519,115,Not Available,N
 58592354,Loma Linda University Children'S Hospital,11234 Anderson Street,Loma Linda,San Bernardino,California,Open,34.050130832,-117.264094455,343,Not Available,Y
 15254904,Ascension Ne Wisconsin Mercy Campus,500 S Oakwood Rd,Oshkosh,Winnebago,Wisconsin,Open,44.0124207170001,-88.601045493,157,Not Available,Y
-75420007,Medstar-Georgetown University Medical Center,"3800 Reservoir Road, Nw",Washington,District Of Columbia,Dc,Open,38.9119585080001,-77.0752545729999,609,Not Available,Y
+75420007,Medstar-Georgetown University Medical Center,"3800 Reservoir Road, Nw",Washington,District of Columbia,District of Columbia,Open,38.9119585080001,-77.0752545729999,609,Not Available,Y
 31233525,Advent Health Dade City,13100 Fort King Rd,Dade City,Pasco,Florida,Open,28.3479628600001,-82.2007200799999,120,Not Available,N
 7233484,Delray Medical Center,5352 Linton Blvd,Delray Beach,Palm Beach,Florida,Open,26.4371928410001,-80.127787747,536,Level I,Y
 36034758,Poinciana Medical Center,325 Cypress Pkwy,Kissimmee,Osceola,Florida,Open,28.144780763,-81.476687855,76,Not Available,Y
@@ -1120,8 +1120,8 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 3489121,Las Vegas - Amg Specialty Hospital,4015 South Mcleod Drive,Las Vegas,Clark,Nevada,Open,36.1165861580001,-115.110384599,24,Not Available,N
 6445406,Good Samaritan Hospital,2222 Philadelphia Drive,Dayton,Montgomery,Ohio,Open,39.7875513380001,-84.23333439,491,Not Available,Y
 13843338,Morrow County Hospital,651 West Marion Road,Mount Gilead,Morrow,Ohio,Open,40.547981168,-82.850406603,22,Not Available,Y
-1520032,Saint Elizabeths Hospital,1100 Alabama Avenue Se,Washington,District Of Columbia,Dc,Open,38.8479278680001,-76.988255269,292,Not Available,N
-1620002,Bridgepoint Hospital Capitol Hill,700 Constitution Avenue Ne,Washington,District Of Columbia,Dc,Open,38.8929214200001,-76.995863417,177,Not Available,N
+1520032,Saint Elizabeths Hospital,1100 Alabama Avenue Se,Washington,District of Columbia,District of Columbia,Open,38.8479278680001,-76.988255269,292,Not Available,N
+1620002,Bridgepoint Hospital Capitol Hill,700 Constitution Avenue Ne,Washington,District of Columbia,District of Columbia,Open,38.8929214200001,-76.995863417,177,Not Available,N
 1289103,Sana Behavioral Health - Las Vegas,5975 West Twain Avenue,Las Vegas,Clark,Nevada,Open,36.1212914930001,-115.223355277,19,Not Available,N
 5144875,Ohiohealth Shelby Hospital,199 West Main Street,Shelby,Richland,Ohio,Open,40.882406732,-82.674175077,40,Not Available,N
 7945601,Adena Regional Medical Center,272 Hospital Road,Chillicothe,Ross,Ohio,Open,39.3964977740001,-82.9676161089999,261,Not Available,Y
@@ -1629,8 +1629,8 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 83030033,Emory Decatur Hospital,2701 N Decatur Road,Decatur,Dekalb,Georgia,Open,33.791089135,-84.2829100989999,451,Not Available,N
 17953223,Rogers Memorial Hospital Brown Deer,4600 W Schroeder Drive,Brown Deer,Milwaukee,Wisconsin,Open,43.1873094050001,-87.967626196,56,Not Available,N
 58893555,Ridgecrest Regional Hospital Transitional Care & Rehabilitation,1131 No. China Lake Boulevard,Ridgecrest,Kern,California,Open,35.640900451,-117.672631053,99,Not Available,Y
-620010,Medstar Washington Hospital Center,110 Irving Street Nw,Washington,District Of Columbia,Dc,Open,38.9296519440001,-77.015648297,926,Level I,Y
-1220037,George Washington University Hospital,900 23Rd Street Nw,Washington,District Of Columbia,Dc,Open,38.901319008,-77.050636676,339,Level I,N
+620010,Medstar Washington Hospital Center,110 Irving Street Nw,Washington,District of Columbia,District of Columbia,Open,38.9296519440001,-77.015648297,926,Level I,Y
+1220037,George Washington University Hospital,900 23Rd Street Nw,Washington,District of Columbia,District of Columbia,Open,38.901319008,-77.050636676,339,Level I,N
 12554843,Hayward Area Memorial Hospital,11040 N State Rd 77,Hayward,Sawyer,Wisconsin,Open,46.0347967970001,-91.485746875,25,Not Available,Y
 35733472,Bethesda Hospital West,9655 W Boynton Beach Blvd,Boynton Beach,Palm Beach,Florida,Open,26.5297280450001,-80.199767724,401,Not Available,Y
 4134601,Bayfront Health Brooksville,17240 Cortez Blvd,Brooksville,Hernando,Florida,Open,28.5388338240001,-82.443491598,120,Not Available,Y
@@ -2242,7 +2242,7 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 164671202,Ochsner Lsu Health Monroe,4864 Jackson Street,Monroe,Ouachita,Louisiana,Open,32.450889126,-92.1067958039999,244,Not Available,Y
 58690059,"Martin Luther King, Jr. Community Hospital",1680 East 120Th Street,Los Angeles,Los Angeles,California,Open,33.9226370650001,-118.243801279,131,Not Available,N
 3006492,Masonicare Health Center,22 Masonic Ave,Wallingford,New Haven,Connecticut,Open,41.4627059160001,-72.8362394009999,65,Not Available,N
-320016,Sibley Memorial Hospital,5255 Loughboro Road Nw,Washington,District Of Columbia,Dc,Open,38.936220796,-77.1092388979999,318,Not Available,Y
+320016,Sibley Memorial Hospital,5255 Loughboro Road Nw,Washington,District of Columbia,District of Columbia,Open,38.936220796,-77.1092388979999,318,Not Available,Y
 35632714,Encompass Health Rehabilitation Hospital Of Altamonte Springs,831 S State Rd 434,Altamonte Springs,Seminole,Florida,Open,28.646330559,-81.413059077,50,Not Available,N
 30833908,Park Royal Hospital,9241 Park Royal Dr,Fort Myers,Lee,Florida,Open,26.5104316580001,-81.9095689819999,114,Not Available,N
 14285210,"Hacienda Children'S Hospital, Inc",610 West Jerome Ave,Mesa,Maricopa,Arizona,Open,33.3815372660001,-111.844626206,24,Not Available,N
@@ -3124,16 +3124,16 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 180443082,Mount Carmel Rehabilitation Hospital,597 Executive Campus Dr,Westerville,Delaware,Ohio,Open,40.144655739,-82.9485274419999,60,Not Available,N
 1555432,Mercy Hospital – Unity Campus,550 Osborne Rd,Fridley,Anoka,Minnesota,Open,45.106480623,-93.256730437,275,Not Available,N
 5270601,Christus Ochsner St Patrick Hospital,524 Dr. Michael Debakey Drive,Lake Charles,Calcasieu,Louisiana,Open,30.215944237,-93.2279166169999,228,Not Available,Y
-75220032,Children'S National Emergency Department At United Medical Center,"1310 Southern Avenue, Se",Washington,District Of Columbia,Dc,Open,38.8359557000001,-76.984984771,234,Not Available,Y
+75220032,Children'S National Emergency Department At United Medical Center,"1310 Southern Avenue, Se",Washington,District of Columbia,District of Columbia,Open,38.8359557000001,-76.984984771,234,Not Available,Y
 7470433,Covington Behavioral Health,201 Greenbriar Blvd,Covington,St. Tammany,Louisiana,Open,30.4557091450001,-90.137591003,40,Not Available,N
 174272114,Eugene J. Towbin Veteran'S Healthcare Center,2200 Fort Roots Drive North,Little Rock,Pulaski,Arkansas,Open,34.7781580000001,-92.297424,256,Not Available,N
 18671203,Allegiance Health Center Of Monroe,3421 Medical Park Dr,Monroe,Ouachita,Louisiana,Open,32.579959934,-92.070823605,28,Not Available,N
 8731201,Children'S Hospital Navicent Health,888 Pine Street,Macon,Bibb,Georgia,Open,32.8347290520001,-83.6366698639999,112,Not Available,Y
 2970506,Louisiana Extended Care Hospital Of Lafayette,2810 Ambasssador Caffery Parkway,Lafayette,Lafayette,Louisiana,Open,30.1977478220001,-92.0771253949999,142,Not Available,Y
 2670508,Compass Behavioral Center,312 Youngsville Hwy,Lafayette,Lafayette,Louisiana,Open,30.155832167,-91.992166147,16,Not Available,N
-75520032,Bridgepoint National Harbor,"4601 Martin Luther King Jr. Avenue, Sw",Washington,District Of Columbia,Dc,Open,38.825128955,-77.0131483919999,82,Not Available,N
+75520032,Bridgepoint National Harbor,"4601 Martin Luther King Jr. Avenue, Sw",Washington,District of Columbia,District of Columbia,Open,38.825128955,-77.0131483919999,82,Not Available,N
 5520678,Calvert Health Medical Center,100 Hospital Road,Prince Frederick,Calvert,Maryland,Open,38.5599068080001,-76.596272556,76,Not Available,Y
-75320017,Hospital For Sick Children,"1731 Bunker Hill Road, Ne",Washington,District Of Columbia,Dc,Open,38.9411639370001,-76.980844803,130,Not Available,N
+75320017,Hospital For Sick Children,"1731 Bunker Hill Road, Ne",Washington,District of Columbia,District of Columbia,Open,38.9411639370001,-76.980844803,130,Not Available,N
 177462269,Memorial Hospital East,1404 Cross St,Shiloh,St. Clair,Illinois,Open,38.5736900150001,-89.9054263369999,94,Not Available,Y
 4771913,Chi St. Vincent Hot Springs Rehabilitation Hospital An Affiliate Of Healthsouth,1636 Higdon Ferry Road,Hot Springs,Garland,Arkansas,Open,34.464251226,-93.074932227,40,Not Available,N
 177380233,Scl Health Community Hospital - Northglenn,11900 Grant Street,Denver,Adams,Colorado,Open,39.91240745,-104.984073326,8,Not Available,N
@@ -4307,9 +4307,9 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 7281082,Mt San Rafael Hospital,410 Benedicta Avenue,Trinidad,Las Animas,Colorado,Open,37.1732064020001,-104.487611626,25,Level Iv,Y
 8981003,Parkview Medical Center Inc,400 W 16Th Street,Pueblo,Pueblo,Colorado,Open,38.281637178,-104.612736325,370,Level Ii,Y
 11423298,Vcu Health System,1200 E Broad S,Richmond,Richmond City,Virginia,Open,37.5398098580001,-77.4302857,779,Level I,Y
-920010,Children'S National Medical Center,111 Michigan Avenue Nw,Washington,District Of Columbia,Dc,Open,38.9272660730001,-77.014393718,313,Level I,Y
-820010,Medstar National Rehabilitation Hospital,102 Irving Street Nw,Washington,District Of Columbia,Dc,Open,38.9305425210001,-77.0133434809999,137,Not Available,Y
-720001,Howard University Hospital,2041 Georgia Avenue Nw,Washington,District Of Columbia,Dc,Open,38.917548406,-77.020093747,264,Level I,N
+920010,Children'S National Medical Center,111 Michigan Avenue Nw,Washington,District of Columbia,District of Columbia,Open,38.9272660730001,-77.014393718,313,Level I,Y
+820010,Medstar National Rehabilitation Hospital,102 Irving Street Nw,Washington,District of Columbia,District of Columbia,Open,38.9305425210001,-77.0133434809999,137,Not Available,Y
+720001,Howard University Hospital,2041 Georgia Avenue Nw,Washington,District of Columbia,District of Columbia,Open,38.917548406,-77.020093747,264,Level I,N
 1619709,Healthsouth Rehabilitation Hospital Of Middletown,250 Hampden Rd,Middletown,New Castle,Delaware,Open,39.453434208,-75.6775222589999,34,Not Available,N
 3833511,Brandon Regional Hospital,119 Oakfield Dr,Brandon,Hillsborough,Florida,Open,27.932998883,-82.287810196,422,Not Available,Y
 81832207,Wolfson Children'S Hospital - Jacksonville,800 Prudential Dr,Jacksonville,Duval,Florida,Open,30.3153924910001,-81.663317272,212,Level Pediatric,Y
@@ -6097,7 +6097,7 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 19,Winn Army Community Hospital,1061 Harmon Ave,Fort Stewart,Liberty,Georgia,Open,31.872256959,-81.600388951,39,Level Iv,Y
 8,Irwin Army Community Hospital,600 Caisson Hill Rd,Fort Riley,Geary,Kansas,Open,39.0829114220001,-96.7681484029999,47,Not Available,Y
 52075503,Pam Specialty Hospital Of Texarkana North,"2400 St. Michael Drive, 2Nd Floor",Texarkana,Bowie,Texas,Open,33.465283572,-94.071037266,30,Not Available,N
-1320016,Psychiatric Institute Of Washington,4228 Wisconsin Avenue Nw,Washington,District Of Columbia,Dc,Open,38.9439026220001,-77.077962441,75,Not Available,N
+1320016,Psychiatric Institute Of Washington,4228 Wisconsin Avenue Nw,Washington,District of Columbia,District of Columbia,Open,38.9439026220001,-77.077962441,75,Not Available,N
 31433952,Bayfront Health Port Charlotte,2500 Harbor Blvd,Port Charlotte,Charlotte,Florida,Open,26.988925185,-82.0956902579999,254,Not Available,N
 23132608,Malcom Randall Va Medical Center,1601 S Archer Road,Gainesville,Alachua,Florida,Open,29.637698481,-82.344669083,222,Not Available,N
 26733125,Miami Va Healthcare System,1201 Nw 16Th Street,Miami,Miami-Dade,Florida,Open,25.7912225210001,-80.216724918,281,Not Available,N
