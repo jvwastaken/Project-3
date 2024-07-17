@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Dashboard</title>
+  <!-- Include Plotly library -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zombie Apocalypse</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('./Images/destroyed_city.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh; 
+      opacity: 0.8; /* Adjust opacity */
+      margin: 0;
+    }
+    .container {
+      background-color: rgba(67, 118, 113, 0.499); 
+      border-radius: 15px; /*This adds rounded corners */
+      padding: 20px;
+    }
+    .header-bg {
+      background-color: rgba(28, 40, 38, 0.808);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 p-5 text-center header-bg">
+        <h1>Zombie Apocalypse Dashboard</h1>
+        <p>Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card card-body bg-light">
+          <h6>Choose Your Month:</h6>
+          <select id="selDataset-2" onchange="optionChanged(this.value)"></select>
+        </div>
+        <br>
+        <div class="card card-body bg-light">
+          <h6>Choose Your State:</h6>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <br>
+        <div class="card card-primary">
+          <div class="card-header">
+            <h4 class="card-title">State Info</h4>
+          </div>
+          <div id="sample-metadata" class="card-body"></div>
+          <h6 style="margin-left:15px;">Military Bases:<br>Hospitals:<br>Gun Sales:</h6>
+        </div>
+        <br>
+        <div class="card card-primary">
+          <div class="card-header">
+            <h4 class="card-title">Hospitals Info</h4>
+          </div>
+          <div id="hospitals-display" class="card-body"></div>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div id="bar"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="./static/app.js"></script>
+</body>
+</html>
