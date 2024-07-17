@@ -16,16 +16,20 @@
       margin: 0;
     }
     .container {
-      background-color: rgba(67, 118, 113, 0.499); /* White with transparency */
-      border-radius: 15px; /* Optional: rounded corners */
-      padding: 20px; /* Optional: padding */
+      background-color: rgba(67, 118, 113, 0.499); 
+      border-radius: 15px; /*This adds rounded corners */
+      padding: 20px;
+    }
+    .header-bg {
+      background-color: rgba(28, 40, 38, 0.808);
+      color: white;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-12 p-5 text-center bg-light">
+      <div class="col-md-12 p-5 text-center header-bg">
         <h1>Zombie Apocalypse Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
@@ -34,15 +38,21 @@
     <div class="row">
       <div class="col-md-3">
         <div class="card card-body bg-light">
+          <h6>Choose Your Month:</h6>
+          <select id="null" onchange="optionChanged(this.value)"></select>
+        </div>
+        <br>
+        <div class="card card-body bg-light">
           <h6>Choose Your State:</h6>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
         <br>
         <div class="card card-primary">
           <div class="card-header">
-            <h4 class="card-title">Demographic Info</h4>
+            <h4 class="card-title">State Info</h4>
           </div>
           <div id="sample-metadata" class="card-body"></div>
+          <h6 style="margin-left:15px;">Military Bases:<br>Hospitals:<br>Gun Sales:</h6>
         </div>
         <br>
         <div class="card card-primary">
