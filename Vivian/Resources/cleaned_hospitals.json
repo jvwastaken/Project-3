@@ -544,22 +544,6 @@
         }
     },
     {
-        "Hospital Name": "Doctors Center Hospital Sanfernando De Carolina",
-        "Info": {
-            "Id": 196500984,
-            "Address": "Calle Fernandez Juncos, Edificio Jesus T. Pineiro",
-            "City": "Carolina",
-            "County": "Metro",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.3804430000001,
-            "Longitude": -65.95579,
-            "Beds": 988,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
         "Hospital Name": "Brown Cty Community Treatment Center",
         "Info": {
             "Id": 2054311,
@@ -8496,22 +8480,6 @@
         }
     },
     {
-        "Hospital Name": "Hosp San Cristobal",
-        "Info": {
-            "Id": 2600731,
-            "Address": "506 Carr Road",
-            "City": "Coto Laurel",
-            "County": "Ponce",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.0396748470001,
-            "Longitude": -66.5474067279999,
-            "Beds": 103,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
         "Hospital Name": "Ochsner Rehabilitation Hospital",
         "Info": {
             "Id": 190270121,
@@ -8605,118 +8573,6 @@
             "Beds": 10,
             "Trauma": "Not Available",
             "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Hospital Buen Samaritano",
-        "Info": {
-            "Id": 900605,
-            "Address": "Carr 2 Km 141-1 Ave Severiano Cuevas 18 Bo. Caimital Bajo",
-            "City": "Aguadilla",
-            "County": "Aguadilla",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.442809336,
-            "Longitude": -67.1508851099999,
-            "Beds": 154,
-            "Trauma": "Not Available",
-            "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Hosp Bella Vista",
-        "Info": {
-            "Id": 1500681,
-            "Address": "State Road 349",
-            "City": "Mayaguez",
-            "County": "Mayaguez",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.1867640090001,
-            "Longitude": -67.119196771,
-            "Beds": 157,
-            "Trauma": "Not Available",
-            "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Hosp De La Concepcion",
-        "Info": {
-            "Id": 1800683,
-            "Address": "Carr 2 Km 173 Bo Cain Alto",
-            "City": "San German",
-            "County": "San German",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.0988091140001,
-            "Longitude": -67.038164761,
-            "Beds": 167,
-            "Trauma": "Not Available",
-            "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Hosp General Menonita - Cayey",
-        "Info": {
-            "Id": 3700737,
-            "Address": "4 H Mendoza Street",
-            "City": "Cayey",
-            "County": "Cayey",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.1240463010001,
-            "Longitude": -66.147481522,
-            "Beds": 208,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Ashford Presbyterian Community Hospital Inc",
-        "Info": {
-            "Id": 4400902,
-            "Address": "1451 Avenue Ashford",
-            "City": "San Juan",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.4559932870001,
-            "Longitude": -66.065469531,
-            "Beds": 195,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Manati Medical Center Dr Alejandro Otero Lopez",
-        "Info": {
-            "Id": 600674,
-            "Address": "Calle Hernandez Carrion 668",
-            "City": "Manati Pueblo",
-            "County": "Manati",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.4345543470001,
-            "Longitude": -66.4824950999999,
-            "Beds": 251,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Administracion De Servicios Medicos De Pr (Asem)",
-        "Info": {
-            "Id": 4300922,
-            "Address": "Centro Medico",
-            "City": "Monacillo Urbano",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.3955074040001,
-            "Longitude": -66.0728407889999,
-            "Beds": 68,
-            "Trauma": "Not Available",
-            "Helipad": "Y"
         }
     },
     {
@@ -8861,38 +8717,6 @@
             "Beds": 113,
             "Trauma": "Not Available",
             "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Hosp Oncologico Dr Isaac Gonzalez Martinez",
-        "Info": {
-            "Id": 5700919,
-            "Address": "Centro Medico",
-            "City": "Monacillo Urbano",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.3963367280001,
-            "Longitude": -66.072533977,
-            "Beds": 143,
-            "Trauma": "Not Available",
-            "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Hima San Pablo Cupey",
-        "Info": {
-            "Id": 5400926,
-            "Address": "138 Avenue Winston Churchill",
-            "City": "San Juan",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.372592346,
-            "Longitude": -66.046225433,
-            "Beds": 60,
-            "Trauma": "Not Available",
-            "Helipad": "N"
         }
     },
     {
@@ -17168,22 +16992,6 @@
         }
     },
     {
-        "Hospital Name": "Cidra Pan American Hospital",
-        "Info": {
-            "Id": 3800739,
-            "Address": "Pr-787 Km 1.5",
-            "City": "Cidra",
-            "County": "Cidra",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.176038959,
-            "Longitude": -66.1614012329999,
-            "Beds": 216,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
         "Hospital Name": "Wellspan Surgery And Rehabilitation Hospital",
         "Info": {
             "Id": 28617403,
@@ -17195,38 +17003,6 @@
             "Latitude": 39.926192787,
             "Longitude": -76.71895855,
             "Beds": 73,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Hosp Universitario Dr Ramon Ruiz Arnau",
-        "Info": {
-            "Id": 3200956,
-            "Address": "Ave Laurel - Urb Santa Juanita",
-            "City": "Bayamon",
-            "County": "Bayamon",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.367570404,
-            "Longitude": -66.154124489,
-            "Beds": 102,
-            "Trauma": "Not Available",
-            "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Puerto Rico Childrens Hospital",
-        "Info": {
-            "Id": 7100960,
-            "Address": "Carr. 2 Km 11.7 Interior Bo. Pajaros",
-            "City": "Bayamon",
-            "County": "Bayamon",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.3968147580001,
-            "Longitude": -66.163448901,
-            "Beds": 150,
             "Trauma": "Not Available",
             "Helipad": "N"
         }
@@ -17744,22 +17520,6 @@
         }
     },
     {
-        "Hospital Name": "Clinica Santa Rosa",
-        "Info": {
-            "Id": 2000785,
-            "Address": "Veterans Avenue",
-            "City": "Guayama",
-            "County": "Guayama",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 17.980770922,
-            "Longitude": -66.106166118,
-            "Beds": 86,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
         "Hospital Name": "Children'S Hospital Mc - College Hill",
         "Info": {
             "Id": 28645224,
@@ -17787,22 +17547,6 @@
             "Latitude": 39.2059509790001,
             "Longitude": -84.38094165,
             "Beds": 209,
-            "Trauma": "Not Available",
-            "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Hosp Andres Grillasca Inc (Centro De Oncologica Avanzada)",
-        "Info": {
-            "Id": 2200733,
-            "Address": "Centro Medico De Ponce",
-            "City": "Ponce",
-            "County": "Ponce",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.0332502100001,
-            "Longitude": -66.593130348,
-            "Beds": 49,
             "Trauma": "Not Available",
             "Helipad": "Y"
         }
@@ -20464,38 +20208,6 @@
         }
     },
     {
-        "Hospital Name": "Hosp Perea",
-        "Info": {
-            "Id": 1200680,
-            "Address": "Calle Dr Basora 15",
-            "City": "Mayaguez",
-            "County": "Mayaguez",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.2027329920001,
-            "Longitude": -67.139826394,
-            "Beds": 103,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Hosp San Francisco",
-        "Info": {
-            "Id": 5300929,
-            "Address": "371 Avenida De Diego",
-            "City": "San Juan",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.3987659680001,
-            "Longitude": -66.039098297,
-            "Beds": 150,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
         "Hospital Name": "Kansas Heart Hospital",
         "Info": {
             "Id": 14367226,
@@ -20572,22 +20284,6 @@
             "Longitude": -85.74959418,
             "Beds": 271,
             "Trauma": "Level I Pediatric",
-            "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Roy Lester Schneider Hospital",
-        "Info": {
-            "Id": 100801,
-            "Address": "9048 Sugar Estate",
-            "City": "St Thomas",
-            "County": "Not Available",
-            "State": "Virgin Islands",
-            "Status": "Open",
-            "Latitude": 18.340605,
-            "Longitude": -64.9147169999999,
-            "Beds": 169,
-            "Trauma": "Not Available",
             "Helipad": "Y"
         }
     },
@@ -38368,22 +38064,6 @@
         }
     },
     {
-        "Hospital Name": "Metropolitano Psiquiatrico De Cabo Rojo",
-        "Info": {
-            "Id": 1100623,
-            "Address": "108 Munoz Rivera Street",
-            "City": "Cabo Rojo Pueblo",
-            "County": "Cabo Rojo",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.085732297,
-            "Longitude": -67.147327525,
-            "Beds": 43,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
         "Hospital Name": "Hampton Behavioral Health Center",
         "Info": {
             "Id": 3408060,
@@ -46800,22 +46480,6 @@
         }
     },
     {
-        "Hospital Name": "Hospital Interamericano De Medicina Avanzada",
-        "Info": {
-            "Id": 3500726,
-            "Address": "100 Luis Munoz Marin Avenue",
-            "City": "Caguas",
-            "County": "Caguas",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.21793941,
-            "Longitude": -66.0319458719999,
-            "Beds": 300,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
         "Hospital Name": "Twin Valley Behavioral Healthcare",
         "Info": {
             "Id": 129343223,
@@ -47339,22 +47003,6 @@
             "Latitude": 40.354755529,
             "Longitude": -80.62549638,
             "Beds": 244,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Hosp Episcopal San Lucas 2",
-        "Info": {
-            "Id": 2800733,
-            "Address": "Pr-14 Ave Tito Castro 917",
-            "City": "Ponce",
-            "County": "Ponce",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.0312034070001,
-            "Longitude": -66.594748368,
-            "Beds": 315,
             "Trauma": "Not Available",
             "Helipad": "N"
         }
@@ -48653,22 +48301,6 @@
             "Beds": 25,
             "Trauma": "Not Available",
             "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Csf - Utuado",
-        "Info": {
-            "Id": 700641,
-            "Address": "C/Isaac Gonzalez Martinez",
-            "City": "Arenas",
-            "County": "Utuado",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.2677130980001,
-            "Longitude": -66.7012851819999,
-            "Beds": 7,
-            "Trauma": "Not Available",
-            "Helipad": "N"
         }
     },
     {
@@ -50512,22 +50144,6 @@
         }
     },
     {
-        "Hospital Name": "Hosp General Menonita De Caguas",
-        "Info": {
-            "Id": 3600726,
-            "Address": "Pr-172 Urb Turabo Gardans (Salida 21)",
-            "City": "Caguas",
-            "County": "Caguas",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.220716113,
-            "Longitude": -66.049890206,
-            "Beds": 135,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
         "Hospital Name": "Hospital For Sick Children",
         "Info": {
             "Id": 75320017,
@@ -50701,22 +50317,6 @@
             "Beds": 1035,
             "Trauma": "Level I, Level I Pediatric",
             "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Encompass Rehabilitation Hospital Of Manati",
-        "Info": {
-            "Id": 7400674,
-            "Address": "Hospitals Doctor Center, Pr-2 Km 47.7",
-            "City": "Manati",
-            "County": "Manati",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.4339103300001,
-            "Longitude": -66.4746820299999,
-            "Beds": 40,
-            "Trauma": "Not Available",
-            "Helipad": "N"
         }
     },
     {
@@ -55072,70 +54672,6 @@
         }
     },
     {
-        "Hospital Name": "Hosp Metropolitano De San German",
-        "Info": {
-            "Id": 1700683,
-            "Address": "Calle Javilla Al Costado Parque De Bombas",
-            "City": "San German",
-            "County": "San German",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.082633061,
-            "Longitude": -67.040048901,
-            "Beds": 40,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Hosp Industrial C.F.S.E.",
-        "Info": {
-            "Id": 4700936,
-            "Address": "Puerto Rico Medical Center",
-            "City": "Monacillo Urbano",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.394598595,
-            "Longitude": -66.0731319509999,
-            "Beds": 108,
-            "Trauma": "Not Available",
-            "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Hosp Pavia Santurce",
-        "Info": {
-            "Id": 4800909,
-            "Address": "1462 Asia Street",
-            "City": "Santurce",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.444654868,
-            "Longitude": -66.0695605929999,
-            "Beds": 215,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Cpc Hosp San Juan Capestrano",
-        "Info": {
-            "Id": 5800926,
-            "Address": "Carr Pr-877 Km 1.6 Camino Las Lomas",
-            "City": "San Juan",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.3845888600001,
-            "Longitude": -66.022361352,
-            "Beds": 108,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
         "Hospital Name": "Norton Healthcare Pavilion",
         "Info": {
             "Id": 12440232,
@@ -55147,22 +54683,6 @@
             "Latitude": 38.2460051750001,
             "Longitude": -85.748718539,
             "Beds": 264,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Gov Juan F Luis Hospital & Medical Ctr",
-        "Info": {
-            "Id": 200820,
-            "Address": "4007 Est Diamond Ruby, Christiansted",
-            "City": "St Croix",
-            "County": "Not Available",
-            "State": "Virgin Islands",
-            "Status": "Open",
-            "Latitude": 17.733195,
-            "Longitude": -64.751478,
-            "Beds": 188,
             "Trauma": "Not Available",
             "Helipad": "N"
         }
@@ -67984,22 +67504,6 @@
         }
     },
     {
-        "Hospital Name": "Va Caribbean Healthcare System",
-        "Info": {
-            "Id": 13700921,
-            "Address": "10 Casia St",
-            "City": "San Juan",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.390394142,
-            "Longitude": -66.079335477,
-            "Beds": 209,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
         "Hospital Name": "Ou Medical Center Edmond-Er",
         "Info": {
             "Id": 78,
@@ -75232,22 +74736,6 @@
         }
     },
     {
-        "Hospital Name": "Doctors Center Hospital- Bayamon (Ant. Matildes Brenes)",
-        "Info": {
-            "Id": 3100674,
-            "Address": "Extension Hermanas Davila",
-            "City": "Bayamon",
-            "County": "Bayamon",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.3979957760001,
-            "Longitude": -66.166351063,
-            "Beds": 91,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
         "Hospital Name": "Dublin Methodist Hospital",
         "Info": {
             "Id": 14843016,
@@ -75901,70 +75389,6 @@
             "Beds": 25,
             "Trauma": "Not Available",
             "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Caribbean Medical Center",
-        "Info": {
-            "Id": 6600738,
-            "Address": "151 Osvaldo Avenue",
-            "City": "Fajardo",
-            "County": "Fajardo",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.3320162420001,
-            "Longitude": -65.650255078,
-            "Beds": 38,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Hospital San Lucas De Guayama (Cristo Redentor)",
-        "Info": {
-            "Id": 2100785,
-            "Address": "Avenue Pedro Albesus",
-            "City": "Guayama Pueblo",
-            "County": "Guayama",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 17.9735513360001,
-            "Longitude": -66.114454354,
-            "Beds": 115,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Hosp Ryder Memorial Inc",
-        "Info": {
-            "Id": 4100791,
-            "Address": "355 Font Martelo Street",
-            "City": "Humacao",
-            "County": "Humacao",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.156000299,
-            "Longitude": -65.835080018,
-            "Beds": 227,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Mayaguez Medical Center",
-        "Info": {
-            "Id": 1400681,
-            "Address": "410 Hostos Avenue",
-            "City": "Mayaguez",
-            "County": "Mayaguez",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.180637237,
-            "Longitude": -67.1528497149999,
-            "Beds": 181,
-            "Trauma": "Not Available",
-            "Helipad": "Y"
         }
     },
     {
@@ -78896,22 +78320,6 @@
         }
     },
     {
-        "Hospital Name": "Hosp Metropolitano De San Juan",
-        "Info": {
-            "Id": 5600922,
-            "Address": "Pr-21 Urb Las Lomas 1785",
-            "City": "Puerto Nuevo",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.3899033490001,
-            "Longitude": -66.0982615139999,
-            "Beds": 132,
-            "Trauma": "Not Available",
-            "Helipad": "Y"
-        }
-    },
-    {
         "Hospital Name": "Stafford Hospital",
         "Info": {
             "Id": 1422554,
@@ -79165,22 +78573,6 @@
             "Beds": 23,
             "Trauma": "Not Available",
             "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Hima San Pablo - Humacao",
-        "Info": {
-            "Id": 3900792,
-            "Address": "3 Cll Font Martelo",
-            "City": "Humacao",
-            "County": "Humacao",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.150703047,
-            "Longitude": -65.82670296,
-            "Beds": 64,
-            "Trauma": "Not Available",
-            "Helipad": "N"
         }
     },
     {
@@ -79485,22 +78877,6 @@
             "Beds": 25,
             "Trauma": "Level Iv",
             "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Professional Hospital",
-        "Info": {
-            "Id": 7300970,
-            "Address": "Carr. 199 Km 1.3",
-            "City": "Guaynabo",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.3624300920001,
-            "Longitude": -66.097714238,
-            "Beds": 49,
-            "Trauma": "Not Available",
-            "Helipad": "N"
         }
     },
     {
@@ -80160,22 +79536,6 @@
         }
     },
     {
-        "Hospital Name": "Hospital Perea",
-        "Info": {
-            "Id": 180500681,
-            "Address": "Calle Dr Basora 15",
-            "City": "Mayaguez",
-            "County": "Mayaguez",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.200732031,
-            "Longitude": -67.140401492,
-            "Beds": 118,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
         "Hospital Name": "Alaska Psychiatric Institute",
         "Info": {
             "Id": 199508,
@@ -80320,22 +79680,6 @@
         }
     },
     {
-        "Hospital Name": "Centro Cardiovascular De Pr Y Caribe Dr Ramon M Suarez",
-        "Info": {
-            "Id": 4600936,
-            "Address": "Ave Americo Miranda - Entrada Principal Centro Medico",
-            "City": "Monacillo Urbano",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.3986458300001,
-            "Longitude": -66.072629207,
-            "Beds": 164,
-            "Trauma": "Not Available",
-            "Helipad": "Y"
-        }
-    },
-    {
         "Hospital Name": "Mckenzie Regional Hospital",
         "Info": {
             "Id": 1038201,
@@ -80363,38 +79707,6 @@
             "Latitude": 36.4528338850001,
             "Longitude": -83.572275718,
             "Beds": 85,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Encompass Health Rehabilitation Of Pr",
-        "Info": {
-            "Id": 6200936,
-            "Address": "3Er Piso Hosp Universitario De Adultos - Centro Medico",
-            "City": "Monacillo Urbano",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.396818867,
-            "Longitude": -66.073450866,
-            "Beds": 32,
-            "Trauma": "Not Available",
-            "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Hosp General Menonita - Aibonito",
-        "Info": {
-            "Id": 3400705,
-            "Address": "C/Jose C Vazquez - Salida Bo Caonilla",
-            "City": "Aibonito",
-            "County": "Aibonito",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.14379446,
-            "Longitude": -66.2617073649999,
-            "Beds": 150,
             "Trauma": "Not Available",
             "Helipad": "N"
         }
@@ -81568,22 +80880,6 @@
         }
     },
     {
-        "Hospital Name": "Hosp Upr Carolina",
-        "Info": {
-            "Id": 4200984,
-            "Address": "Pr-3 Km 8.1 Ave 65 Inf",
-            "City": "Carolina",
-            "County": "Carolina",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.388471704,
-            "Longitude": -65.971898671,
-            "Beds": 233,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
         "Hospital Name": "Beaumont Hospital Troy",
         "Info": {
             "Id": 10448085,
@@ -82544,22 +81840,6 @@
         }
     },
     {
-        "Hospital Name": "Hima San Pablo - Fajardo",
-        "Info": {
-            "Id": 6500738,
-            "Address": "Pr-194 Ave General Valero 404 Pr-194",
-            "City": "Fajardo",
-            "County": "Fajardo",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.336717105,
-            "Longitude": -65.654490583,
-            "Beds": 180,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
         "Hospital Name": "Olin E. Teague Veterans' Medical Center",
         "Info": {
             "Id": 15276504,
@@ -82861,22 +82141,6 @@
             "Beds": 792,
             "Trauma": "Level I, Level Ii Pediatric",
             "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Hospital Oriente",
-        "Info": {
-            "Id": 4000791,
-            "Address": "Ave Font Martelo 300",
-            "City": "Humacao Pueblo",
-            "County": "Humacao",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.1527464320001,
-            "Longitude": -65.834032572,
-            "Beds": 67,
-            "Trauma": "Not Available",
-            "Helipad": "N"
         }
     },
     {
@@ -93344,22 +92608,6 @@
         }
     },
     {
-        "Hospital Name": "Hospital Pav Yauco",
-        "Info": {
-            "Id": 2700698,
-            "Address": "Carretera 128 Km 1",
-            "City": "Susua Baja",
-            "County": "Yauco",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.031300765,
-            "Longitude": -66.857596987,
-            "Beds": 105,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
         "Hospital Name": "Hamilton County Hospital",
         "Info": {
             "Id": 13667878,
@@ -93456,118 +92704,6 @@
         }
     },
     {
-        "Hospital Name": "Hosp Metropolitano Dr Susoni",
-        "Info": {
-            "Id": 100614,
-            "Address": "55 Nicomedes Rivera Street",
-            "City": "Arecibo Pueblo",
-            "County": "Arecibo",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.4732884790001,
-            "Longitude": -66.7169149709999,
-            "Beds": 138,
-            "Trauma": "Not Available",
-            "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Hosp Dr. Cayetano Coll Y Toste",
-        "Info": {
-            "Id": 200613,
-            "Address": "129 San Luis Avenue",
-            "City": "Arecibo Pueblo",
-            "County": "Arecibo",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.4670455360001,
-            "Longitude": -66.731140598,
-            "Beds": 188,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Hosp General Castaner Inc",
-        "Info": {
-            "Id": 400631,
-            "Address": "Km 64-2 Route 135",
-            "City": "Castaner",
-            "County": "Lares",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.1810130740001,
-            "Longitude": -66.8331817499999,
-            "Beds": 24,
-            "Trauma": "Not Available",
-            "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Doctors Center Hospital- Manati",
-        "Info": {
-            "Id": 500674,
-            "Address": "Km 47-7",
-            "City": "Manati",
-            "County": "Manati",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.4336747630001,
-            "Longitude": -66.473968192,
-            "Beds": 150,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Inst Medico Del Norte Inc, Centro Medico Wilma N Vazquez",
-        "Info": {
-            "Id": 800694,
-            "Address": "Carr. 2 Km. 39.5",
-            "City": "Vega Baja",
-            "County": "Vega Baja",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.446333564,
-            "Longitude": -66.3770437599999,
-            "Beds": 150,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Hosp San Carlos Borromeo",
-        "Info": {
-            "Id": 1000676,
-            "Address": "550 Concepcion Vera Ayala",
-            "City": "Moca",
-            "County": "Moca",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.390194351,
-            "Longitude": -67.10996904,
-            "Beds": 106,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Lafayette Hospital",
-        "Info": {
-            "Id": 1900714,
-            "Address": "Pr-753 Km 0.1 Sector Cuatro Calles",
-            "City": "Arroyo",
-            "County": "Arroyo",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 17.975961279,
-            "Longitude": -66.0583675829999,
-            "Beds": 38,
-            "Trauma": "Not Available",
-            "Helipad": "Y"
-        }
-    },
-    {
         "Hospital Name": "El Campo Memorial Hospital",
         "Info": {
             "Id": 17777437,
@@ -93611,150 +92747,6 @@
             "Latitude": 37.7039215610001,
             "Longitude": -97.246028866,
             "Beds": 60,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Hosp Damas",
-        "Info": {
-            "Id": 2300717,
-            "Address": "Pr-2 Ponce By Pass",
-            "City": "Ponce",
-            "County": "Ponce",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 17.9971280780001,
-            "Longitude": -66.61764045,
-            "Beds": 251,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Dr. Pila'S Hospital",
-        "Info": {
-            "Id": 2400733,
-            "Address": "Avenida Las Americas",
-            "City": "Ponce",
-            "County": "Ponce",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.003681617,
-            "Longitude": -66.610658695,
-            "Beds": 115,
-            "Trauma": "Not Available",
-            "Helipad": "Y"
-        }
-    },
-    {
-        "Hospital Name": "Hima San Pablo - Bayamon",
-        "Info": {
-            "Id": 2900960,
-            "Address": "70 Calle Santa Cruz",
-            "City": "Bayamon",
-            "County": "Bayamon",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.3974253750001,
-            "Longitude": -66.147523059,
-            "Beds": 410,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Hosp Hermanos Melendez",
-        "Info": {
-            "Id": 3000960,
-            "Address": "Route 2 Km 11-7",
-            "City": "Bayamon",
-            "County": "Bayamon",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.3969575260001,
-            "Longitude": -66.16270651,
-            "Beds": 211,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Hosp Del Maestro",
-        "Info": {
-            "Id": 4500939,
-            "Address": "550 Sergio Cuevas",
-            "City": "San Juan",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.41182194,
-            "Longitude": -66.068722071,
-            "Beds": 250,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Hosp Pavia De Hato Rey",
-        "Info": {
-            "Id": 4900919,
-            "Address": "435 Ponce De Leon Avenue",
-            "City": "Hato Rey",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.419412869,
-            "Longitude": -66.055975895,
-            "Beds": 180,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "San Jorge Childrens Hospital",
-        "Info": {
-            "Id": 5000914,
-            "Address": "252 San Jorge Street Santurce",
-            "City": "San Juan",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.4471351,
-            "Longitude": -66.062936022,
-            "Beds": 125,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Auxilio Mutuo Hospital",
-        "Info": {
-            "Id": 6000919,
-            "Address": "Ponce De Leon Avenue",
-            "City": "Hato Rey",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.4098626730001,
-            "Longitude": -66.051095958,
-            "Beds": 483,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Doctors' Center Hosp San Juan Inc",
-        "Info": {
-            "Id": 6800910,
-            "Address": "1395 San Rafael Street",
-            "City": "San Juan",
-            "County": "San Juan",
-            "State": "Puerto Rico",
-            "Status": "Open",
-            "Latitude": 18.4460195190001,
-            "Longitude": -66.0737156549999,
-            "Beds": 125,
             "Trauma": "Not Available",
             "Helipad": "N"
         }

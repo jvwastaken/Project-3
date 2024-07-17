@@ -33,7 +33,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 87531719,Phoebe Sumter Medical Center,126 Highway 280 W,Americus,Sumter,Georgia,Open,32.0669623380001,-84.2560501999999,76,Not Available,Y
 87931830,Roosevelt Warm Springs Ltac Hospital,6135 Roosevelt Highway,Warm Springs,Meriwether,Georgia,Open,32.887980741,-84.6923449,32,Not Available,N
 90030265,Southeastern Regional Medical Center,600 Celebrate Life Pkwy,Newnan,Coweta,Georgia,Open,33.3848346460001,-84.757746692,50,Not Available,N
-196500984,Doctors Center Hospital Sanfernando De Carolina,"Calle Fernandez Juncos, Edificio Jesus T. Pineiro",Carolina,Metro,Puerto Rico,Open,18.3804430000001,-65.95579,988,Not Available,N
 2054311,Brown Cty Community Treatment Center,3150 Gershwin Drive,Green Bay,Brown,Wisconsin,Open,44.522712261,-87.924827084,16,Not Available,N
 151253226,Wheaton Franciscan Wi Heart Spine And Ortho,10000 West Bluemound Road,Wauwatosa,Milwaukee,Wisconsin,Open,43.0358121520001,-88.037265823,40,Not Available,N
 159171301,Compass Behavioral Center Of Alexandria,6410 Masonic Drive,Alexandria,Rapides,Louisiana,Open,31.252191558,-92.481987814,18,Not Available,N
@@ -530,20 +529,12 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 11537660,Holston Valley Medical Center,130 West Ravine Road,Kingsport,Sullivan,Tennessee,Open,36.554103173,-82.554607246,505,Level I,Y
 566839,Coffey County Hospital,801 North 4Th Street,Burlington,Coffey,Kansas,Open,38.202271765,-95.7376996419999,78,Not Available,Y
 21210305,Staten Island University Hospital - South,375 Seguine Avenue,Staten Island,Richmond,New York,Open,40.5165692800001,-74.1964660899999,206,Not Available,N
-2600731,Hosp San Cristobal,506 Carr Road,Coto Laurel,Ponce,Puerto Rico,Open,18.0396748470001,-66.5474067279999,103,Not Available,N
 190270121,Ochsner Rehabilitation Hospital,2614 Jefferson Hwy,Jefferson,Jefferson,Louisiana,Open,29.9615421980001,-90.154221499,56,Not Available,N
 4667005,South Central Ks Med Center,6401 Patterson Parkway,Arkansas City,Cowley,Kansas,Open,37.132996817,-97.0385032889999,37,Not Available,Y
 9366757,Wilson Medical Center,Reece Campus 2600 Ottawa Road,Neodesha,Wilson,Kansas,Open,37.409570585,-95.708332152,15,Not Available,Y
 1567530,The University Of Kansas Health System Great Bend Campus,514 Cleveland Street,Great Bend,Barton,Kansas,Open,38.356165688,-98.790712688,33,Level Iv,Y
 9666521,Community Hospital Onaga And St Marys Campus,120 West 8Th Street,Onaga,Pottawatomie,Kansas,Open,39.4959886030001,-96.171428067,159,Level Iv,Y
 184270605,Avail Health Lake Charles Hospital,3730 Nelson Road,Lake Charles,Calcasieu,Louisiana,Open,30.190378373,-93.25037016,10,Not Available,N
-900605,Hospital Buen Samaritano,Carr 2 Km 141-1 Ave Severiano Cuevas 18 Bo. Caimital Bajo,Aguadilla,Aguadilla,Puerto Rico,Open,18.442809336,-67.1508851099999,154,Not Available,Y
-1500681,Hosp Bella Vista,State Road 349,Mayaguez,Mayaguez,Puerto Rico,Open,18.1867640090001,-67.119196771,157,Not Available,Y
-1800683,Hosp De La Concepcion,Carr 2 Km 173 Bo Cain Alto,San German,San German,Puerto Rico,Open,18.0988091140001,-67.038164761,167,Not Available,Y
-3700737,Hosp General Menonita - Cayey,4 H Mendoza Street,Cayey,Cayey,Puerto Rico,Open,18.1240463010001,-66.147481522,208,Not Available,N
-4400902,Ashford Presbyterian Community Hospital Inc,1451 Avenue Ashford,San Juan,San Juan,Puerto Rico,Open,18.4559932870001,-66.065469531,195,Not Available,N
-600674,Manati Medical Center Dr Alejandro Otero Lopez,Calle Hernandez Carrion 668,Manati Pueblo,Manati,Puerto Rico,Open,18.4345543470001,-66.4824950999999,251,Not Available,N
-4300922,Administracion De Servicios Medicos De Pr (Asem),Centro Medico,Monacillo Urbano,San Juan,Puerto Rico,Open,18.3955074040001,-66.0728407889999,68,Not Available,Y
 1177515,Utmb Angleton-Danbury Medical Center,132 East Hospital Drive,Angleton,Brazoria,Texas,Open,29.183855399,-95.4054332869999,64,Level Iv,Y
 2378705,St. David'S Medical Center,919 East 32Nd Street,Austin,Travis,Texas,Open,30.2898922050001,-97.7260463699999,350,Level Iv,Y
 4176015,Medical City Of Arlington,3301 Matlock Road,Arlington,Tarrant,Texas,Open,32.6923253090001,-97.1127163799999,342,Level Iii,Y
@@ -553,8 +544,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 6277514,Bayside Community Hospital,200 Hospital Drive,Anahuac,Chambers,Texas,Open,29.752557402,-94.687446673,14,Level Iv,Y
 6778758,North Austin Medical Center,12221 Mopac Service Road,Austin,Travis,Texas,Open,30.4114880280001,-97.7062274049999,378,Level Iv,Y
 1762801,St Marys Hospital,400 North Pleasant Avenue,Centralia,Marion,Illinois,Open,38.530281432,-89.117206305,113,Not Available,Y
-5700919,Hosp Oncologico Dr Isaac Gonzalez Martinez,Centro Medico,Monacillo Urbano,San Juan,Puerto Rico,Open,18.3963367280001,-66.072533977,143,Not Available,Y
-5400926,Hima San Pablo Cupey,138 Avenue Winston Churchill,San Juan,San Juan,Puerto Rico,Open,18.372592346,-66.046225433,60,Not Available,N
 81532026,Union Correctional Institute Hospital,7819 Nw 228Th St,Raiford,Union,Florida,Open,30.0670519110001,-82.193850377,59,Not Available,N
 81632806,Winnie Palmer Hospital For Women & Babies,83 W Miller St,Orlando,Orange,Florida,Open,28.5243398650001,-81.379153603,285,Not Available,Y
 82032514,West Florida Rehabilitation Institute,8391 N Davis Hwy,Pensacola,Escambia,Florida,Open,30.5163401230001,-87.216863022,58,Not Available,Y
@@ -1072,10 +1061,7 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 3382609,Elkhorn Valley Rehabilitation Hospital Llc,5715 East 2Nd Street,Casper,Natrona,Wyoming,Open,42.844225533,-106.242370132,41,Not Available,N
 91235402,Mary S. Harper Geriatric Psychiatry Center,201 University Boulevard,Tuscaloosa,Tuscaloosa,Alabama,Open,33.2190660000001,-87.533981,96,Not Available,N
 12743015,Grady Memorial Hospital,561 West Central Avenue,Delaware,Delaware,Ohio,Open,40.305514024,-83.089252856,152,Not Available,Y
-3800739,Cidra Pan American Hospital,Pr-787 Km 1.5,Cidra,Cidra,Puerto Rico,Open,18.176038959,-66.1614012329999,216,Not Available,N
 28617403,Wellspan Surgery And Rehabilitation Hospital,55 Monument Road,York,York,Pennsylvania,Open,39.926192787,-76.71895855,73,Not Available,N
-3200956,Hosp Universitario Dr Ramon Ruiz Arnau,Ave Laurel - Urb Santa Juanita,Bayamon,Bayamon,Puerto Rico,Open,18.367570404,-66.154124489,102,Not Available,Y
-7100960,Puerto Rico Childrens Hospital,Carr. 2 Km 11.7 Interior Bo. Pajaros,Bayamon,Bayamon,Puerto Rico,Open,18.3968147580001,-66.163448901,150,Not Available,N
 126843016,Dublin Springs,7625 Hospital Drive,Dublin,Franklin,Ohio,Open,40.1038159390001,-83.170971659,72,Not Available,N
 4908053,Weisman Childrens Rehabilitation Hospital,92 Brick Road,Marlton,Burlington,New Jersey,Open,39.8830950230001,-74.918054591,18,Not Available,N
 5108401,John Brooks Recovery Center - Resident Drug Treatment (Men),1315 Pacific Avenue,Atlantic City,Atlantic,New Jersey,Open,39.361028527,-74.426406086,29,Not Available,N
@@ -1108,10 +1094,8 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 109707094,Hudson County Meadowview Psychiatric Hospital,595 County Avenue,Secaucus,Hudson,New Jersey,Open,40.7854055760001,-74.057816885,174,Not Available,N
 129943725,Cambridge Behavorial Hospital,66755 State Street,Cambridge,Guernsey,Ohio,Open,40.066895839,-81.582060309,66,Not Available,N
 2843725,Southeastern Ohio Regional Medical Center,1341 North Clark Street,Cambridge,Guernsey,Ohio,Open,40.0414731870001,-81.5773923359999,189,Not Available,Y
-2000785,Clinica Santa Rosa,Veterans Avenue,Guayama,Guayama,Puerto Rico,Open,17.980770922,-66.106166118,86,Not Available,N
 28645224,Children'S Hospital Mc - College Hill,5642 Hamilton Avenue,Cincinnati,Hamilton,Ohio,Open,39.1926339440001,-84.5438764479999,74,Not Available,N
 127645236,"Jewish Hospital, Llc",4777 East Galbraith Road,Cincinnati,Hamilton,Ohio,Open,39.2059509790001,-84.38094165,209,Not Available,Y
-2200733,Hosp Andres Grillasca Inc (Centro De Oncologica Avanzada),Centro Medico De Ponce,Ponce,Ponce,Puerto Rico,Open,18.0332502100001,-66.593130348,49,Not Available,Y
 28745219,"Drake Center For Post-Acute Care, Llc",2139 Auburn Avenue,Cincinnati,Hamilton,Ohio,Open,39.121299407,-84.510407282,30,Not Available,Y
 9245220,Cincinnati Va Medical Center,3200 Vine Street,Cincinnati,Hamilton,Ohio,Open,39.1394136430001,-84.508194552,268,Not Available,N
 9085712,Tmc Healthcare,5301 East Grant Road,Tucson,Pima,Arizona,Open,32.2523042510001,-110.879298849,541,Not Available,Y
@@ -1278,14 +1262,11 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 2154235,Door County Medical Center,323 South 18Th Avenue,Sturgeon Bay,Door,Wisconsin,Open,44.832702698,-87.3533355339999,25,Level Iv,Y
 11253534,Edgerton Hospital And Health Services,11101 N Sherman Road,Edgerton,Rock,Wisconsin,Open,42.8347133400001,-89.044267249,18,Level Iv,Y
 25577030,Memorial Hermann Texas Medical Center,6411 Fannin Street,Houston,Harris,Texas,Open,29.7145511730001,-95.3962820259999,1082,Level I,Y
-1200680,Hosp Perea,Calle Dr Basora 15,Mayaguez,Mayaguez,Puerto Rico,Open,18.2027329920001,-67.139826394,103,Not Available,N
-5300929,Hosp San Francisco,371 Avenida De Diego,San Juan,San Juan,Puerto Rico,Open,18.3987659680001,-66.039098297,150,Not Available,N
 14367226,Kansas Heart Hospital,3601 North Webb Road,Wichita,Sedgwick,Kansas,Open,37.7500383830001,-97.227543268,54,Not Available,N
 14467226,Kansas Spine Hospital Llc,3333 North Webb Road,Wichita,Sedgwick,Kansas,Open,37.7435730180001,-97.227215189,38,Not Available,N
 12866967,Smith County Memorial Hospital,614 South Main Street,Smith Center,Smith,Kansas,Open,39.7710886180001,-98.7848422499999,53,Level Iv,Y
 13566604,Stormont Vail Healthcare,1500 Sw 10Th St,Topeka,Shawnee,Kansas,Open,39.050787975,-95.696512006,394,Level Ii,N
 12540202,Kosair Children'S Hospital,231 East Chestnut Street,Louisville,Jefferson,Kentucky,Open,38.248470297,-85.74959418,271,Level I Pediatric,Y
-100801,Roy Lester Schneider Hospital,9048 Sugar Estate,St Thomas,Not Available,Virgin Islands,Open,18.340605,-64.9147169999999,169,Not Available,Y
 174496819,Spark M. Matsunaga Va Medical Center,459 Patterson Road,Honolulu,Honolulu,Hawaii,Open,21.361343,-157.889402,92,Not Available,Y
 2079601,Hendrick Medical Center,1900 Pine,Abilene,Taylor,Texas,Open,32.472176468,-99.733954404,522,Level Iii,Y
 4575751,Ut Health East Texas Athens,2000 South Palestine Street,Athens,Henderson,Texas,Open,32.1694446990001,-95.8462337029999,117,Level Iv,Y
@@ -2397,7 +2378,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 184927103,Novant Health Rehabilitation Hospital,2475 Hillcrest Center Circle,Winston-Salem,Forsyth,North Carolina,Open,36.051139634,-80.3269699369999,68,Not Available,N
 9778611,Ascension Seton Highland Lakes,3201 S Water Street,Burnet,Burnet,Texas,Open,30.733058471,-98.236858653,25,Level Iv,Y
 127543210,Osu James Cancer Hospital & Solove Research Institute,300 West Tenth Avenue,Columbus,Franklin,Ohio,Open,39.995582196,-83.01673059,306,Not Available,Y
-1100623,Metropolitano Psiquiatrico De Cabo Rojo,108 Munoz Rivera Street,Cabo Rojo Pueblo,Cabo Rojo,Puerto Rico,Open,18.085732297,-67.147327525,43,Not Available,N
 3408060,Hampton Behavioral Health Center,650 Rancocas Road,Westampton Township,Burlington,New Jersey,Open,40.008191218,-74.846858197,110,Not Available,N
 8608002,Jefferson Cherry Hill Hospital,2201 Chapel Ave West,Cherry Hill,Camden,New Jersey,Open,39.9282045480001,-75.016122501,196,Not Available,N
 2608240,Bacharach Institute For Rehabilitation,61 West Jimmie Leeds Road,Pomona,Atlantic,New Jersey,Open,39.4783156180001,-74.5389869959999,80,Not Available,Y
@@ -2924,7 +2904,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 3343512,Mercy Hospital Of Defiance,1404 East Second Street,Defiance,Defiance,Ohio,Open,41.283301028,-84.340237652,23,Not Available,Y
 10543130,Fairfield Medical Center,401 North Ewing Street,Lancaster,Fairfield,Ohio,Open,39.7175512540001,-82.577456609,245,Not Available,Y
 12243228,Doctors Hospital,5100 West Broad Street,Columbus,Franklin,Ohio,Open,39.952525182,-83.1378653519999,251,Not Available,Y
-3500726,Hospital Interamericano De Medicina Avanzada,100 Luis Munoz Marin Avenue,Caguas,Caguas,Puerto Rico,Open,18.21793941,-66.0319458719999,300,Not Available,N
 129343223,Twin Valley Behavioral Healthcare,2200 West Broad Street,Columbus,Franklin,Ohio,Open,39.9567524870001,-83.059165048,228,Not Available,N
 14543567,Fulton County Health Center,725 South Shoop Avenue,Wauseon,Fulton,Ohio,Open,41.53902085,-84.1329488379999,117,Not Available,Y
 3108037,Ancora Psychiatric Hospital,301 Spring Garden Road,Ancora,Camden,New Jersey,Open,39.6810739210001,-74.862487519,600,Not Available,N
@@ -2958,7 +2937,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 9145241,Trihealth Evendale Medical Center,3155 Glendale-Milford Road,Cincinnati,Hamilton,Ohio,Open,39.2514891340001,-84.420412357,29,Not Available,N
 2345133,Highland District Hospital,1275 North High Street,Hillsboro,Highland,Ohio,Open,39.2217530090001,-83.6107652329999,45,Not Available,Y
 10043952,Trinity Medical Ctr East,380 Summit Avenue,Steubenville,Jefferson,Ohio,Open,40.354755529,-80.62549638,244,Not Available,N
-2800733,Hosp Episcopal San Lucas 2,Pr-14 Ave Tito Castro 917,Ponce,Ponce,Puerto Rico,Open,18.0312034070001,-66.594748368,315,Not Available,N
 2743050,Knox Community Hospital,1330 Coshocton Road,Mount Vernon,Knox,Ohio,Open,40.3997161670001,-82.4485375199999,111,Not Available,Y
 15044077,Tripoint Medical Center,7590 Auburn Road,Painesville,Lake,Ohio,Open,41.6626096360001,-81.247080777,135,Not Available,Y
 13544035,Emh Regional Medical Center,630 East River Street,Elyria,Lorain,Ohio,Open,41.3668555890001,-82.097292351,387,Not Available,Y
@@ -3040,7 +3018,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 16615243,St Clair Memorial Hospital,1000 Bower Hill Road,Pittsburgh,Allegheny,Pennsylvania,Open,40.3780950010001,-80.066629999,328,Not Available,Y
 22319335,St John Vianney Center,151 Woodbine Road,Downingtown,Chester,Pennsylvania,Open,40.0123090020001,-75.683505,50,Not Available,N
 145724134,Carilion Giles Community Hospital,159 Hartley Way,Pearisburg,Giles,Virginia,Open,37.333079065,-80.713021407,25,Not Available,Y
-700641,Csf - Utuado,C/Isaac Gonzalez Martinez,Arenas,Utuado,Puerto Rico,Open,18.2677130980001,-66.7012851819999,7,Not Available,N
 4926003,Wheeling Hospital,1 Medical Park,Wheeling,Ohio,West Virginia,Open,40.0591186070001,-80.685007335,223,Level Ii,Y
 19015238,Encompass Health Harmarville Rehabilitation Hospital,"Guys Run Road, Po Box 11460",Pittsburgh,Allegheny,Pennsylvania,Open,40.5568960000001,-79.8660649999999,202,Not Available,N
 12318102,St Lukes Hospital Sacred Heart Campus,421 Chew Street,Allentown,Lehigh,Pennsylvania,Open,40.608314804,-75.468459857,215,Not Available,N
@@ -3156,7 +3133,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 2670508,Compass Behavioral Center,312 Youngsville Hwy,Lafayette,Lafayette,Louisiana,Open,30.155832167,-91.992166147,16,Not Available,N
 75520032,Bridgepoint National Harbor,"4601 Martin Luther King Jr. Avenue, Sw",Washington,District Of Columbia,Dc,Open,38.825128955,-77.0131483919999,82,Not Available,N
 5520678,Calvert Health Medical Center,100 Hospital Road,Prince Frederick,Calvert,Maryland,Open,38.5599068080001,-76.596272556,76,Not Available,Y
-3600726,Hosp General Menonita De Caguas,Pr-172 Urb Turabo Gardans (Salida 21),Caguas,Caguas,Puerto Rico,Open,18.220716113,-66.049890206,135,Not Available,N
 75320017,Hospital For Sick Children,"1731 Bunker Hill Road, Ne",Washington,District Of Columbia,Dc,Open,38.9411639370001,-76.980844803,130,Not Available,N
 177462269,Memorial Hospital East,1404 Cross St,Shiloh,St. Clair,Illinois,Open,38.5736900150001,-89.9054263369999,94,Not Available,Y
 4771913,Chi St. Vincent Hot Springs Rehabilitation Hospital An Affiliate Of Healthsouth,1636 Higdon Ferry Road,Hot Springs,Garland,Arkansas,Open,34.464251226,-93.074932227,40,Not Available,N
@@ -3168,7 +3144,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 170014901,Elmira Psychiatric Center,100 Washington Street,Elmira,Chemung,New York,Open,42.0916112720001,-76.795049713,80,Not Available,Y
 7601830,Holy Family Hosp @ Merrimack,140 Lincoln Avenue,Haverhill,Essex,Massachusetts,Open,42.7653,-71.0448,122,Not Available,Y
 7702114,Massachusetts General Hospital,55 Fruit Street,Boston,Suffolk,Massachusetts,Open,42.3626,-71.0692999999999,1035,"Level I, Level I Pediatric",Y
-7400674,Encompass Rehabilitation Hospital Of Manati,"Hospitals Doctor Center, Pr-2 Km 47.7",Manati,Manati,Puerto Rico,Open,18.4339103300001,-66.4746820299999,40,Not Available,N
 177180020,Scl Health Community Hospital- Westminster,6500 West 104Th Ave,Westminster,Adams,Colorado,Open,39.8876372730001,-105.068197962,8,Not Available,N
 5646953,"Va Medical Center - Marion, In",1700 E 38Th St,Marion,Grant,Indiana,Open,40.520461504,-85.638268405,225,Not Available,N
 174689511,Reno Behavioral Healthcare Hospital,6940 Sierra Center Parkway,Reno,Washoe,Nevada,Open,39.46389,-119.776027,124,Not Available,N
@@ -3441,12 +3416,7 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 13466606,The Kansas Rehabilitation Hospital,1504 Sw 8Th Avenue,Topeka,Shawnee,Kansas,Open,39.0548680910001,-95.694766467,59,Not Available,N
 15767156,William Newton Hospital,1300 East Fifth Avenue,Winfield,Cowley,Kansas,Open,37.2451680720001,-96.9821015529999,25,Level Iv,Y
 14267152,Sumner Community Hospital,1323 North A St,Wellington,Sumner,Kansas,Open,37.2786452060001,-97.392978967,61,Not Available,Y
-1700683,Hosp Metropolitano De San German,Calle Javilla Al Costado Parque De Bombas,San German,San German,Puerto Rico,Open,18.082633061,-67.040048901,40,Not Available,N
-4700936,Hosp Industrial C.F.S.E.,Puerto Rico Medical Center,Monacillo Urbano,San Juan,Puerto Rico,Open,18.394598595,-66.0731319509999,108,Not Available,Y
-4800909,Hosp Pavia Santurce,1462 Asia Street,Santurce,San Juan,Puerto Rico,Open,18.444654868,-66.0695605929999,215,Not Available,N
-5800926,Cpc Hosp San Juan Capestrano,Carr Pr-877 Km 1.6 Camino Las Lomas,San Juan,San Juan,Puerto Rico,Open,18.3845888600001,-66.022361352,108,Not Available,N
 12440232,Norton Healthcare Pavilion,315 East Broadway,Louisville,Jefferson,Kentucky,Open,38.2460051750001,-85.748718539,264,Not Available,N
-200820,Gov Juan F Luis Hospital & Medical Ctr,"4007 Est Diamond Ruby, Christiansted",St Croix,Not Available,Virgin Islands,Open,17.733195,-64.751478,188,Not Available,N
 1276012,Texas Health Arlington Memorial Hospital,800 West Randol Mill Road,Arlington,Tarrant,Texas,Open,32.748897293,-97.11581999,369,Level Iv,Y
 1776227,Baylor Emergency Medical Center At Aubrey,26791 Highway 380,Aubrey,Denton,Texas,Open,33.2206530510001,-96.9135885219999,8,Not Available,Y
 2478705,Ascension Seton Medical Center Austin,1201 West 38Th Street,Austin,Travis,Texas,Open,30.305001846,-97.7456083179999,530,Level Iv,Y
@@ -4248,7 +4218,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 57,Essentia Health Virginia,901 9Th St N,Virginia,St. Louis,Minnesota,Open,47.531863392,-92.5485476009999,83,Level Iv,Y
 12016001,Va Butler Healthcare,325 New Castle Rd,Butler,Butler,Pennsylvania,Open,40.8734394860001,-79.944130835,56,Not Available,N
 66,Genesis Medical Center West-Davenport,1401 W Central Park Ave,Davenport,Scott,Iowa,Open,41.5436741300001,-90.5937651359999,502,Not Available,Y
-13700921,Va Caribbean Healthcare System,10 Casia St,San Juan,San Juan,Puerto Rico,Open,18.390394142,-66.079335477,209,Not Available,N
 78,Ou Medical Center Edmond-Er,1 S Bryant Ave,Edmond,Oklahoma,Oklahoma,Open,35.654658323,-97.461510295,54,Level I,Y
 63,Beatrice Community Hospital,4800 Hospital Pkwy,Beatrice,Gage,Nebraska,Open,40.3161463700001,-96.749720606,25,Not Available,N
 84,Merit Health Madison,161 River Oaks Dr,Canton,Madison,Mississippi,Open,32.581371905,-90.083195629,67,Level Iv,Y
@@ -4701,7 +4670,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 15443110,Diley Ridge Medical Center,7911 Diley Road,Canal Winchester,Fairfield,Ohio,Open,39.8506698950001,-82.784080955,10,Not Available,Y
 124643223,Pomegranate Health Systems Of Columbus,765 Pierce Drive,Columbus,Franklin,Ohio,Open,39.946702766,-83.018182184,20,Not Available,N
 28343205,Ohio State University Hospital East,181 Taylor Ave,Columbus,Franklin,Ohio,Open,39.970517693,-82.962875621,190,Level Iii,Y
-3100674,Doctors Center Hospital- Bayamon (Ant. Matildes Brenes),Extension Hermanas Davila,Bayamon,Bayamon,Puerto Rico,Open,18.3979957760001,-66.166351063,91,Not Available,N
 14843016,Dublin Methodist Hospital,7500 Hospital Avenue,Dublin,Franklin,Ohio,Open,40.101219536,-83.165741969,147,Not Available,Y
 1643215,Grant Medical Center,111 South Grant Avenue,Columbus,Franklin,Ohio,Open,39.9609732750001,-82.991001983,636,Level I,Y
 8808053,Virtua West Jersey Hospital - Marlton,90 Brick Road,Marlton,Burlington,New Jersey,Open,39.8813950270001,-74.918531414,198,Not Available,N
@@ -4743,10 +4711,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 110508536,Penn Medical Princeton Medical,One Plainsboro Road,Plainsboro,Middlesex,New Jersey,Open,40.3403616350001,-74.6241641669999,430,Not Available,N
 123244024,Rehab Hospital At Heather Hill Care Communities,12340 Bass Lake Road,Chardon,Geauga,Ohio,Open,41.5357085960001,-81.223012292,56,Not Available,N
 4587102,Albuquerque - Amg Specialty Hospital Llc,235 Elm Street Northeast,Albuquerque,Bernalillo,New Mexico,Open,35.0849107660001,-106.639071284,25,Not Available,N
-6600738,Caribbean Medical Center,151 Osvaldo Avenue,Fajardo,Fajardo,Puerto Rico,Open,18.3320162420001,-65.650255078,38,Not Available,N
-2100785,Hospital San Lucas De Guayama (Cristo Redentor),Avenue Pedro Albesus,Guayama Pueblo,Guayama,Puerto Rico,Open,17.9735513360001,-66.114454354,115,Not Available,N
-4100791,Hosp Ryder Memorial Inc,355 Font Martelo Street,Humacao,Humacao,Puerto Rico,Open,18.156000299,-65.835080018,227,Not Available,N
-1400681,Mayaguez Medical Center,410 Hostos Avenue,Mayaguez,Mayaguez,Puerto Rico,Open,18.180637237,-67.1528497149999,181,Not Available,Y
 12845669,Three Gables Surgery Center,5897 County Road 107,Proctorville,Lawrence,Ohio,Open,38.4417884760001,-82.392982106,8,Not Available,N
 29043055,Sheperd Hill Hospital,200 Messimer Drive,Newark,Licking,Ohio,Open,40.041072716,-82.453675102,14,Not Available,N
 9844053,Mercy Regional Medical Center,3700 Kolbe Road,Lorain,Lorain,Ohio,Open,41.4365245390001,-82.2371635279999,338,Not Available,Y
@@ -4930,7 +4894,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 18922044,Dominion Hospital,2960 Sleepy Hollow Road,Falls Church,Fairfax,Virginia,Open,38.870086852,-77.158078502,100,Not Available,N
 12123413,Riverside Shore Memorial Hospital,9507 Hospital Avenue,Nassawadox,Northampton,Virginia,Open,37.4754289270001,-75.8640725819999,143,Not Available,Y
 1622701,Uva Culpeper Hospital,501 Sunset Lane,Culpeper,Culpeper,Virginia,Open,38.4552311670001,-78.013344565,70,Not Available,Y
-5600922,Hosp Metropolitano De San Juan,Pr-21 Urb Las Lomas 1785,Puerto Nuevo,San Juan,Puerto Rico,Open,18.3899033490001,-66.0982615139999,132,Not Available,Y
 1422554,Stafford Hospital,101 Hospital Center Boulevard,Stafford,Stafford,Virginia,Open,38.415256974,-77.4072077169999,100,Not Available,Y
 7024382,Wythe County Community Hospital,600 West Ridge Road,Wytheville,Wythe,Virginia,Open,36.9544468170001,-81.097115407,108,Not Available,Y
 6624219,Wellmont Lonesome Pine Hospital,1990 Holton Avenue East,Big Stone Gap,Wise,Virginia,Open,36.877168978,-82.754305388,60,Not Available,Y
@@ -4947,7 +4910,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 3022033,Inova Fair Oaks Hospital,3600 Joseph Siewick Drive,Fairfax,Fairfax,Virginia,Open,38.8845886220001,-77.379848989,182,Not Available,Y
 1883318,Cassia Regional Medical Center,1501 Hiland Avenue,Burley,Cassia,Idaho,Open,42.5348710470001,-113.781777494,25,Not Available,Y
 1813753,O'Connor Hospital,460 Andes Rd,Delhi,Delaware,New York,Open,42.268351431,-74.9163910029999,23,Not Available,Y
-3900792,Hima San Pablo - Humacao,3 Cll Font Martelo,Humacao,Humacao,Puerto Rico,Open,18.150703047,-65.82670296,64,Not Available,N
 6524273,Norton Community Hospital,100 15Th Street Northwest,Norton,Norton,Virginia,Open,36.93295679,-82.641975143,129,Not Available,Y
 147423456,Sentara Princess Anne Hospital,2025 Glenn Mitchell Drive,Virginia Beach,Virginia Beach,Virginia,Open,36.7752182300001,-76.0980182919999,160,Not Available,Y
 19620166,Stone Springs Hospital Center,24440 Stone Springs Blvd,Dulles,Loudoun,Virginia,Open,38.94013168,-77.542722575,124,Not Available,Y
@@ -4967,7 +4929,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 1324701,Bluefield Regional Medical Center,500 Cherry St,Bluefield,Mercer,West Virginia,Open,37.2557323190001,-81.2355074719999,92,Level Iv,Y
 3762207,Touchette Regional Hospital Inc,5900 Bond Avenue,Centreville,St. Clair,Illinois,Open,38.5701499850001,-90.1084824869999,119,Not Available,Y
 6573717,Share Memorial Hospital,800 Share Drive,Alva,Woods,Oklahoma,Open,36.787220597,-98.6712217529999,25,Level Iv,Y
-7300970,Professional Hospital,Carr. 199 Km 1.3,Guaynabo,San Juan,Puerto Rico,Open,18.3624300920001,-66.097714238,49,Not Available,N
 3773601,Alliancehealth Clinton,100 North 30Th Street,Clinton,Custer,Oklahoma,Open,35.514708269,-98.9977696019999,56,Level Iv,Y
 674023,Hillcrest Hospital Cushing,1027 East Cherry Street,Cushing,Payne,Oklahoma,Open,35.9786710600001,-96.756746973,99,Level Iv,Y
 11274048,Jane Phillips Nowata Hospital,237 South Locust Street,Nowata,Nowata,Oklahoma,Open,36.696685438,-95.630281198,25,Level Iv,N
@@ -5009,7 +4970,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 132473663,Seiling Municipal Hospital,Highway 60 & 281,Seiling,Dewey,Oklahoma,Open,36.1547960730001,-98.923073428,18,Level Iv,Y
 2503576,Upper Connecticut Valley Hospital,181 Corliss Lane,Colebrook,Coos,New Hampshire,Open,44.9044471120001,-71.480809426,16,Not Available,Y
 17362557,Pana Community Hospital,101 E Ninth Street,Pana,Christian,Illinois,Open,39.3797012370001,-89.084404234,22,Not Available,Y
-180500681,Hospital Perea,Calle Dr Basora 15,Mayaguez,Mayaguez,Puerto Rico,Open,18.200732031,-67.140401492,118,Not Available,N
 199508,Alaska Psychiatric Institute,3700 Piper Street,Anchorage,Anchorage,Alaska,Open,61.1850968030001,-149.829801554,80,Not Available,N
 10037074,Trousdale Medical Center,500 Church Street,Hartsville,Trousdale,Tennessee,Open,36.38783255,-86.168159927,25,Not Available,N
 5038063,Lauderdale Community Hospital,326 Asbury Avenue,Ripley,Lauderdale,Tennessee,Open,35.744352517,-89.5496351899999,25,Not Available,Y
@@ -5019,11 +4979,8 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 10437604,Woodridge Psychiatric Hospital,403 State Of Franklin,Johnson City,Washington,Tennessee,Open,36.307733076,-82.387721842,84,Not Available,N
 905819,Northeastern Vermont Regional Hospital,1315 Hospital Dr,St. Johnsbury,Caledonia,Vermont,Open,44.445786915,-72.00955799,25,Not Available,Y
 2426554,Fairmont General Hospital,1325 Locust Avenue,Fairmont,Marion,West Virginia,Open,39.4823353300001,-80.165372706,207,Not Available,N
-4600936,Centro Cardiovascular De Pr Y Caribe Dr Ramon M Suarez,Ave Americo Miranda - Entrada Principal Centro Medico,Monacillo Urbano,San Juan,Puerto Rico,Open,18.3986458300001,-66.072629207,164,Not Available,Y
 1038201,Mckenzie Regional Hospital,161 Hospital Drive,Mc Kenzie,Carroll,Tennessee,Open,36.1374273500001,-88.489360333,45,Not Available,Y
 1337879,Claiborne County Hospital,1850 Old Knoxville Road,Tazewell,Claiborne,Tennessee,Open,36.4528338850001,-83.572275718,85,Not Available,N
-6200936,Encompass Health Rehabilitation Of Pr,3Er Piso Hosp Universitario De Adultos - Centro Medico,Monacillo Urbano,San Juan,Puerto Rico,Open,18.396818867,-66.073450866,32,Not Available,Y
-3400705,Hosp General Menonita - Aibonito,C/Jose C Vazquez - Salida Bo Caonilla,Aibonito,Aibonito,Puerto Rico,Open,18.14379446,-66.2617073649999,150,Not Available,N
 1938555,Cumberland Medical Center,421 South Main Street,Crossville,Cumberland,Tennessee,Open,35.9433250020001,-85.022031362,189,Not Available,N
 3138363,Decatur County General Hospital,969 Tennessee Avenue South,Parsons,Decatur,Tennessee,Open,35.6359507010001,-88.122244892,40,Not Available,Y
 2137208,Metropolitan Nashville General Hospital,1818 Albion Street,Nashville,Davidson,Tennessee,Open,36.166906969,-86.80656112,150,Not Available,Y
@@ -5097,7 +5054,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 12047374,Reid Hospital & Health Care Services,1100 Reid Pkwy,Richmond,Wayne,Indiana,Open,39.864710013,-84.884284517,221,Level Iii,Y
 11640536,University Of Ky Hospital,800 Rose Street,Lexington,Fayette,Kentucky,Open,38.030964612,-84.5074429909999,724,"Level I, Level I Pediatric",Y
 7749660,Munson Healthcare Manistee Hospital,1465 E Parkdale Avenue,Manistee,Manistee,Michigan,Open,44.2710786590001,-86.27421836,45,Not Available,Y
-4200984,Hosp Upr Carolina,Pr-3 Km 8.1 Ave 65 Inf,Carolina,Carolina,Puerto Rico,Open,18.388471704,-65.971898671,233,Not Available,N
 10448085,Beaumont Hospital Troy,44201 Dequindre Road,Troy,Oakland,Michigan,Open,42.6189979750001,-83.093589961,520,Level Ii,Y
 9149442,Mercy Health Muskegon,1700 Clinton Street,Muskegon,Muskegon,Michigan,Open,43.2225644310001,-86.2417323339999,186,Level Ii,Y
 12148602,Covenant Medical Center,1447 N Harrison,Saginaw,Saginaw,Michigan,Open,43.4284518520001,-83.956490419,277,"Level Ii, Level Ii Pediatric",Y
@@ -5158,7 +5114,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 6597220,Vibra Specialty Hospital Of Portland,10300 Ne Hancock Street,Portland,Multnomah,Oregon,Open,45.5350980420001,-122.556865636,73,Not Available,N
 11851566,Montgomery County Memorial Hospital,2301 Eastern Avenue,Red Oak,Montgomery,Iowa,Open,41.014317077,-95.216522459,25,Level Iv,N
 8350025,Audubon County Memorial Hospital,515 Pacific,Audubon,Audubon,Iowa,Open,41.7153517680001,-94.937836149,25,Level Iv,Y
-6500738,Hima San Pablo - Fajardo,Pr-194 Ave General Valero 404 Pr-194,Fajardo,Fajardo,Puerto Rico,Open,18.336717105,-65.654490583,180,Not Available,N
 15276504,Olin E. Teague Veterans' Medical Center,1901 Veterans Memorial Dr,Temple,Bell,Texas,Open,31.0764042280001,-97.3475798059999,177,Not Available,N
 14977030,Michael E. Debakey Va Medical Center,2002 Holcombe Blvd,Houston,Harris,Texas,Open,29.6997657490001,-95.388773445,349,Not Available,Y
 11708638,Capital Health System - Fuld,750 Brunswick Avenue,Trenton,Mercer,New Jersey,Open,40.235987686,-74.7521968189999,237,Level Ii,Y
@@ -5178,7 +5133,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 8650115,Guthrie County Hospital,710 North 12Th Street,Guthrie Center,Guthrie,Iowa,Open,41.6836194910001,-94.493676927,25,Level Iv,Y
 7443616,Mercy St Charles Hospital,2600 Navarre Avenue,Oregon,Lucas,Ohio,Open,41.6351238390001,-83.485225207,410,Level Iii,Y
 6243606,Toledo Hospital The,2142 North Cove Boulevard,Toledo,Lucas,Ohio,Open,41.6723495590001,-83.5952583869999,792,"Level I, Level Ii Pediatric",Y
-4000791,Hospital Oriente,Ave Font Martelo 300,Humacao Pueblo,Humacao,Puerto Rico,Open,18.1527464320001,-65.834032572,67,Not Available,N
 8443699,University Of Toledo Medical Center,3000 Arlington Avenue,Toledo,Lucas,Ohio,Open,41.618767238,-83.616032643,319,Level I,Y
 6043140,Madison County Hospital Inc,210 North Main Street,London,Madison,Ohio,Open,39.8925545980001,-83.454255459,94,Not Available,Y
 3888310,Gerald Champion Regional Medical Center,2669 North Scenic Drive,Alamogordo,Otero,New Mexico,Open,32.92454215,-105.9346758,99,Level Iii,Y
@@ -5833,32 +5787,15 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 16438138,Baptist Memorial Rehabilitation Hospital,1240 S. Germantown Road,Germantown,Shelby,Tennessee,Open,35.1144586980001,-89.7996595929999,49,Not Available,N
 6166211,Doctors Hospital Llc,4901 College Blvd,Leawood,Johnson,Kansas,Open,38.9271224460001,-94.643662784,6,Not Available,N
 1667054,Kiowa County Memorial Hospital,721 West Kansas,Greensburg,Kiowa,Kansas,Open,37.6055527820001,-99.301437562,15,Not Available,Y
-2700698,Hospital Pav Yauco,Carretera 128 Km 1,Susua Baja,Yauco,Puerto Rico,Open,18.031300765,-66.857596987,105,Not Available,N
 13667878,Hamilton County Hospital,700 North Huser,Syracuse,Hamilton,Kansas,Open,37.9848631510001,-101.742432406,69,Not Available,N
 10866209,Menorah Medical Center,5721 West 119Th Street,Overland Park,Johnson,Kansas,Open,38.9105562240001,-94.651996571,158,Not Available,Y
 10766211,Mid America Rehabilitation Hospital,5701 W 110Th Street,Shawnee Mission,Johnson,Kansas,Open,38.9289117930001,-94.65136062,98,Not Available,N
 6566219,Minimally Invasive Surgery Hospital,11217 Lakeview Avenue,Lenexa,Johnson,Kansas,Open,38.9244229450001,-94.7690054289999,9,Not Available,N
 10167473,Osborne County Memorial Hospital,424 W New Hampshire,Osborne,Osborne,Kansas,Open,39.437175946,-98.70148391,25,Not Available,N
 13967672,Trego County Lemke Memorial Hospital,320 Thirteenth St,Wa Keeney,Trego,Kansas,Open,39.0273115860001,-99.871094779,62,Not Available,Y
-100614,Hosp Metropolitano Dr Susoni,55 Nicomedes Rivera Street,Arecibo Pueblo,Arecibo,Puerto Rico,Open,18.4732884790001,-66.7169149709999,138,Not Available,Y
-200613,Hosp Dr. Cayetano Coll Y Toste,129 San Luis Avenue,Arecibo Pueblo,Arecibo,Puerto Rico,Open,18.4670455360001,-66.731140598,188,Not Available,N
-400631,Hosp General Castaner Inc,Km 64-2 Route 135,Castaner,Lares,Puerto Rico,Open,18.1810130740001,-66.8331817499999,24,Not Available,Y
-500674,Doctors Center Hospital- Manati,Km 47-7,Manati,Manati,Puerto Rico,Open,18.4336747630001,-66.473968192,150,Not Available,N
-800694,"Inst Medico Del Norte Inc, Centro Medico Wilma N Vazquez",Carr. 2 Km. 39.5,Vega Baja,Vega Baja,Puerto Rico,Open,18.446333564,-66.3770437599999,150,Not Available,N
-1000676,Hosp San Carlos Borromeo,550 Concepcion Vera Ayala,Moca,Moca,Puerto Rico,Open,18.390194351,-67.10996904,106,Not Available,N
-1900714,Lafayette Hospital,Pr-753 Km 0.1 Sector Cuatro Calles,Arroyo,Arroyo,Puerto Rico,Open,17.975961279,-66.0583675829999,38,Not Available,Y
 17777437,El Campo Memorial Hospital,303 Sandy Corner Road,El Campo,Wharton,Texas,Open,29.21849962,-96.291189576,49,Level Iv,Y
 14567226,Kansas Surgery & Recovery Center,2770 N Webb Road,Wichita,Sedgwick,Kansas,Open,37.7330613450001,-97.225013765,34,Not Available,N
 15267206,Via Christi Rehabilitation Hospital Inc,1151 N Rock Road,Wichita,Sedgwick,Kansas,Open,37.7039215610001,-97.246028866,60,Not Available,N
-2300717,Hosp Damas,Pr-2 Ponce By Pass,Ponce,Ponce,Puerto Rico,Open,17.9971280780001,-66.61764045,251,Not Available,N
-2400733,Dr. Pila'S Hospital,Avenida Las Americas,Ponce,Ponce,Puerto Rico,Open,18.003681617,-66.610658695,115,Not Available,Y
-2900960,Hima San Pablo - Bayamon,70 Calle Santa Cruz,Bayamon,Bayamon,Puerto Rico,Open,18.3974253750001,-66.147523059,410,Not Available,N
-3000960,Hosp Hermanos Melendez,Route 2 Km 11-7,Bayamon,Bayamon,Puerto Rico,Open,18.3969575260001,-66.16270651,211,Not Available,N
-4500939,Hosp Del Maestro,550 Sergio Cuevas,San Juan,San Juan,Puerto Rico,Open,18.41182194,-66.068722071,250,Not Available,N
-4900919,Hosp Pavia De Hato Rey,435 Ponce De Leon Avenue,Hato Rey,San Juan,Puerto Rico,Open,18.419412869,-66.055975895,180,Not Available,N
-5000914,San Jorge Childrens Hospital,252 San Jorge Street Santurce,San Juan,San Juan,Puerto Rico,Open,18.4471351,-66.062936022,125,Not Available,N
-6000919,Auxilio Mutuo Hospital,Ponce De Leon Avenue,Hato Rey,San Juan,Puerto Rico,Open,18.4098626730001,-66.051095958,483,Not Available,N
-6800910,Doctors' Center Hosp San Juan Inc,1395 San Rafael Street,San Juan,San Juan,Puerto Rico,Open,18.4460195190001,-66.0737156549999,125,Not Available,N
 679106,Baptist St. Anthony'S Health System - Baptist Campus,1600 Wallace Boulevard,Amarillo,Potter,Texas,Open,35.196451987,-101.920315509,451,Level Iv,Y
 2278701,University Medical Center At Brackenridge,601 East 15Th Street,Austin,Travis,Texas,Open,30.2738533790001,-97.733833454,339,Not Available,Y
 2578704,St. David'S South Austin Medical Center,901 West Ben White Boulevard,Austin,Travis,Texas,Open,30.2259300590001,-97.77459614,300,Level Ii,Y
