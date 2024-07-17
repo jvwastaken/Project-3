@@ -5859,8 +5859,6 @@ Id,Name,Address,City,County,State,Status,Latitude,Longitude,Beds,Trauma,Helipad
 5000914,San Jorge Childrens Hospital,252 San Jorge Street Santurce,San Juan,San Juan,Puerto Rico,Open,18.4471351,-66.062936022,125,Not Available,N
 6000919,Auxilio Mutuo Hospital,Ponce De Leon Avenue,Hato Rey,San Juan,Puerto Rico,Open,18.4098626730001,-66.051095958,483,Not Available,N
 6800910,Doctors' Center Hosp San Juan Inc,1395 San Rafael Street,San Juan,San Juan,Puerto Rico,Open,18.4460195190001,-66.0737156549999,125,Not Available,N
-496913,Guam Memorial Hospital Authority,85O Gov Carlos G Camacho Road,Tamuning,Guam,Guam,Open,13.5049540000001,144.774461,158,Not Available,N
-696940,Belau National Hospital,1 Hospital Road,Koror,Not Available,Pw,Open,7.35244400000005,134.46452,100,Not Available,N
 679106,Baptist St. Anthony'S Health System - Baptist Campus,1600 Wallace Boulevard,Amarillo,Potter,Texas,Open,35.196451987,-101.920315509,451,Level Iv,Y
 2278701,University Medical Center At Brackenridge,601 East 15Th Street,Austin,Travis,Texas,Open,30.2738533790001,-97.733833454,339,Not Available,Y
 2578704,St. David'S South Austin Medical Center,901 West Ben White Boulevard,Austin,Travis,Texas,Open,30.2259300590001,-97.77459614,300,Level Ii,Y

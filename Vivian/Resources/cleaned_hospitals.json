@@ -93760,38 +93760,6 @@
         }
     },
     {
-        "Hospital Name": "Guam Memorial Hospital Authority",
-        "Info": {
-            "Id": 496913,
-            "Address": "85O Gov Carlos G Camacho Road",
-            "City": "Tamuning",
-            "County": "Guam",
-            "State": "Guam",
-            "Status": "Open",
-            "Latitude": 13.5049540000001,
-            "Longitude": 144.774461,
-            "Beds": 158,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
-        "Hospital Name": "Belau National Hospital",
-        "Info": {
-            "Id": 696940,
-            "Address": "1 Hospital Road",
-            "City": "Koror",
-            "County": "Not Available",
-            "State": "Pw",
-            "Status": "Open",
-            "Latitude": 7.35244400000005,
-            "Longitude": 134.46452,
-            "Beds": 100,
-            "Trauma": "Not Available",
-            "Helipad": "N"
-        }
-    },
-    {
         "Hospital Name": "Baptist St. Anthony'S Health System - Baptist Campus",
         "Info": {
             "Id": 679106,
