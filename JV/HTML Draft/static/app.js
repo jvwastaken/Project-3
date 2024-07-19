@@ -27,40 +27,59 @@ function loadStateOptions() {
       console.log(filteredCovidData);
     });
   });
-
-
 }
-  
-// This is the funciton to filter hospitals by state
+
+//-------------------------------------------------------------------------------------------------------
+// This is the function to filter hospitals by state
 function filterHospitalsByState(state) {
   d3.json("../../Vivian/Resources/cleaned_hospitals.json").then((data) => {
+    // Filter the hospital data to only include hospitals in the selected state.
+    let filteredHospitals = data.filter(hospital => hospital.Info.State === state);
 
-      // Filter the hospital data to only include hospitals in the selected state.
-      let filteredHospitals = data.filter(hospital => hospital.Info.State === state);
+    // Counting
+    let openCount = filteredHospitals.filter(hospital => hospital.Info.Status === "Open").length;
+    let helipadCount = filteredHospitals.filter(hospital => hospital.Info.Helipad === "Y").length;
+    let traumaCount = filteredHospitals.filter(hospital => hospital.Info.Trauma !== "Not Available").length;
+    let totalBeds = filteredHospitals.reduce((sum, hospital) => sum + hospital.Info.Beds, 0);
 
-      // Counting
-      let openCount = filteredHospitals.filter(hospital => hospital.Info.Status === "Open").length;
-      let helipadCount = filteredHospitals.filter(hospital => hospital.Info.Helipad === "Y").length;
-      let traumaCount = filteredHospitals.filter(hospital => hospital.Info.Trauma !== "Not Available").length;
-      let totalBeds = filteredHospitals.reduce((sum, hospital) => sum + hospital.Info.Beds, 0);
+    // Display the information on the Hospitals info card
+    let hospitalsDisplay = d3.select('#hospitals-display');
 
-      // This will display the information on the Hospitals info card
-      let hospitalsDisplay = d3.select('#hospitals-display');
+    // Clear previous content
+    hospitalsDisplay.html("");
 
-      // Clear previous content
-      hospitalsDisplay.html("");
-
-      // Append new content to display the hospital info
-      hospitalsDisplay.append("h6").text(`Open Hospitals: ${openCount}`);
-      hospitalsDisplay.append("h6").text(`Total Beds: ${totalBeds}`);
-      hospitalsDisplay.append("h6").text(`Hospitals with Trauma: ${traumaCount}`);
-      hospitalsDisplay.append("h6").text(`Hospitals with Helipad: ${helipadCount}`);
-      });
+    // Append new content to display the hospital info
+    hospitalsDisplay.append("h6").text(`Open Hospitals: ${openCount}`);
+    hospitalsDisplay.append("h6").text(`Total Beds: ${totalBeds}`);
+    hospitalsDisplay.append("h6").text(`Hospitals with Trauma: ${traumaCount}`);
+    hospitalsDisplay.append("h6").text(`Hospitals with Helipad: ${helipadCount}`);
+  });
 }
 
-//This function creates a bar chart based on the state chosen
-function buildBarChart(selectedState) {
+//-------------------------------------------------------------------------------------------------------
+// This is the function to filter gunsales by state
+function filterGunSalesByState(state) {
+  d3.json("../../Vivian/Resources/cleaned_gunsales.json").then((data) => {
+    // Filter the gun data to only include gunsales in the selected state.
+    let filteredGunSales = data.filter(gunsale => gunsale.State === state);
 
+    // Display the information on the Gunsales info card
+    let gunsaleDisplay = d3.select('#gunsale-display');
+
+    // Clear previous content
+    gunsaleDisplay.html("");
+
+    // Append new content to display the gunsale info
+    filteredGunSales.forEach(gunsale => {
+      gunsaleDisplay.append("h6").text(`Estimated Gun Sales: ${gunsale['Gun Sales Info']['2023 Total Estimated Sales']}`);
+      gunsaleDisplay.append("h6").text(`Guns Per Capita: ${gunsale['Gun Sales Info']['Guns Per Capita']}`);
+    });
+  });
+}
+
+//-------------------------------------------------------------------------------------------------------
+// This function creates a bar chart based on the state chosen
+function buildBarChart(selectedState) {
   // Clear the content inside the 'bar' div
   document.getElementById('bar').innerHTML = '';
   
@@ -92,16 +111,106 @@ function buildBarChart(selectedState) {
   }
 }
 
-  // Handle state selection
-  // This function is called whenever a new state is selected from the dropdown. 
-  // It takes the selected state as an argument 
-  // and calls filterHospitalsByState with that state to update the displayed data.
-  function optionChanged(selectedState) {
-    filterHospitalsByState(selectedState);
+//-------------------------------------------------------------------------------------------------------
+// Handle state selection
+// This function is called whenever a new state is selected from the dropdown. 
+// It takes the selected state as an argument 
+// and calls filterHospitalsByState and filterGunSalesByState with that state to update the displayed data.
+function optionChanged(selectedState) {
+  filterHospitalsByState(selectedState);
+  filterGunSalesByState(selectedState);
+  buildBarChart(selectedState);
+}
 
-    buildBarChart(selectedState);
-  }
-  
-  // Initialize the dashboard, loads state options
-  loadStateOptions();
-  
+//-------------------------------------------------------------------------------------------------------
+// Initialize the dashboard, load state options
+loadStateOptions();
+
+//-------------------------------------------------------------------------------------------------------
+// Stephen's map
+let map;
+let markers = [];
+
+d3.json("../../Stephen/covid_cases_mapping/covid_cases.json").then(data => {
+  initializeMap();
+  window.covidData = data; // Store data globally for access in updateMap function
+  updateMap();
+});
+
+function initializeMap() {
+  let hospitalMarkers = L.layerGroup();
+  // Create the Esri satellite base layer.
+  let satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles © Esri'
+  });
+
+  // Create the grayscale base layer.
+  let grayscale = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+  });
+
+  // Create the outdoor base layer.
+  let outdoors = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data: © OpenStreetMap contributors, SRTM | Map style: © OpenTopoMap (CC-BY-SA)'
+  });
+
+  // Create a baseMaps object.
+  let baseMaps = {
+    "Satellite Map": satellite,
+    "Grayscale Map": grayscale,
+    "Outdoors Map": outdoors
+  };
+
+  // Create an overlayMaps object with hospital markers as an overlay
+  let overlayMaps = {
+    "Hospital Markers": hospitalMarkers
+  };
+
+  // Initialize the map
+  map = L.map('map', {
+    center: [37.8, -96],
+    zoom: 4,
+    layers: [satellite] // Default layer
+  });
+
+  // Add the layer control to the map
+  L.control.layers(baseMaps, overlayMaps).addTo(map);
+
+  // Define custom icon for the hospital marker
+  let hospitalIcon = L.icon({
+  iconUrl: '../Images/hospital.png',
+  iconSize: [30, 30], // Size of the icon
+  iconAnchor: [15, 30], // Anchor point of the icon
+});
+  // Load hospital coordinates JSON file and create custom markers
+  d3.json("../../Vivian/Resources/cleaned_hospitals.json").then(hospitalData => {
+  hospitalData.forEach(hospital => {
+    let hospitalMarker = L.marker([hospital.Info.Latitude, hospital.Info.Longitude], { icon: hospitalIcon }).addTo(hospitalMarkers);
+    hospitalMarker.bindPopup(`<b>${hospital["Hospital Name"]}</b><br>${hospital.Info.Address}, ${hospital.Info.City}, ${hospital.Info.State}`);
+  });
+});
+}
+
+function updateMap() {
+  const selectedDate = document.getElementById('date-select').value;
+
+  // Remove existing markers
+  markers.forEach(marker => map.removeLayer(marker));
+  markers = [];
+
+  // Add new markers based on selected date
+  covidData.forEach(stateData => {
+    const cases = stateData[selectedDate];
+    if (cases !== undefined) {
+      const marker = L.circleMarker([stateData.Lat, stateData.Long_], {
+        radius: Math.sqrt(cases) / 100, // Adjust size based on cases
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5
+      }).addTo(map);
+
+      marker.bindPopup(`<b>${stateData.State}</b><br>Cases: ${cases}`);
+      markers.push(marker);
+    }
+  });
+}

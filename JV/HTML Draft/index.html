@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Dashboard</title>
+  <title>Zombie Dashboard</title>
   <!-- Include Plotly library -->
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   
@@ -10,24 +10,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zombie Apocalypse</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <style>
     body {
       background-image: url('./Images/destroyed_city.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
-      height: 100vh; 
+      min-height: 100vh;
       opacity: 0.8; /* Adjust opacity */
       margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .container {
-      background-color: rgba(67, 118, 113, 0.499); 
-      border-radius: 15px; /*This adds rounded corners */
+      background-color: rgb(67, 118, 113); 
+      border-radius: 15px; /* This adds rounded corners */
       padding: 20px;
+      width: 90%; /* Adjust width as needed */
+      max-width: 1200px; /* Max width for larger screens */
+      min-height: 50vh; /* Minimum height to ensure it covers content */
     }
     .header-bg {
       background-color: rgba(28, 40, 38, 0.808);
-      color: white;
+      border-radius: 15px; /* This adds rounded corners */
+      color: rgb(255, 255, 255);
+    }
+    #map, #bar {
+      height: 400px;
+      width: 100%;
+    }
+    .dropdown {
+      margin: 20px;
     }
   </style>
 </head>
@@ -35,50 +50,97 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 p-5 text-center header-bg">
-        <h1>Zombie Apocalypse Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+        <h1><b>Zombie Apocalypse Dashboard</b></h1>
+        <p style="font-size: 0.7em; color: rgba(225, 252, 247, 0.808); margin: 0;">Analyzing the spread of disease using COVID and seeing which state is better suited for a zombie apocalypse!</p>
       </div>
     </div>
     <br>
+    <h4 style="text-align: center; color: rgb(255, 255, 255); margin: 0;">Use the interactive charts below to explore the dataset</h4>
+    <br>
+    <h5 style="text-align: left; color: rgba(255, 255, 255, 0.808); margin: 0;">Choose your month<br> to see a Map!</h5>
     <div class="row">
       <div class="col-md-3">
         <div class="card card-body bg-light">
-          <h6>Choose Your Month:</h6>
-          <select id="selDataset-2" onchange="optionChanged(this.value)"></select>
+          <h5 class="card-title"style="color: rgba(19, 118, 107, 0.808);">Choose Your Month:</h5>
+          <select id="date-select" onchange="updateMap()" class="form-select">
+            <option value="2020-04-01">April 2020</option>
+            <option value="2020-05-01">May 2020</option>
+            <option value="2020-06-01">June 2020</option>
+            <option value="2020-07-01">July 2020</option>
+            <option value="2020-08-01">August 2020</option>
+            <option value="2020-09-01">September 2020</option>
+            <option value="2020-10-01">October 2020</option>
+            <option value="2020-11-01">November 2020</option>
+            <option value="2020-12-01">December 2020</option>
+            <option value="2021-01-01">January 2021</option>
+            <option value="2021-02-01">February 2021</option>
+            <option value="2021-03-01">March 2021</option>
+            <option value="2021-04-01">April 2021</option>
+            <option value="2021-05-01">May 2021</option>
+            <option value="2021-06-01">June 2021</option>
+            <option value="2021-07-01">July 2021</option>
+            <option value="2021-08-01">August 2021</option>
+            <option value="2021-09-01">September 2021</option>
+            <option value="2021-10-01">October 2021</option>
+            <option value="2021-11-01">November 2021</option>
+            <option value="2021-12-01">December 2021</option>
+            <option value="2022-01-01">January 2022</option>
+            <option value="2022-02-01">February 2022</option>
+            <option value="2022-03-01">March 2022</option>
+            <option value="2022-04-01">April 2022</option>
+            <option value="2022-05-01">May 2022</option>
+            <option value="2022-06-01">June 2022</option>
+            <option value="2022-07-01">July 2022</option>
+            <option value="2022-08-01">August 2022</option>
+            <option value="2022-09-01">September 2022</option>
+            <option value="2022-10-01">October 2022</option>
+            <option value="2022-11-01">November 2022</option>
+            <option value="2022-12-01">December 2022</option>
+            <option value="2023-01-01">January 2023</option>
+            <option value="2023-02-01">February 2023</option>
+            <option value="2023-03-01">March 2023</option>
+          </select>
         </div>
         <br>
+        <h5 style="text-align: left; color: rgba(255, 255, 255, 0.808); margin: 0;">Choose your State to see it's Info</h5>
         <div class="card card-body bg-light">
-          <h6>Choose Your State:</h6>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+          <h5 class="card-title"style="color: rgba(19, 118, 107, 0.808);">Choose Your State:</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)" class="form-select"></select>
         </div>
         <br>
         <div class="card card-primary">
           <div class="card-header">
-            <h4 class="card-title">State Info</h4>
+            <h5 class="card-title"style="color: rgba(19, 118, 107, 0.808);">State Defense Info:</h5>
           </div>
-          <div id="sample-metadata" class="card-body"></div>
-          <h6 style="margin-left:15px;">Military Bases:<br>Hospitals:<br>Gun Sales:</h6>
+          <div id="gunsale-display" class="card-body"></div>
         </div>
         <br>
         <div class="card card-primary">
           <div class="card-header">
-            <h4 class="card-title">Hospitals Info</h4>
+            <h5 class="card-title"style="color: rgba(19, 118, 107, 0.808);">Hospitals Info</h5>
           </div>
           <div id="hospitals-display" class="card-body"></div>
         </div>
       </div>
       <div class="col-md-9">
-        <div id="bar"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="bubble"></div>
+        <!-- This div is added to create space for the map and bar chart -->
+        <div class="row">
+          <div class="col-md-12">
+            <div id="map"></div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="bar"></div> <!-- Add this div for the bar chart -->
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="./static/app.js"></script>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </body>
 </html>
