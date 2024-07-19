@@ -1,5 +1,8 @@
 let map;
-let markers = [];
+let covidMarkers = [];
+let gunSalesMarkers = [];
+let gunSalesLayer;
+let covidLayer;
 
 d3.json('covid_cases.json').then(data => {
     initializeMap();
@@ -7,48 +10,56 @@ d3.json('covid_cases.json').then(data => {
     updateMap();
 });
 
-function initializeMap() {
-    // Create the Esri satellite base layer.
-    let satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-        attribution: 'Tiles © Esri'
-    });
+d3.json('covid_guns.json').then(data => {
+    console.log(data); // Add this line to check if data is loaded correctly
+    window.gunSalesData = data; // Store data globally for access in updateGunSalesMap function
+    updateGunSalesMap();
+}).catch(error => {
+    console.error('Error loading gun sales data:', error); // Log any errors
+});
 
+function initializeMap() {
     // Create the grayscale base layer.
     let grayscale = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
     });
 
-    // Create the outdoor base layer.
-    let outdoors = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-        attribution: 'Map data: © OpenStreetMap contributors, SRTM | Map style: © OpenTopoMap (CC-BY-SA)'
-    });
-
-    // Create a baseMaps object.
-    let baseMaps = {
-        "Satellite Map": satellite,
-        "Grayscale Map": grayscale,
-        "Outdoors Map": outdoors
-    };
-
     // Initialize the map
     map = L.map('map', {
         center: [37.8, -96],
         zoom: 4,
-        layers: [satellite] // Default layer
+        layers: [grayscale] // Default layer
     });
 
+    // Create empty layers for COVID and gun sales markers
+    covidLayer = L.layerGroup();
+    gunSalesLayer = L.layerGroup();
+
+    // Create a baseMaps object.
+    let baseMaps = {
+        "Grayscale Map": grayscale
+    };
+
+    // Create an overlayMaps object.
+    let overlayMaps = {
+        "COVID-19 Cases": covidLayer,
+        "2023 Gun Sales": gunSalesLayer
+    };
+
     // Add the layer control to the map
-    L.control.layers(baseMaps).addTo(map);
+    L.control.layers(baseMaps, overlayMaps).addTo(map);
+
+    // Add default layers to the map
+    covidLayer.addTo(map);
 }
 
 function updateMap() {
     const selectedDate = document.getElementById('date-select').value;
 
-    // Remove existing markers
-    markers.forEach(marker => map.removeLayer(marker));
-    markers = [];
+    // Clear existing COVID markers
+    covidLayer.clearLayers();
 
-    // Add new markers based on selected date
+    // Add new markers based on selected date for COVID data
     covidData.forEach(stateData => {
         const cases = stateData[selectedDate];
         if (cases !== undefined) {
@@ -57,10 +68,39 @@ function updateMap() {
                 color: 'red',
                 fillColor: '#f03',
                 fillOpacity: 0.5
-            }).addTo(map);
+            });
 
             marker.bindPopup(`<b>${stateData.State}</b><br>Cases: ${cases}`);
-            markers.push(marker);
+            covidLayer.addLayer(marker);
         }
     });
 }
+
+function updateGunSalesMap() {
+    // Clear existing gun sales markers
+    gunSalesLayer.clearLayers();
+
+    // Add new markers for gun sales data
+    gunSalesData.forEach(stateData => {
+        const sales = +stateData['2023 Total Estimated Sales']; // Convert to number
+        if (!isNaN(sales) && stateData.Lat && stateData.Long_) {
+            const lat = parseFloat(stateData.Lat);
+            const long = parseFloat(stateData.Long_);
+            const marker = L.circleMarker([lat, long], {
+                radius: Math.sqrt(sales) / 100, // Adjust size based on sales
+                color: 'gray',
+                fillColor: 'gray',
+                fillOpacity: 0.5
+            });
+
+            marker.bindPopup(`<b>${stateData.State}</b><br>2023 Gun Sales: ${sales}`);
+            gunSalesLayer.addLayer(marker);
+        }
+    });
+}
+
+// Ensure update functions are called when updating map
+document.getElementById('date-select').addEventListener('change', () => {
+    updateMap();
+    updateGunSalesMap();
+});

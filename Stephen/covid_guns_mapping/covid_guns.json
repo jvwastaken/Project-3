@@ -1,0 +1,359 @@
+[
+    {
+        "State": "Alabama",
+        "Lat": 32.3182,
+        "Long_": -86.9023,
+        "2023 Total Estimated Sales": 487077,
+        "Guns Per Capita": 9.53
+    },
+    {
+        "State": "Alaska",
+        "Lat": 61.3707,
+        "Long_": -152.4044,
+        "2023 Total Estimated Sales": 80341,
+        "Guns Per Capita": 10.95
+    },
+    {
+        "State": "Arizona",
+        "Lat": 33.7298,
+        "Long_": -111.4312,
+        "2023 Total Estimated Sales": 407288,
+        "Guns Per Capita": 5.48
+    },
+    {
+        "State": "Arkansas",
+        "Lat": 34.9697,
+        "Long_": -92.3731,
+        "2023 Total Estimated Sales": 200279,
+        "Guns Per Capita": 6.53
+    },
+    {
+        "State": "California",
+        "Lat": 36.1162,
+        "Long_": -119.6816,
+        "2023 Total Estimated Sales": 1043421,
+        "Guns Per Capita": 2.68
+    },
+    {
+        "State": "Colorado",
+        "Lat": 39.0598,
+        "Long_": -105.3111,
+        "2023 Total Estimated Sales": 443800,
+        "Guns Per Capita": 7.55
+    },
+    {
+        "State": "Connecticut",
+        "Lat": 41.5978,
+        "Long_": -72.7554,
+        "2023 Total Estimated Sales": 120044,
+        "Guns Per Capita": 3.32
+    },
+    {
+        "State": "Delaware",
+        "Lat": 39.3185,
+        "Long_": -75.5071,
+        "2023 Total Estimated Sales": 47080,
+        "Guns Per Capita": 4.56
+    },
+    {
+        "State": "District of Columbia",
+        "Lat": 38.8974,
+        "Long_": -77.0268,
+        "2023 Total Estimated Sales": 4351,
+        "Guns Per Capita": 0.64
+    },
+    {
+        "State": "Florida",
+        "Lat": 27.7663,
+        "Long_": -81.6868,
+        "2023 Total Estimated Sales": 1316471,
+        "Guns Per Capita": 5.82
+    },
+    {
+        "State": "Georgia",
+        "Lat": 33.0406,
+        "Long_": -83.6431,
+        "2023 Total Estimated Sales": 418452,
+        "Guns Per Capita": 3.79
+    },
+    {
+        "State": "Hawaii",
+        "Lat": 21.0943,
+        "Long_": -157.4983,
+        "2023 Total Estimated Sales": 23528,
+        "Guns Per Capita": 1.64
+    },
+    {
+        "State": "Idaho",
+        "Lat": 44.2405,
+        "Long_": -114.4788,
+        "2023 Total Estimated Sales": 160120,
+        "Guns Per Capita": 8.15
+    },
+    {
+        "State": "Illinois",
+        "Lat": 40.3495,
+        "Long_": -88.9861,
+        "2023 Total Estimated Sales": 504452,
+        "Guns Per Capita": 4.02
+    },
+    {
+        "State": "Indiana",
+        "Lat": 39.8494,
+        "Long_": -86.2583,
+        "2023 Total Estimated Sales": 498169,
+        "Guns Per Capita": 7.26
+    },
+    {
+        "State": "Iowa",
+        "Lat": 42.0115,
+        "Long_": -93.2105,
+        "2023 Total Estimated Sales": 82795,
+        "Guns Per Capita": 2.58
+    },
+    {
+        "State": "Kansas",
+        "Lat": 38.5266,
+        "Long_": -96.7265,
+        "2023 Total Estimated Sales": 179350,
+        "Guns Per Capita": 6.1
+    },
+    {
+        "State": "Kentucky",
+        "Lat": 37.6681,
+        "Long_": -84.6701,
+        "2023 Total Estimated Sales": 288877,
+        "Guns Per Capita": 6.38
+    },
+    {
+        "State": "Louisiana",
+        "Lat": 31.1695,
+        "Long_": -91.8678,
+        "2023 Total Estimated Sales": 282155,
+        "Guns Per Capita": 6.17
+    },
+    {
+        "State": "Maine",
+        "Lat": 44.6939,
+        "Long_": -69.3819,
+        "2023 Total Estimated Sales": 118297,
+        "Guns Per Capita": 8.48
+    },
+    {
+        "State": "Maryland",
+        "Lat": 39.0639,
+        "Long_": -76.8021,
+        "2023 Total Estimated Sales": 213437,
+        "Guns Per Capita": 3.45
+    },
+    {
+        "State": "Massachusetts",
+        "Lat": 42.2302,
+        "Long_": -71.5301,
+        "2023 Total Estimated Sales": 136398,
+        "Guns Per Capita": 1.95
+    },
+    {
+        "State": "Michigan",
+        "Lat": 43.3266,
+        "Long_": -84.5361,
+        "2023 Total Estimated Sales": 555650,
+        "Guns Per Capita": 5.54
+    },
+    {
+        "State": "Minnesota",
+        "Lat": 45.6945,
+        "Long_": -93.9002,
+        "2023 Total Estimated Sales": 309425,
+        "Guns Per Capita": 5.39
+    },
+    {
+        "State": "Mississippi",
+        "Lat": 32.7416,
+        "Long_": -89.6787,
+        "2023 Total Estimated Sales": 227199,
+        "Guns Per Capita": 7.73
+    },
+    {
+        "State": "Missouri",
+        "Lat": 38.4561,
+        "Long_": -92.2884,
+        "2023 Total Estimated Sales": 520488,
+        "Guns Per Capita": 8.4
+    },
+    {
+        "State": "Montana",
+        "Lat": 46.9219,
+        "Long_": -110.4544,
+        "2023 Total Estimated Sales": 134008,
+        "Guns Per Capita": 11.83
+    },
+    {
+        "State": "Nebraska",
+        "Lat": 41.1254,
+        "Long_": -98.2681,
+        "2023 Total Estimated Sales": 26987,
+        "Guns Per Capita": 1.36
+    },
+    {
+        "State": "Nevada",
+        "Lat": 38.3135,
+        "Long_": -117.0554,
+        "2023 Total Estimated Sales": 118998,
+        "Guns Per Capita": 3.73
+    },
+    {
+        "State": "New Hampshire",
+        "Lat": 43.4525,
+        "Long_": -71.5639,
+        "2023 Total Estimated Sales": 136502,
+        "Guns Per Capita": 9.74
+    },
+    {
+        "State": "New Jersey",
+        "Lat": 40.2989,
+        "Long_": -74.521,
+        "2023 Total Estimated Sales": 175711,
+        "Guns Per Capita": 1.89
+    },
+    {
+        "State": "New Mexico",
+        "Lat": 34.8405,
+        "Long_": -106.2485,
+        "2023 Total Estimated Sales": 163624,
+        "Guns Per Capita": 7.74
+    },
+    {
+        "State": "New York",
+        "Lat": 42.1657,
+        "Long_": -74.9481,
+        "2023 Total Estimated Sales": 337814,
+        "Guns Per Capita": 1.73
+    },
+    {
+        "State": "North Carolina",
+        "Lat": 35.6301,
+        "Long_": -79.8064,
+        "2023 Total Estimated Sales": 499561,
+        "Guns Per Capita": 4.61
+    },
+    {
+        "State": "North Dakota",
+        "Lat": 47.5289,
+        "Long_": -99.784,
+        "2023 Total Estimated Sales": 66933,
+        "Guns Per Capita": 8.54
+    },
+    {
+        "State": "Ohio",
+        "Lat": 40.3888,
+        "Long_": -82.7649,
+        "2023 Total Estimated Sales": 583314,
+        "Guns Per Capita": 4.95
+    },
+    {
+        "State": "Oklahoma",
+        "Lat": 35.5653,
+        "Long_": -96.9289,
+        "2023 Total Estimated Sales": 325700,
+        "Guns Per Capita": 8.03
+    },
+    {
+        "State": "Oregon",
+        "Lat": 44.572,
+        "Long_": -122.0709,
+        "2023 Total Estimated Sales": 446556,
+        "Guns Per Capita": 10.55
+    },
+    {
+        "State": "Pennsylvania",
+        "Lat": 40.5908,
+        "Long_": -77.2098,
+        "2023 Total Estimated Sales": 841523,
+        "Guns Per Capita": 6.49
+    },
+    {
+        "State": "Rhode Island",
+        "Lat": 41.6809,
+        "Long_": -71.5118,
+        "2023 Total Estimated Sales": 28555,
+        "Guns Per Capita": 2.61
+    },
+    {
+        "State": "South Carolina",
+        "Lat": 33.8569,
+        "Long_": -80.945,
+        "2023 Total Estimated Sales": 259145,
+        "Guns Per Capita": 4.82
+    },
+    {
+        "State": "South Dakota",
+        "Lat": 44.2998,
+        "Long_": -99.4388,
+        "2023 Total Estimated Sales": 72303,
+        "Guns Per Capita": 7.86
+    },
+    {
+        "State": "Tennessee",
+        "Lat": 35.7478,
+        "Long_": -86.6923,
+        "2023 Total Estimated Sales": 633015,
+        "Guns Per Capita": 8.88
+    },
+    {
+        "State": "Texas",
+        "Lat": 31.0545,
+        "Long_": -97.5635,
+        "2023 Total Estimated Sales": 1347589,
+        "Guns Per Capita": 4.42
+    },
+    {
+        "State": "Utah",
+        "Lat": 40.15,
+        "Long_": -111.8624,
+        "2023 Total Estimated Sales": 143430,
+        "Guns Per Capita": 4.2
+    },
+    {
+        "State": "Vermont",
+        "Lat": 44.0459,
+        "Long_": -72.7107,
+        "2023 Total Estimated Sales": 46518,
+        "Guns Per Capita": 7.18
+    },
+    {
+        "State": "Virginia",
+        "Lat": 37.7693,
+        "Long_": -78.17,
+        "2023 Total Estimated Sales": 581698,
+        "Guns Per Capita": 6.67
+    },
+    {
+        "State": "Washington",
+        "Lat": 47.4009,
+        "Long_": -121.4905,
+        "2023 Total Estimated Sales": 489551,
+        "Guns Per Capita": 6.27
+    },
+    {
+        "State": "West Virginia",
+        "Lat": 38.4912,
+        "Long_": -80.9545,
+        "2023 Total Estimated Sales": 163057,
+        "Guns Per Capita": 9.21
+    },
+    {
+        "State": "Wisconsin",
+        "Lat": 44.2685,
+        "Long_": -89.6165,
+        "2023 Total Estimated Sales": 413680,
+        "Guns Per Capita": 7.0
+    },
+    {
+        "State": "Wyoming",
+        "Lat": 42.756,
+        "Long_": -107.3025,
+        "2023 Total Estimated Sales": 65102,
+        "Guns Per Capita": 11.15
+    }
+]
