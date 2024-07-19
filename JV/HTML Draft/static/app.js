@@ -138,7 +138,9 @@ d3.json("../../Stephen/covid_cases_mapping/covid_cases.json").then(data => {
 });
 
 function initializeMap() {
+
   let hospitalMarkers = L.layerGroup();
+
   // Create the Esri satellite base layer.
   let satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
     attribution: 'Tiles © Esri'
@@ -163,7 +165,7 @@ function initializeMap() {
 
   // Create an overlayMaps object with hospital markers as an overlay
   let overlayMaps = {
-    "Hospital Markers": hospitalMarkers
+    Hospitals: hospitalMarkers
   };
 
   // Initialize the map
@@ -178,7 +180,7 @@ function initializeMap() {
 
   // Define custom icon for the hospital marker
   let hospitalIcon = L.icon({
-  iconUrl: '../Images/hospital.png',
+  iconUrl: 'Images/hospital.png',
   iconSize: [30, 30], // Size of the icon
   iconAnchor: [15, 30], // Anchor point of the icon
 });
