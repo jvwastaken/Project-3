@@ -183,6 +183,7 @@ function initializeMap() {
   iconUrl: 'Images/hospital.png',
   iconSize: [30, 30], // Size of the icon
   iconAnchor: [15, 30], // Anchor point of the icon
+  opacity: 0.1
 });
   // Load hospital coordinates JSON file and create custom markers
   d3.json("../../Vivian/Resources/cleaned_hospitals.json").then(hospitalData => {
