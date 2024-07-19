@@ -1,0 +1,359 @@
+[
+    {
+        "State": "Alabama",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 487077,
+            "Guns Per Capita": 9.53
+        }
+    },
+    {
+        "State": "Alaska",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 80341,
+            "Guns Per Capita": 10.95
+        }
+    },
+    {
+        "State": "Arizona",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 407288,
+            "Guns Per Capita": 5.48
+        }
+    },
+    {
+        "State": "Arkansas",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 200279,
+            "Guns Per Capita": 6.53
+        }
+    },
+    {
+        "State": "California",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 1043421,
+            "Guns Per Capita": 2.68
+        }
+    },
+    {
+        "State": "Colorado",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 443800,
+            "Guns Per Capita": 7.55
+        }
+    },
+    {
+        "State": "Connecticut",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 120044,
+            "Guns Per Capita": 3.32
+        }
+    },
+    {
+        "State": "Delaware",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 47080,
+            "Guns Per Capita": 4.56
+        }
+    },
+    {
+        "State": "District of Columbia",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 4351,
+            "Guns Per Capita": 0.64
+        }
+    },
+    {
+        "State": "Florida",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 1316471,
+            "Guns Per Capita": 5.82
+        }
+    },
+    {
+        "State": "Georgia",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 418452,
+            "Guns Per Capita": 3.79
+        }
+    },
+    {
+        "State": "Hawaii",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 23528,
+            "Guns Per Capita": 1.64
+        }
+    },
+    {
+        "State": "Idaho",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 160120,
+            "Guns Per Capita": 8.15
+        }
+    },
+    {
+        "State": "Illinois",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 504452,
+            "Guns Per Capita": 4.02
+        }
+    },
+    {
+        "State": "Indiana",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 498169,
+            "Guns Per Capita": 7.26
+        }
+    },
+    {
+        "State": "Iowa",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 82795,
+            "Guns Per Capita": 2.58
+        }
+    },
+    {
+        "State": "Kansas",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 179350,
+            "Guns Per Capita": 6.1
+        }
+    },
+    {
+        "State": "Kentucky",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 288877,
+            "Guns Per Capita": 6.38
+        }
+    },
+    {
+        "State": "Louisiana",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 282155,
+            "Guns Per Capita": 6.17
+        }
+    },
+    {
+        "State": "Maine",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 118297,
+            "Guns Per Capita": 8.48
+        }
+    },
+    {
+        "State": "Maryland",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 213437,
+            "Guns Per Capita": 3.45
+        }
+    },
+    {
+        "State": "Massachusetts",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 136398,
+            "Guns Per Capita": 1.95
+        }
+    },
+    {
+        "State": "Michigan",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 555650,
+            "Guns Per Capita": 5.54
+        }
+    },
+    {
+        "State": "Minnesota",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 309425,
+            "Guns Per Capita": 5.39
+        }
+    },
+    {
+        "State": "Mississippi",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 227199,
+            "Guns Per Capita": 7.73
+        }
+    },
+    {
+        "State": "Missouri",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 520488,
+            "Guns Per Capita": 8.4
+        }
+    },
+    {
+        "State": "Montana",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 134008,
+            "Guns Per Capita": 11.83
+        }
+    },
+    {
+        "State": "Nebraska",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 26987,
+            "Guns Per Capita": 1.36
+        }
+    },
+    {
+        "State": "Nevada",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 118998,
+            "Guns Per Capita": 3.73
+        }
+    },
+    {
+        "State": "New Hampshire",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 136502,
+            "Guns Per Capita": 9.74
+        }
+    },
+    {
+        "State": "New Jersey",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 175711,
+            "Guns Per Capita": 1.89
+        }
+    },
+    {
+        "State": "New Mexico",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 163624,
+            "Guns Per Capita": 7.74
+        }
+    },
+    {
+        "State": "New York",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 337814,
+            "Guns Per Capita": 1.73
+        }
+    },
+    {
+        "State": "North Carolina",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 499561,
+            "Guns Per Capita": 4.61
+        }
+    },
+    {
+        "State": "North Dakota",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 66933,
+            "Guns Per Capita": 8.54
+        }
+    },
+    {
+        "State": "Ohio",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 583314,
+            "Guns Per Capita": 4.95
+        }
+    },
+    {
+        "State": "Oklahoma",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 325700,
+            "Guns Per Capita": 8.03
+        }
+    },
+    {
+        "State": "Oregon",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 446556,
+            "Guns Per Capita": 10.55
+        }
+    },
+    {
+        "State": "Pennsylvania",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 841523,
+            "Guns Per Capita": 6.49
+        }
+    },
+    {
+        "State": "Rhode Island",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 28555,
+            "Guns Per Capita": 2.61
+        }
+    },
+    {
+        "State": "South Carolina",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 259145,
+            "Guns Per Capita": 4.82
+        }
+    },
+    {
+        "State": "South Dakota",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 72303,
+            "Guns Per Capita": 7.86
+        }
+    },
+    {
+        "State": "Tennessee",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 633015,
+            "Guns Per Capita": 8.88
+        }
+    },
+    {
+        "State": "Texas",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 1347589,
+            "Guns Per Capita": 4.42
+        }
+    },
+    {
+        "State": "Utah",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 143430,
+            "Guns Per Capita": 4.2
+        }
+    },
+    {
+        "State": "Vermont",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 46518,
+            "Guns Per Capita": 7.18
+        }
+    },
+    {
+        "State": "Virginia",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 581698,
+            "Guns Per Capita": 6.67
+        }
+    },
+    {
+        "State": "Washington",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 489551,
+            "Guns Per Capita": 6.27
+        }
+    },
+    {
+        "State": "West Virginia",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 163057,
+            "Guns Per Capita": 9.21
+        }
+    },
+    {
+        "State": "Wisconsin",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 413680,
+            "Guns Per Capita": 7.0
+        }
+    },
+    {
+        "State": "Wyoming",
+        "Gun Sales Info": {
+            "2023 Total Estimated Sales": 65102,
+            "Guns Per Capita": 11.15
+        }
+    }
+]
