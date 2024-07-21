@@ -133,7 +133,7 @@ let covidMarkers = [];
 let gunSalesMarkers = [];
 let gunSalesLayer;
 let covidLayer;
-let hospitalMarkers = L.layerGroup(); // Initialize hospitalMarkers
+let hospitalMarkers = L.markerClusterGroup(); // Initialize hospitalMarkers as a cluster group
 
 d3.json('../../Stephen/covid_guns_mapping/covid_cases.json').then(data => {
     initializeMap();
@@ -233,19 +233,11 @@ function updateGunSalesMap() {
   });
 }
 
-// Hospital icon for the map markers
-let hospitalIcon = L.icon({
-  iconUrl: '../../JV/HTML Draft/Images/hospital.png', // Specify the path to the plus icon image
-  iconSize: [32, 32], // Size of the icon
-  iconAnchor: [16, 32], // Point of the icon which will correspond to marker's location
-  popupAnchor: [0, -32] // Point from which the popup should open relative to the iconAnchor
-});
-
 d3.json("../../Vivian/Resources/cleaned_hospitals.json").then(hospitalData => {
     hospitalData.forEach(hospital => {
-        let hospitalMarker = L.marker([hospital.Info.Latitude, hospital.Info.Longitude], { icon: hospitalIcon });
+        let hospitalMarker = L.marker([hospital.Info.Latitude, hospital.Info.Longitude]);
         hospitalMarker.bindPopup(`<b>${hospital["Hospital Name"]}</b><br>${hospital.Info.Address}, ${hospital.Info.City}, ${hospital.Info.State}`);
-        hospitalMarkers.addLayer(hospitalMarker); // Add marker to the layer group
+        hospitalMarkers.addLayer(hospitalMarker); // Add marker to the cluster group
     });
 });
 
