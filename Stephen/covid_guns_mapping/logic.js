@@ -11,7 +11,6 @@ d3.json('covid_cases.json').then(data => {
 });
 
 d3.json('covid_guns.json').then(data => {
-    console.log(data); // Add this line to check if data is loaded correctly
     window.gunSalesData = data; // Store data globally for access in updateGunSalesMap function
     updateGunSalesMap();
 }).catch(error => {
