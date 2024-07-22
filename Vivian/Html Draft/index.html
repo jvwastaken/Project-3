@@ -45,6 +45,29 @@
     .dropdown {
       margin: 20px;
     }
+    /* Apply foggy effect to cluster circles */
+    .marker-cluster {
+      border-radius: 50%;
+      background-color: rgba(124, 46, 46, 0.463); /* Light foggy effect with semi-transparent background */
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      text-align: center;
+      line-height: 30px;
+      font-weight: bold;
+    }
+
+    /* Customize colors for military and hospital clusters */
+    .marker-cluster-custom.military {
+      background-color: rgba(13, 133, 13, 0.432); /* Light green foggy effect for military clusters */
+    }
+
+    .marker-cluster-custom.hospital {
+      background-color: rgba(214, 12, 12, 0.576); /* Light red foggy effect for hospital clusters */
+    }
+
   </style>
 </head>
 <body>

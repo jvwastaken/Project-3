@@ -133,109 +133,134 @@ let covidMarkers = [];
 let gunSalesMarkers = [];
 let gunSalesLayer;
 let covidLayer;
-let hospitalMarkers = L.markerClusterGroup(); 
-let militaryMarkers = [];
-let militaryBaseLayer;
+// Create a marker cluster group for military markers
+let militaryMarkers = L.markerClusterGroup({
+  iconCreateFunction: function(cluster) {
+    return L.divIcon({
+      html: `<div class="marker-cluster marker-cluster-custom military"><span>${cluster.getChildCount()}</span></div>`,
+      className: '',
+      iconSize: L.point(40, 40)
+    });
+  }
+});
+
+// Create a marker cluster group for hospital markers
+let hospitalMarkers = L.markerClusterGroup({
+  iconCreateFunction: function(cluster) {
+    return L.divIcon({
+      html: `<div class="marker-cluster marker-cluster-custom hospital"><span>${cluster.getChildCount()}</span></div>`,
+      className: '',
+      iconSize: L.point(40, 40)
+    });
+  }
+});
 
 d3.json('../../Stephen/covid_guns_mapping/covid_cases.json').then(data => {
-    initializeMap();
-    window.covidData = data; // Store data globally for access in updateMap function
-    updateMap();
+  initializeMap();
+  window.covidData = data; // Store data globally for access in updateMap function
+  updateMap();
 });
 
 d3.json('../../Stephen/covid_guns_mapping/covid_guns.json').then(data => {
-    console.log(data); // Add this line to check if data is loaded correctly
-    window.gunSalesData = data; // Store data globally for access in updateGunSalesMap function
-    updateGunSalesMap();
+  console.log(data); // Add this line to check if data is loaded correctly
+  window.gunSalesData = data; // Store data globally for access in updateGunSalesMap function
+  updateGunSalesMap();
 }).catch(error => {
-    console.error('Error loading gun sales data:', error); // Log any errors
+  console.error('Error loading gun sales data:', error); // Log any errors
 });
 
 function initializeMap() {
-    // Create the grayscale base layer.
-    let grayscale = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-    });
+  // Create the grayscale base layer.
+  let grayscale = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+  });
 
-    // Initialize the map
-    map = L.map('map', {
-        center: [37.8, -96],
-        zoom: 4,
-        layers: [grayscale] // Default layer
-    });
+  // Initialize the map
+  map = L.map('map', {
+      center: [37.8, -96],
+      zoom: 4,
+      layers: [grayscale] // Default layer
+  });
 
-    // Create empty layers for COVID and gun sales markers
-    covidLayer = L.layerGroup();
-    gunSalesLayer = L.layerGroup();
-    militaryBaseLayer = L.layerGroup();
+  // Create empty layers for COVID and gun sales markers
+  covidLayer = L.layerGroup();
+  gunSalesLayer = L.layerGroup();
 
-   // Create a baseMaps object.
-   let baseMaps = {
-      "Grayscale": grayscale
-    };
+ // Create a baseMaps object.
+ let baseMaps = {
+    "Grayscale": grayscale
+  };
 
-    // Create an overlay object.
-    let overlayMaps = {
-        "COVID-19 Cases": covidLayer,
-        "2023 Gun Sales": gunSalesLayer,
-        "Hospitals": hospitalMarkers, // Add hospitalMarkers to overlay
-        "Military Bases": militaryMarkers
-    };
+  // Create an overlay object.
+  let overlayMaps = {
+      "COVID-19 Cases": covidLayer,
+      "2023 Gun Sales": gunSalesLayer,
+      "Hospitals": hospitalMarkers,
+      "Military Bases": militaryMarkers};
 
-    // Add the layer control to the map.
-    L.control.layers(baseMaps, overlayMaps).addTo(map);
+  // Add the layer control to the map.
+  L.control.layers(baseMaps, overlayMaps).addTo(map);
 
-    // Add hospitalMarkers to the map
-    hospitalMarkers.addTo(map);
-     // Add default layers to the map
-     covidLayer.addTo(map);
+  // Add hospitalMarkers to the map
+  hospitalMarkers.addTo(map);
+   // Add default layers to the map
+   covidLayer.addTo(map);
 }
 
 function updateMap() {
-  const selectedDate = document.getElementById('date-select').value;
+const selectedDate = document.getElementById('date-select').value;
 
-  // Clear existing COVID markers
-  covidLayer.clearLayers();
+// Clear existing COVID markers
+covidLayer.clearLayers();
 
-  // Add new markers based on selected date for COVID data
-  covidData.forEach(stateData => {
-      const cases = stateData[selectedDate];
-      if (cases !== undefined) {
-          const marker = L.circleMarker([stateData.Lat, stateData.Long_], {
-              radius: Math.sqrt(cases) / 100, // Adjust size based on cases
-              color: 'red',
-              fillColor: '#f03',
-              fillOpacity: 0.5
-          });
+// Add new markers based on selected date for COVID data
+covidData.forEach(stateData => {
+    const cases = stateData[selectedDate];
+    if (cases !== undefined) {
+        const marker = L.circleMarker([stateData.Lat, stateData.Long_], {
+            radius: Math.sqrt(cases) / 100, // Adjust size based on cases
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 0.5
+        });
 
-          marker.bindPopup(`<b>${stateData.State}</b><br>Cases: ${cases}`);
-          covidLayer.addLayer(marker);
-      }
-  });
+        marker.bindPopup(`<b>${stateData.State}</b><br>Cases: ${cases}`);
+        covidLayer.addLayer(marker);
+    }
+});
 }
 
 function updateGunSalesMap() {
-  // Clear existing gun sales markers
-  gunSalesLayer.clearLayers();
+// Clear existing gun sales markers
+gunSalesLayer.clearLayers();
 
-  // Add new markers for gun sales data
-  gunSalesData.forEach(stateData => {
-      const sales = +stateData['2023 Total Estimated Sales']; // Convert to number
-      if (!isNaN(sales) && stateData.Lat && stateData.Long_) {
-          const lat = parseFloat(stateData.Lat);
-          const long = parseFloat(stateData.Long_);
-          const marker = L.circleMarker([lat, long], {
-              radius: Math.sqrt(sales) / 100, // Adjust size based on sales
-              color: 'gray',
-              fillColor: 'gray',
-              fillOpacity: 0.5
-          });
+// Add new markers for gun sales data
+gunSalesData.forEach(stateData => {
+    const sales = +stateData['2023 Total Estimated Sales']; // Convert to number
+    if (!isNaN(sales) && stateData.Lat && stateData.Long_) {
+        const lat = parseFloat(stateData.Lat);
+        const long = parseFloat(stateData.Long_);
+        const marker = L.circleMarker([lat, long], {
+            radius: Math.sqrt(sales) / 100, // Adjust size based on sales
+            color: 'gray',
+            fillColor: 'gray',
+            fillOpacity: 0.5
+        });
 
-          marker.bindPopup(`<b>${stateData.State}</b><br>2023 Gun Sales: ${sales}`);
-          gunSalesLayer.addLayer(marker);
-      }
-  });
+        marker.bindPopup(`<b>${stateData.State}</b><br>2023 Gun Sales: ${sales}`);
+        gunSalesLayer.addLayer(marker);
+    }
+});
 }
+
+
+    // Define custom icon for the military base marker
+  let militaryIcon = L.icon({
+    iconUrl: '../../Vivian/HTML Draft/Images/military_marker.png',
+    iconSize: [30, 30], // Size of the icon
+    iconAnchor: [15, 30], // Anchor point of the icon
+    opacity: 0.1
+  });
 
   // Define custom icon for the hospital marker
   let hospitalIcon = L.icon({
@@ -244,17 +269,27 @@ function updateGunSalesMap() {
     iconAnchor: [15, 30], // Anchor point of the icon
     opacity: 0.1
   });
-    // Load hospital coordinates JSON file and create custom markers
-    d3.json("../../Vivian/Resources/cleaned_hospitals.json").then(hospitalData => {
-      hospitalData.forEach(hospital => {
-        let hospitalMarker = L.marker([hospital.Info.Latitude, hospital.Info.Longitude], { icon: hospitalIcon }).addTo(hospitalMarkers);
-          hospitalMarker.bindPopup(`<b>${hospital["Hospital Name"]}</b><br>${hospital.Info.Address}, ${hospital.Info.City}, ${hospital.Info.State}`);
-          hospitalMarkers.addLayer(hospitalMarker); // Add marker to the cluster group
-      });
-  });
   
-// Ensure update functions are called when updating map
-document.getElementById('date-select').addEventListener('change', () => {
-  updateMap();
-  updateGunSalesMap();
-});
+  // Load hospital coordinates JSON file and create custom markers
+  d3.json("../../Vivian/Resources/cleaned_hospitals.json").then(hospitalData => {
+    hospitalData.forEach(hospital => {
+        let hospitalMarker = L.marker([hospital.Info.Latitude, hospital.Info.Longitude], { icon: hospitalIcon }).addTo(hospitalMarkers);
+        hospitalMarker.bindPopup(`<b>${hospital["Hospital Name"]}</b><br>${hospital.Info.Address}, ${hospital.Info.City}, ${hospital.Info.State}`);
+        hospitalMarkers.addLayer(hospitalMarker); // Add marker to the cluster group
+    });
+  });
+
+  // Load military base coordinates JSON file and create clustered markers
+  d3.json("../../Vivian/Resources/cleaned_military_bases.json").then(militaryData => {
+    militaryData.forEach(base => {
+        let marker = L.marker([base["Military Bases Info"].Latitude, base["Military Bases Info"].Longitude], { icon: militaryIcon });
+        marker.bindPopup(`<b>${base["Military Bases Info"]["Site Name"]}</b><br>Branch: ${base["Military Bases Info"]["Military Branch"]}<br>Location: ${base["Military Bases Info"]["Country"]}`);
+        militaryMarkers.addLayer(marker); // Add marker to the military cluster group
+    });
+  });
+
+  // Ensure update functions are called when updating map
+  document.getElementById('date-select').addEventListener('change', () => {
+    updateMap();
+    updateGunSalesMap();
+  });
