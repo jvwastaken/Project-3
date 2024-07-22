@@ -47,4 +47,7 @@
 * [SL] Sat, July 13th at 3:35 PM EST - Cleaned Up 2020 csv to have matching column headers to perform merge.
 * [SL] Sat, July 13th at 5:23 PM EST - Merged data from 04-01-2020 thru 12-01-2020
 * [SL] Sat, July 13th at 6:52 PM EST - Merged World and US data from 04-01-2020 to 03-01-2023
-
+* [SL] Tue, July 16th at x:xx PM EST - Created leaflet map for Covid Spread
+* [SL] Thu, July 18th at x:xx PM EST - Worked with Sean to add 
+* [SL] Sun, July 21st at 5:29 PM PST- Created new repository to clean CSVs and create SQLite DB.
+* [SL] Sun, July 21st at 11:05 PM PST- Removed Int, added primary keys, and created html w/ data from sqlite.
