@@ -283,7 +283,7 @@ gunSalesData.forEach(stateData => {
   d3.json("../../Vivian/Resources/cleaned_military_bases.json").then(militaryData => {
     militaryData.forEach(base => {
         let marker = L.marker([base["Military Bases Info"].Latitude, base["Military Bases Info"].Longitude], { icon: militaryIcon });
-        marker.bindPopup(`<b>${base["Military Bases Info"]["Site Name"]}</b><br>Branch: ${base["Military Bases Info"]["Military Branch"]}<br>Location: ${base["Military Bases Info"]["Country"]}`);
+        marker.bindPopup(`<b>${base["Military Bases Info"]["Site Name"]}</b><br>Branch: ${base["Military Bases Info"]["Military Branch"]}`);
         militaryMarkers.addLayer(marker); // Add marker to the military cluster group
     });
   });
