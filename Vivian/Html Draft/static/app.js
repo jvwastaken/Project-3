@@ -133,7 +133,9 @@ let covidMarkers = [];
 let gunSalesMarkers = [];
 let gunSalesLayer;
 let covidLayer;
-let hospitalMarkers = L.markerClusterGroup(); // Initialize hospitalMarkers as a cluster group
+let hospitalMarkers = L.markerClusterGroup(); 
+let militaryMarkers = [];
+let militaryBaseLayer;
 
 d3.json('../../Stephen/covid_guns_mapping/covid_cases.json').then(data => {
     initializeMap();
@@ -165,6 +167,7 @@ function initializeMap() {
     // Create empty layers for COVID and gun sales markers
     covidLayer = L.layerGroup();
     gunSalesLayer = L.layerGroup();
+    militaryBaseLayer = L.layerGroup();
 
    // Create a baseMaps object.
    let baseMaps = {
@@ -175,7 +178,8 @@ function initializeMap() {
     let overlayMaps = {
         "COVID-19 Cases": covidLayer,
         "2023 Gun Sales": gunSalesLayer,
-        "Hospitals": hospitalMarkers // Add hospitalMarkers to overlay
+        "Hospitals": hospitalMarkers, // Add hospitalMarkers to overlay
+        "Military Bases": militaryMarkers
     };
 
     // Add the layer control to the map.
@@ -233,14 +237,22 @@ function updateGunSalesMap() {
   });
 }
 
-d3.json("../../Vivian/Resources/cleaned_hospitals.json").then(hospitalData => {
-    hospitalData.forEach(hospital => {
-        let hospitalMarker = L.marker([hospital.Info.Latitude, hospital.Info.Longitude]);
-        hospitalMarker.bindPopup(`<b>${hospital["Hospital Name"]}</b><br>${hospital.Info.Address}, ${hospital.Info.City}, ${hospital.Info.State}`);
-        hospitalMarkers.addLayer(hospitalMarker); // Add marker to the cluster group
-    });
-});
-
+  // Define custom icon for the hospital marker
+  let hospitalIcon = L.icon({
+    iconUrl: '../../JV/HTML Draft/Images/hospital.png',
+    iconSize: [30, 30], // Size of the icon
+    iconAnchor: [15, 30], // Anchor point of the icon
+    opacity: 0.1
+  });
+    // Load hospital coordinates JSON file and create custom markers
+    d3.json("../../Vivian/Resources/cleaned_hospitals.json").then(hospitalData => {
+      hospitalData.forEach(hospital => {
+        let hospitalMarker = L.marker([hospital.Info.Latitude, hospital.Info.Longitude], { icon: hospitalIcon }).addTo(hospitalMarkers);
+          hospitalMarker.bindPopup(`<b>${hospital["Hospital Name"]}</b><br>${hospital.Info.Address}, ${hospital.Info.City}, ${hospital.Info.State}`);
+          hospitalMarkers.addLayer(hospitalMarker); // Add marker to the cluster group
+      });
+  });
+  
 // Ensure update functions are called when updating map
 document.getElementById('date-select').addEventListener('change', () => {
   updateMap();
