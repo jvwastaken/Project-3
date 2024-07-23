@@ -103,7 +103,7 @@ function buildBarChart(selectedState) {
     }];
 
     let layout = {
-      title: `COVID-19 Cases in ${selectedState}`,
+      title: `Zombie Infections in ${selectedState}`,
       xaxis: { title: 'Date' },
       yaxis: { title: 'Case Count' }
     };
