@@ -29,8 +29,13 @@ def home():
     link("/api/v1.0/military_bases") + 
     link("/api/v1.0/us_population") + 
     link("/api/v1.0/gun_sales") + 
-    link("/api/v1.0/covid_cases")
+    link("/api/v1.0/covid_cases") +
+    link("/api/v1.0/gun_geo")
   )
+
+@app.route("/api/v1.0/gun_geo")
+def gun_geo():
+  return get_table("gun_geo")
 
 @app.route("/api/v1.0/hospitals")
 def hospitals():
