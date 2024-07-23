@@ -33,8 +33,6 @@
     * [consolidated_covid_data_world2us_with_lat_long_.csv](Stephen/johns_hopkins_data_merge/consolidated_covid_data_us_with_lat_long_.csv).
 5. Consolidated World and US data across `04-01-2020` thru `03-01-2023` into a single [CSV File](Stephen/johns_hopkins_data_merge/main_covid_cases_2020-2023_merge.csv)
 
-
-
 ## Code Sources
 - XPert Learning Assisant: for review and correction of code as needed.
 - [ChatGPT](https://chatgpt.com/): for review and correction of code as needed.
@@ -48,6 +46,6 @@
 * [SL] Sat, July 13th at 5:23 PM EST - Merged data from 04-01-2020 thru 12-01-2020
 * [SL] Sat, July 13th at 6:52 PM EST - Merged World and US data from 04-01-2020 to 03-01-2023
 * [SL] Tue, July 16th at x:xx PM EST - Created leaflet map for Covid Spread
-* [SL] Thu, July 18th at x:xx PM EST - Worked with Sean to add 
+* [SL] Thu, July 18th at x:xx PM EST - Worked with Sean to add Gun data to map.
 * [SL] Sun, July 21st at 5:29 PM PST- Created new repository to clean CSVs and create SQLite DB.
-* [SL] Sun, July 21st at 11:05 PM PST- Removed Int, added primary keys, and created html w/ data from sqlite.
+* [SL] Sun, July 21st at 11:05 PM PST- Removed Int, added primary keys, and created html w/ data from sqlite.gi
