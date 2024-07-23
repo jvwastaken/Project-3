@@ -18,6 +18,7 @@ function loadStateOptions() {
 
     // Call the function to filter hospitals by state to get their info
     filterHospitalsByState(firstState);
+    filterGunSalesByState(firstState);
 
     // Load covid cases data and filter based on the states from hospitals data
     d3.json("http://127.0.0.1:5000/api/v1.0/covid_cases").then((covidData) => {
@@ -26,6 +27,8 @@ function loadStateOptions() {
 
       // Now you can use the filteredCovidData for further processing -- TO BE COMPLETED
       console.log(filteredCovidData);
+      // Call buildBarChart after filteredCovidData is populated
+      buildBarChart(firstState);
     });
   });
 }
@@ -74,8 +77,7 @@ function filterGunSalesByState(state) {
     // Append new content to display the gunsale info
     filteredGunSales.forEach(gunsale => {
       gunsaleDisplay.append("h6").text(`Estimated Gun Sales: ${gunsale['2023 Total Estimated Sales']}`);
-      // Uncomment and ensure 'Guns Per Capita' is available in the data
-      // gunsaleDisplay.append("h6").text(`Guns Per Capita: ${gunsale['Guns Per Capita']}`);
+      gunsaleDisplay.append("h6").text(`Guns Per Capita: ${gunsale['Guns Per Capita']}`);
     });
   });
 }
@@ -83,12 +85,12 @@ function filterGunSalesByState(state) {
 
 //-------------------------------------------------------------------------------------------------------
 // This function creates a bar chart based on the state chosen
-function buildBarChart(selectedState) {
+function buildBarChart(state) {
   // Clear the content inside the 'bar' div
   document.getElementById('bar').innerHTML = '';
   
   // Filter COVID-19 cases data for the selected state
-  let selectedStateData = filteredCovidData.find(covidCase => covidCase.State === selectedState);
+  let selectedStateData = filteredCovidData.find(covidCase => covidCase.State === state);
 
   if (selectedStateData) {
     // Extract date values and case counts
@@ -103,15 +105,15 @@ function buildBarChart(selectedState) {
     }];
 
     let layout = {
-      title: `Zombie Infections in ${selectedState}`,
+      title: `Zombie Infections in ${state}`,
       xaxis: { title: 'Date' },
       yaxis: { title: 'Case Count' }
     };
 
     Plotly.newPlot('bar', data, layout);
   } else {
-    console.log(`Data not found for ${selectedState}`);
-    document.getElementById('bar').innerHTML = `<p><h1>Data not found for ${selectedState}</h1></p>`;
+    console.log(`Data not found for ${state}`);
+    document.getElementById('bar').innerHTML = `<p><h1>Data not found for ${state}</h1></p>`;
   }
 }
 
@@ -120,10 +122,10 @@ function buildBarChart(selectedState) {
 // This function is called whenever a new state is selected from the dropdown. 
 // It takes the selected state as an argument 
 // and calls filterHospitalsByState and filterGunSalesByState with that state to update the displayed data.
-function optionChanged(selectedState) {
-  filterHospitalsByState(selectedState);
-  filterGunSalesByState(selectedState);
-  buildBarChart(selectedState);
+function optionChanged(state) {
+  filterHospitalsByState(state);
+  filterGunSalesByState(state);
+  buildBarChart(state);
 }
 
 //-------------------------------------------------------------------------------------------------------
@@ -285,7 +287,7 @@ function updateGunSalesMap() {
   d3.json("http://127.0.0.1:5000/api/v1.0/hospitals").then(hospitalData => {
     hospitalData.forEach(hospital => {
         let hospitalMarker = L.marker([hospital.Latitude, hospital.Longitude], { icon: hospitalIcon }).addTo(hospitalMarkers);
-        hospitalMarker.bindPopup(`<b>${hospital["Hospital Name"]}</b><br>${hospital.Address}, ${hospital.City}, ${hospital.State}`);
+        hospitalMarker.bindPopup(`<b>${hospital["Name"]}</b><br>${hospital.Address}, ${hospital.City}, ${hospital.State}`);
         hospitalMarkers.addLayer(hospitalMarker); // Add marker to the cluster group
     });
   });
