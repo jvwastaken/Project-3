@@ -8,11 +8,6 @@ function loadStateOptions() {
     console.log(states)
     let stateSelect = d3.select("#selDataset");
 
-//"http://localhost:5000/api/v1.0/hospitals"
-//"http://127.0.0.1:5000/api/v1.0/hospitals"
-//"../../Vivian/Resources/cleaned_hospitals.json"
-
-
     // For each unique state, create an option element in the dropdown
     states.forEach(state => {
       stateSelect.append("option").text(state).attr("value", state);
@@ -65,13 +60,12 @@ function filterHospitalsByState(state) {
 //-------------------------------------------------------------------------------------------------------
 // This is the function to filter gunsales by state
 function filterGunSalesByState(state) {
-  d3.json("http://127.0.0.1:5000/api/v1.0/gun_sales").then((data) => {
-    // Filter the gun data to only include gunsales in the selected state.
-    let filteredGunSales = data.filter(gunsale => gunsale.Province_State === state);
+  // Fetch gun sales data from the API
+  d3.json("http://127.0.0.1:5000/api/v1.0/gun_geo").then((data) => {
+    // Filter the gun data to only include gun sales in the selected state
+    let filteredGunSales = data.filter(gunsale => gunsale.State === state);
 
-    //../../Vivian/Resources/cleaned_gunsales.json
-
-    // Display the information on the Gunsales info card
+    // Select the gunsale display element
     let gunsaleDisplay = d3.select('#gunsale-display');
 
     // Clear previous content
@@ -80,11 +74,12 @@ function filterGunSalesByState(state) {
     // Append new content to display the gunsale info
     filteredGunSales.forEach(gunsale => {
       gunsaleDisplay.append("h6").text(`Estimated Gun Sales: ${gunsale['2023 Total Estimated Sales']}`);
+      // Uncomment and ensure 'Guns Per Capita' is available in the data
       // gunsaleDisplay.append("h6").text(`Guns Per Capita: ${gunsale['Guns Per Capita']}`);
-      // need to add guns per capita into the database
     });
   });
 }
+
 
 //-------------------------------------------------------------------------------------------------------
 // This function creates a bar chart based on the state chosen
@@ -170,7 +165,7 @@ d3.json('http://127.0.0.1:5000/api/v1.0/covid_cases').then(data => {
   updateMap();
 });
 
-d3.json('http://127.0.0.1:5000/api/v1.0/gun_sales').then(data => {
+d3.json('http://127.0.0.1:5000/api/v1.0/gun_geo').then(data => {
   console.log(data); // Add this line to check if data is loaded correctly
   window.gunSalesData = data; // Store data globally for access in updateGunSalesMap function
   updateGunSalesMap();
@@ -228,8 +223,8 @@ covidData.forEach(stateData => {
     if (cases !== undefined) {
         const marker = L.circleMarker([stateData.Lat, stateData.Long_], {
             radius: Math.sqrt(cases) / 100, // Adjust size based on cases
-            color: 'red',
-            fillColor: '#f03',
+            color: 'rgb(67, 118, 113)',
+            fillColor: 'rgba(13, 133, 13, 0.432)',
             fillOpacity: 0.5
         });
 
@@ -240,28 +235,35 @@ covidData.forEach(stateData => {
 }
 
 function updateGunSalesMap() {
-// Clear existing gun sales markers
-gunSalesLayer.clearLayers();
+  // Clear existing gun sales markers
+  gunSalesLayer.clearLayers();
 
-// Add new markers for gun sales data
-gunSalesData.forEach(stateData => {
-    const sales = +stateData['2023 Total Estimated Sales']; // Convert to number
-    if (!isNaN(sales) && stateData.Lat && stateData.Long_) {
-        const lat = parseFloat(stateData.Lat);
-        const long = parseFloat(stateData.Long_);
-        const marker = L.circleMarker([lat, long], {
-            radius: Math.sqrt(sales) / 100, // Adjust size based on sales
-            color: 'gray',
-            fillColor: 'gray',
-            fillOpacity: 0.5
-        });
+  // Add new markers for gun sales data
+  gunSalesData.forEach(stateData => {
+    const sales = parseFloat(stateData['2023 Total Estimated Sales']); // Convert to number
+    const lat = parseFloat(stateData.Lat);
+    const long = parseFloat(stateData.Long_);
+    const state = stateData.State;
 
-        marker.bindPopup(`<b>${stateData.State}</b><br>2023 Gun Sales: ${sales}`);
-        gunSalesLayer.addLayer(marker);
+    console.log(`State: ${state}, Sales: ${sales}, Lat: ${lat}, Long: ${long}`); // Debugging log
+
+    if (!isNaN(sales) && !isNaN(lat) && !isNaN(long)) {
+      const marker = L.circleMarker([lat, long], {
+        radius: Math.sqrt(sales) / 100, // Adjust size based on sales
+        color: 'gray',
+        fillColor: 'gray',
+        fillOpacity: 0.5
+      });
+
+      marker.bindPopup(`<b>${state}</b><br>2023 Gun Sales: ${sales}`);
+      gunSalesLayer.addLayer(marker);
+    } else {
+      console.error(`Invalid data for ${state}: Sales=${sales}, Lat=${lat}, Long=${long}`);
     }
-});
-}
+  });
 
+  gunSalesLayer.addTo(map); // Add gunSalesLayer to the map
+}
 
     // Define custom icon for the military base marker
   let militaryIcon = L.icon({
@@ -288,14 +290,14 @@ gunSalesData.forEach(stateData => {
     });
   });
 
-  // Load military base coordinates JSON file and create clustered markers
-  d3.json("http://127.0.0.1:5000/api/v1.0/military_bases").then(militaryData => {
-    militaryData.forEach(base => {
-        let marker = L.marker(Latitude, Longitude, { icon: militaryIcon });
-        marker.bindPopup(`<b>${["Site Name"]}</b><br>Branch: ${["Military Branch"]}`);
-        militaryMarkers.addLayer(marker); // Add marker to the military cluster group
-    });
+// Load military base coordinates JSON file and create clustered markers
+d3.json("http://127.0.0.1:5000/api/v1.0/military_bases").then(militaryData => {
+  militaryData.forEach(base => {
+      let marker = L.marker([base.Latitude, base.Longitude], { icon: militaryIcon });
+      marker.bindPopup(`<b>${base["Site Name"]}</b><br>Branch: ${base["Military Branch"]}`);
+      militaryMarkers.addLayer(marker); // Add marker to the military cluster group
   });
+});
 
   // Ensure update functions are called when updating map
   document.getElementById('date-select').addEventListener('change', () => {
