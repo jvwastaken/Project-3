@@ -2,10 +2,16 @@ let filteredCovidData;
 
 // Load state options from cleaned_hospitals.json
 function loadStateOptions() {
-  d3.json("../../Vivian/Resources/cleaned_hospitals.json").then((hospitalData) => {
+  d3.json("http://127.0.0.1:5000/api/v1.0/hospitals").then((hospitalData) => {
     // Extract unique states from hospital data
-    let states = new Set(hospitalData.map(hospital => hospital.Info.State));
+    let states = new Set(hospitalData.map(hospital => hospital.State));
+    console.log(states)
     let stateSelect = d3.select("#selDataset");
+
+//"http://localhost:5000/api/v1.0/hospitals"
+//"http://127.0.0.1:5000/api/v1.0/hospitals"
+//"../../Vivian/Resources/cleaned_hospitals.json"
+
 
     // For each unique state, create an option element in the dropdown
     states.forEach(state => {
@@ -19,7 +25,7 @@ function loadStateOptions() {
     filterHospitalsByState(firstState);
 
     // Load covid cases data and filter based on the states from hospitals data
-    d3.json("../../Stephen/csv_to_json_conversion/covid_cases.json").then((covidData) => {
+    d3.json("http://127.0.0.1:5000/api/v1.0/covid_cases").then((covidData) => {
       // Filter covid cases data based on the states from hospital data
       filteredCovidData = covidData.filter(covidCase => states.has(covidCase.State));
 
@@ -32,15 +38,15 @@ function loadStateOptions() {
 //-------------------------------------------------------------------------------------------------------
 // This is the function to filter hospitals by state
 function filterHospitalsByState(state) {
-  d3.json("../../Vivian/Resources/cleaned_hospitals.json").then((data) => {
+  d3.json("http://127.0.0.1:5000/api/v1.0/hospitals").then((data) => {
     // Filter the hospital data to only include hospitals in the selected state.
-    let filteredHospitals = data.filter(hospital => hospital.Info.State === state);
+    let filteredHospitals = data.filter(hospital => hospital.State === state);
 
     // Counting
-    let openCount = filteredHospitals.filter(hospital => hospital.Info.Status === "Open").length;
-    let helipadCount = filteredHospitals.filter(hospital => hospital.Info.Helipad === "Y").length;
-    let traumaCount = filteredHospitals.filter(hospital => hospital.Info.Trauma !== "Not Available").length;
-    let totalBeds = filteredHospitals.reduce((sum, hospital) => sum + hospital.Info.Beds, 0);
+    let openCount = filteredHospitals.filter(hospital => hospital.Status === "Open").length;
+    let helipadCount = filteredHospitals.filter(hospital => hospital.Helipad === "Y").length;
+    let traumaCount = filteredHospitals.filter(hospital => hospital.Trauma !== "Not Available").length;
+    let totalBeds = filteredHospitals.reduce((sum, hospital) => sum + hospital.Beds, 0);
 
     // Display the information on the Hospitals info card
     let hospitalsDisplay = d3.select('#hospitals-display');
@@ -59,9 +65,11 @@ function filterHospitalsByState(state) {
 //-------------------------------------------------------------------------------------------------------
 // This is the function to filter gunsales by state
 function filterGunSalesByState(state) {
-  d3.json("../../Vivian/Resources/cleaned_gunsales.json").then((data) => {
+  d3.json("http://127.0.0.1:5000/api/v1.0/gun_sales").then((data) => {
     // Filter the gun data to only include gunsales in the selected state.
-    let filteredGunSales = data.filter(gunsale => gunsale.State === state);
+    let filteredGunSales = data.filter(gunsale => gunsale.Province_State === state);
+
+    //../../Vivian/Resources/cleaned_gunsales.json
 
     // Display the information on the Gunsales info card
     let gunsaleDisplay = d3.select('#gunsale-display');
@@ -71,8 +79,9 @@ function filterGunSalesByState(state) {
 
     // Append new content to display the gunsale info
     filteredGunSales.forEach(gunsale => {
-      gunsaleDisplay.append("h6").text(`Estimated Gun Sales: ${gunsale['Gun Sales Info']['2023 Total Estimated Sales']}`);
-      gunsaleDisplay.append("h6").text(`Guns Per Capita: ${gunsale['Gun Sales Info']['Guns Per Capita']}`);
+      gunsaleDisplay.append("h6").text(`Estimated Gun Sales: ${gunsale['2023 Total Estimated Sales']}`);
+      // gunsaleDisplay.append("h6").text(`Guns Per Capita: ${gunsale['Guns Per Capita']}`);
+      // need to add guns per capita into the database
     });
   });
 }
@@ -127,7 +136,7 @@ function optionChanged(selectedState) {
 loadStateOptions();
 
 //-------------------------------------------------------------------------------------------------------
-// Stephen's map //../../Stephen/covid_cases_mapping/covid_cases.json
+
 let map;
 let covidMarkers = [];
 let gunSalesMarkers = [];
@@ -155,13 +164,13 @@ let hospitalMarkers = L.markerClusterGroup({
   }
 });
 
-d3.json('../../Stephen/covid_guns_mapping/covid_cases.json').then(data => {
+d3.json('http://127.0.0.1:5000/api/v1.0/covid_cases').then(data => {
   initializeMap();
   window.covidData = data; // Store data globally for access in updateMap function
   updateMap();
 });
 
-d3.json('../../Stephen/covid_guns_mapping/covid_guns.json').then(data => {
+d3.json('http://127.0.0.1:5000/api/v1.0/gun_sales').then(data => {
   console.log(data); // Add this line to check if data is loaded correctly
   window.gunSalesData = data; // Store data globally for access in updateGunSalesMap function
   updateGunSalesMap();
@@ -256,7 +265,7 @@ gunSalesData.forEach(stateData => {
 
     // Define custom icon for the military base marker
   let militaryIcon = L.icon({
-    iconUrl: '../../Vivian/HTML Draft/Images/military_marker.png',
+    iconUrl: './Images/military_marker.png',
     iconSize: [30, 30], // Size of the icon
     iconAnchor: [15, 30], // Anchor point of the icon
     opacity: 0.1
@@ -264,26 +273,26 @@ gunSalesData.forEach(stateData => {
 
   // Define custom icon for the hospital marker
   let hospitalIcon = L.icon({
-    iconUrl: '../../JV/HTML Draft/Images/hospital.png',
+    iconUrl: './Images/hospital.png',
     iconSize: [30, 30], // Size of the icon
     iconAnchor: [15, 30], // Anchor point of the icon
     opacity: 0.1
   });
   
   // Load hospital coordinates JSON file and create custom markers
-  d3.json("../../Vivian/Resources/cleaned_hospitals.json").then(hospitalData => {
+  d3.json("http://127.0.0.1:5000/api/v1.0/hospitals").then(hospitalData => {
     hospitalData.forEach(hospital => {
-        let hospitalMarker = L.marker([hospital.Info.Latitude, hospital.Info.Longitude], { icon: hospitalIcon }).addTo(hospitalMarkers);
-        hospitalMarker.bindPopup(`<b>${hospital["Hospital Name"]}</b><br>${hospital.Info.Address}, ${hospital.Info.City}, ${hospital.Info.State}`);
+        let hospitalMarker = L.marker([hospital.Latitude, hospital.Longitude], { icon: hospitalIcon }).addTo(hospitalMarkers);
+        hospitalMarker.bindPopup(`<b>${hospital["Hospital Name"]}</b><br>${hospital.Address}, ${hospital.City}, ${hospital.State}`);
         hospitalMarkers.addLayer(hospitalMarker); // Add marker to the cluster group
     });
   });
 
   // Load military base coordinates JSON file and create clustered markers
-  d3.json("../../Vivian/Resources/cleaned_military_bases.json").then(militaryData => {
+  d3.json("http://127.0.0.1:5000/api/v1.0/military_bases").then(militaryData => {
     militaryData.forEach(base => {
-        let marker = L.marker([base["Military Bases Info"].Latitude, base["Military Bases Info"].Longitude], { icon: militaryIcon });
-        marker.bindPopup(`<b>${base["Military Bases Info"]["Site Name"]}</b><br>Branch: ${base["Military Bases Info"]["Military Branch"]}`);
+        let marker = L.marker(Latitude, Longitude, { icon: militaryIcon });
+        marker.bindPopup(`<b>${["Site Name"]}</b><br>Branch: ${["Military Branch"]}`);
         militaryMarkers.addLayer(marker); // Add marker to the military cluster group
     });
   });

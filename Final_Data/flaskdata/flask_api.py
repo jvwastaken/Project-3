@@ -1,7 +1,10 @@
 import sqlite3
 from flask import Flask
+from flask_cors import CORS
 
 app = Flask(__name__)
+
+CORS(app)
 
 def get_table(table_name):
   conn = sqlite3.connect('project3.sqlite')
