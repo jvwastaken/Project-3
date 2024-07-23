@@ -4,7 +4,7 @@ from flask import Flask
 app = Flask(__name__)
 
 def get_table(table_name):
-  conn = sqlite3.connect('data.sqlite')
+  conn = sqlite3.connect('project3.sqlite')
   conn.row_factory = sqlite3.Row
   db = conn.cursor()
 
