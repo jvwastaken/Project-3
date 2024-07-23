@@ -1,5 +1,6 @@
 <div align='center'>
 <h1 align='center'>Project 3: Zombie Apocalpyse</h1>
+<h3 align='center'><a href="https://docs.google.com/presentation/d/1WPuGRs6DrmLjjk_hoTF55pQGAKSgOtr8AR3YFLP3EOg/edit?usp=sharing">Slide Deck</a></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -28,10 +29,10 @@
 ## Sources
 ### COVID Data - Stephen
 1. Data was retrieved from: 
-  * [World Health Organization](https://data.who.int/dashboards/covid19/cases?n=c).
-  * [CDC](https://covid.cdc.gov/covid-data-tracker/#maps_positivity-4-week).
-  * [NY Times](https://www.nytimes.com/interactive/2021/us/covid-cases.html).
-  * Johns Hopkins: [[1]](https://coronavirus.jhu.edu/map.html) & [[2]](https://github.com/CSSEGISandData/COVID-19).
+    * [World Health Organization](https://data.who.int/dashboards/covid19/cases?n=c).
+    * [CDC](https://covid.cdc.gov/covid-data-tracker/#maps_positivity-4-week).
+    * [NY Times](https://www.nytimes.com/interactive/2021/us/covid-cases.html).
+    * Johns Hopkins: [[1]](https://coronavirus.jhu.edu/map.html) & [[2]](https://github.com/CSSEGISandData/COVID-19).
 2. Pulled [2020 World Cases](Stephen/johns_hopkins_github_data_pull/covid_cases_2020.ipynb) and [2021-2023 US Cases](Stephen/johns_hopkins_github_data_pull/covid_cases_2021-23_us.ipynb).
 3. Updated `02-01-2020` and `03-01-2020` column headers to perform merge across all months in 2020 based on `Region_Country` and `Province_State`
 4. Took 2020 World Data and filtered it by US and merged CSVs to create one dataframe
