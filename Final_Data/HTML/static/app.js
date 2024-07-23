@@ -197,7 +197,7 @@ function initializeMap() {
 
   // Create an overlay object.
   let overlayMaps = {
-      "COVID-19 Cases": covidLayer,
+      "Zombie Infections": covidLayer,
       "2023 Gun Sales": gunSalesLayer,
       "Hospitals": hospitalMarkers,
       "Military Bases": militaryMarkers};
