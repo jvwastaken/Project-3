@@ -7,7 +7,7 @@ from flask import Flask, jsonify, render_template
 # Database Setup
 #################################################
 # Use the absolute path to your uploaded database file
-database_path = "/Users/stephenloucel/Desktop/DataClass/Classwork/Project-3/Final_Data/database.sqlite"
+database_path = "/database.sqlite"
 if not os.path.exists(database_path):
     raise FileNotFoundError(f"Database file does not exist at path: {database_path}")
 
