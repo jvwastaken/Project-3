@@ -139,6 +139,8 @@ let covidMarkers = [];
 let gunSalesMarkers = [];
 let gunSalesLayer;
 let covidLayer;
+let gunSalesLayerActive = false;  // Flag to track if gun sales layer is active
+
 // Create a marker cluster group for military markers
 let militaryMarkers = L.markerClusterGroup({
   iconCreateFunction: function(cluster) {
@@ -211,60 +213,77 @@ function initializeMap() {
   hospitalMarkers.addTo(map);
    // Add default layers to the map
    covidLayer.addTo(map);
+
+   // Add event listener to toggle the gun sales layer flag
+   map.on('overlayadd', function(eventLayer) {
+     if (eventLayer.name === '2023 Gun Sales') {
+       gunSalesLayerActive = true;
+       updateGunSalesMap(); // Ensure markers are added when layer is activated
+     }
+   });
+
+   map.on('overlayremove', function(eventLayer) {
+     if (eventLayer.name === '2023 Gun Sales') {
+       gunSalesLayerActive = false;
+       gunSalesLayer.clearLayers(); // Clear markers when layer is deactivated
+     }
+   });
 }
 
 function updateMap() {
-const selectedDate = document.getElementById('date-select').value;
+  const selectedDate = document.getElementById('date-select').value;
 
-// Clear existing COVID markers
-covidLayer.clearLayers();
+  // Clear existing COVID markers
+  covidLayer.clearLayers();
 
-// Add new markers based on selected date for COVID data
-covidData.forEach(stateData => {
-    const cases = stateData[selectedDate];
-    if (cases !== undefined) {
-        const marker = L.circleMarker([stateData.Lat, stateData.Long_], {
-            radius: Math.sqrt(cases) / 100, // Adjust size based on cases
-            color: 'rgb(67, 118, 113)',
-            fillColor: 'rgba(13, 133, 13, 0.432)',
-            fillOpacity: 0.5
-        });
+  // Add new markers based on selected date for COVID data
+  covidData.forEach(stateData => {
+      const cases = stateData[selectedDate];
+      if (cases !== undefined) {
+          const marker = L.circleMarker([stateData.Lat, stateData.Long_], {
+              radius: Math.sqrt(cases) / 100, // Adjust size based on cases
+              color: 'rgb(67, 118, 113)',
+              fillColor: 'rgba(13, 133, 13, 0.432)',
+              fillOpacity: 0.5
+          });
 
-        marker.bindPopup(`<b>${stateData.State}</b><br>Cases: ${cases}`);
-        covidLayer.addLayer(marker);
-    }
-});
+          marker.bindPopup(`<b>${stateData.State}</b><br>Cases: ${cases}`);
+          covidLayer.addLayer(marker);
+      }
+  });
 }
 
 function updateGunSalesMap() {
   // Clear existing gun sales markers
   gunSalesLayer.clearLayers();
 
-  // Add new markers for gun sales data
-  gunSalesData.forEach(stateData => {
-    const sales = parseFloat(stateData['2023 Total Estimated Sales']); // Convert to number
-    const lat = parseFloat(stateData.Lat);
-    const long = parseFloat(stateData.Long_);
-    const state = stateData.State;
+  if (gunSalesLayerActive) {
+    // Add new markers for gun sales data only if the layer is active
+    gunSalesData.forEach(stateData => {
+      const sales = parseFloat(stateData['2023 Total Estimated Sales']); // Convert to number
+      const lat = parseFloat(stateData.Lat);
+      const long = parseFloat(stateData.Long_);
+      const state = stateData.State;
 
-    console.log(`State: ${state}, Sales: ${sales}, Lat: ${lat}, Long: ${long}`); // Debugging log
+      console.log(`State: ${state}, Sales: ${sales}, Lat: ${lat}, Long: ${long}`); // Debugging log
 
-    if (!isNaN(sales) && !isNaN(lat) && !isNaN(long)) {
-      const marker = L.circleMarker([lat, long], {
-        radius: Math.sqrt(sales) / 100, // Adjust size based on sales
-        color: 'gray',
-        fillColor: 'gray',
-        fillOpacity: 0.5
-      });
+      if (!isNaN(sales) && !isNaN(lat) && !isNaN(long)) {
+        const marker = L.circleMarker([lat, long], {
+          radius: Math.sqrt(sales) / 100, // Adjust size based on sales
+          color: 'gray',
+          fillColor: 'gray',
+          fillOpacity: 0.5
+        });
 
-      marker.bindPopup(`<b>${state}</b><br>2023 Gun Sales: ${sales}`);
-      gunSalesLayer.addLayer(marker);
-    } else {
-      console.error(`Invalid data for ${state}: Sales=${sales}, Lat=${lat}, Long=${long}`);
-    }
-  });
+        marker.bindPopup(`<b>${state}</b><br>2023 Gun Sales: ${sales}`);
+        gunSalesLayer.addLayer(marker);
+      } else {
+        console.error(`Invalid data for ${state}: Sales=${sales}, Lat=${lat}, Long=${long}`);
+      }
+    });
 
-  gunSalesLayer.addTo(map); // Add gunSalesLayer to the map
+    gunSalesLayer.addTo(map); // Add gunSalesLayer to the map
+  }
 }
 
     // Define custom icon for the military base marker
