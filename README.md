@@ -1,3 +1,4 @@
+<a id="readme-top"></a>
 <div align='center'>
 <h1 align='center'>Project 3: Zombie Apocalpyse</h1>
 <h3 align='center'><a href="https://docs.google.com/presentation/d/1WPuGRs6DrmLjjk_hoTF55pQGAKSgOtr8AR3YFLP3EOg/edit?usp=sharing">Slide Deck</a></h3>
@@ -8,9 +9,9 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#About">About</a></li>
-    <li><a href="#Sources">Sources</a></li>
-    <li><a href="#Getting_Started">Getting Started</a></li>
-    <li><a href="#Troubleshooting">Troubleshooting</a></li>
+    <li><a href="#Data-Sources">Data Sources</a></li>
+    <li><a href="#Getting-Started">Getting Started</a></li>
+    <li><a href="#Acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -25,17 +26,17 @@
     - Identify Safe States: 
         - Map key locations such as military bases, gun sales by state, and hospitals to determine which states are potentially the safest.
 
-## Getting_Started
-1. Open GitBash (Windows) or Terminal (Mac).
+## Getting Started
+1. Open **GitBash** (Windows) or **Terminal** (Mac).
 2. Install the flask-cors extension by running the following command: `pip install flask-cors`.
 3. Run [flask_api.py](Final_Data/flaskdata/flask_api.py) in GitBash/Terminal using the following command: `python flask_api.py`.
-        > [!NOTE] Make sure you are in the file's directory prior to entering the above command.
+    > [!NOTE] Make sure you are in the file's directory prior to entering the above command.
 4. Click the link in the response from GitBash/Terminal: `http://127.0.0.1:5000`
 4. Run [index.html](Final_Data/HTML/index.html).
 
 
-## Sources
-### COVID Data - Stephen
+## Data Sources
+#### COVID Data - Stephen
 1. Data was retrieved from: 
     * [World Health Organization](https://data.who.int/dashboards/covid19/cases?n=c).
     * [CDC](https://covid.cdc.gov/covid-data-tracker/#maps_positivity-4-week).
@@ -47,23 +48,25 @@
     * [consolidated_covid_data_world2us.csv](Stephen/johns_hopkins_data_merge/consolidated_covid_data_world2us.csv).
     * [consolidated_covid_data_world2us_with_lat_long_.csv](Stephen/johns_hopkins_data_merge/consolidated_covid_data_us_with_lat_long_.csv).
 5. Consolidated World and US data across `04-01-2020` thru `03-01-2023` into a single [CSV File](Stephen/johns_hopkins_data_merge/main_covid_cases_2020-2023_merge.csv)
-### Hospital Data - Vivian/JV
+#### Hospital Data - Vivian/JV
 1. Data was retrieved from [Kaggle](https://www.kaggle.com/datasets).
 2. Data cleaning and analyzing was done [here](Vivian/Cleaning_data.ipynb).
 3. The cleaned data was exported as a [CSV File](Vivian/Resources/cleaned_hospitals.csv).
 4. The CSV File was converted into a [JSON File](Vivian/Resources/cleaned_hospitals.json).
-### Gun Sales Data - Sean
+#### Gun Sales Data - Sean
 1. Data was retrieved from [safehome.org](https://www.safehome.org/data/firearms-guns-statistics/).
 2. Data cleaning and analyzing was done [here](Sean/Resources/US_gun_sales.ipynb).
 3. Cleaned data was converted into a [CSV File](Sean/Resources/US_gun_sales_data_COMPLETE.csv).
-### Military Bases Data - Levi
+#### Military Bases Data - Levi
 1. Data was retrieved from [militarybases.com](https://militarybases.com).
 2. Data was cleaned and exported as a [CSV File](Levi/military-bases.csv)
 
 
-## Troubleshooting
+## Acknowledgements
 - XPert Learning Assisant: for review and correction of code as needed.
 - Online Tutoring Sessions: for further assistance in building the code for [Flask](Final_Data/flaskdata/flask_api.py).
 - [ChatGPT](https://chatgpt.com/): for review and correction of code as needed.
 - [Leaflet Documentation](https://leafletjs.com/reference.html): creating interactive maps.
 - [StackOverflow](https://stackoverflow.com/): for reference to build and correct codes.
+
+<p align="right">(<a href="#readme-top">Back To Top</a>)</p>
