@@ -38,6 +38,15 @@
 4. Click the link in the response from GitBash/Terminal: `http://127.0.0.1:5000`
 4. Run [index.html](Final_Data/HTML/index.html).
 
+## Ethical Considerations 
+When completing this project, there were three key considerations:
+
+* Clear Visualization: The data spans from 2020-04-01 to 2023-03-01 and shows an increase in COVID-19 cases. However, it does not show the taper down of cases, which can be misleading. One might assume that the rates would continue to climb exponentially. This visualization fails to consider factors such as the impact of vaccines and other interventions that could bring down infection rates.
+
+* Transparency: One of the data sources used was the 2023 gun sales. The data compares COVID-19 infection cases to gun sales in 2023, suggesting that infections surpassed gun sales. In the event of a real zombie outbreak, it would be reasonable to expect a spike in gun purchases, potentially higher than the figures recorded in 2023. This comparison might not fully capture the expected behavioral response in such a scenario.
+
+* Sensitivity: While the coordinates of military bases are publicly available, there are strategic considerations. Publicizing certain locations might pose security risks, even if the information is not classified. It’s essential to be cautious about sharing sensitive locations that could have implications for national security.
+
 
 ## Data Sources
 #### COVID Data - Stephen
