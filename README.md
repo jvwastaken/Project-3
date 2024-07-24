@@ -11,6 +11,7 @@
     <li><a href="#About">About</a></li>
     <li><a href="#Data-Sources">Data Sources</a></li>
     <li><a href="#Getting-Started">Getting Started</a></li>
+    <li><a href="#Ethical-Considerations">Ethical Considerations</a></li>
     <li><a href="#Acknowledgements">Acknowledgements</a></li>
     <li><a href="#Credits">Credits</a></li>
   </ol>
