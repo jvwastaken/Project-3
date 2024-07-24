@@ -30,7 +30,8 @@
 1. Open **GitBash** (Windows) or **Terminal** (Mac).
 2. Install the flask-cors extension by running the following command: `pip install flask-cors`.
 3. Run [flask_api.py](Final_Data/flaskdata/flask_api.py) in GitBash/Terminal using the following command: `python flask_api.py`.
-    > [!NOTE] Make sure you are in the file's directory prior to entering the above command.
+    > [!NOTE] 
+    > Make sure you are in the file's directory prior to entering the above command.
 4. Click the link in the response from GitBash/Terminal: `http://127.0.0.1:5000`
 4. Run [index.html](Final_Data/HTML/index.html).
 
