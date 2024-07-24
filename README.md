@@ -9,8 +9,8 @@
   <ol>
     <li><a href="#About">About</a></li>
     <li><a href="#Sources">Sources</a></li>
+    <li><a href="#Getting_Started">Getting Started</a></li>
     <li><a href="#Troubleshooting">Troubleshooting</a></li>
-    <li><a href="#Timeline">Timeline</a></li>
   </ol>
 </details>
 
@@ -24,6 +24,14 @@
         - Utilize COVID-19 data to model the spread of a hypothetical zombie virus, tracking infection rates and geographic spread over time. 
     - Identify Safe States: 
         - Map key locations such as military bases, gun sales by state, and hospitals to determine which states are potentially the safest.
+
+## Getting_Started
+1. Open GitBash (Windows) or Terminal (Mac).
+2. Install the flask-cors extension by running the following command: `pip install flask-cors`.
+3. Run [flask_api.py](Final_Data/flaskdata/flask_api.py) in GitBash/Terminal using the following command: `python flask_api.py`.
+        > [!NOTE] Make sure you are in the file's directory prior to entering the above command.
+4. Click the link in the response from GitBash/Terminal: `http://127.0.0.1:5000`
+4. Run [index.html](Final_Data/HTML/index.html).
 
 
 ## Sources
@@ -58,15 +66,4 @@
 - Online Tutoring Sessions: for further assistance in building the code for [Flask](Final_Data/flaskdata/flask_api.py).
 - [ChatGPT](https://chatgpt.com/): for review and correction of code as needed.
 - [Leaflet Documentation](https://leafletjs.com/reference.html): creating interactive maps.
-
-## Timeline
-* [SL] Thu, July 11th - Group 4 Team formed (JV, Levi, Sean, Stephen and Vivian)
-* [SL] Thu, July 11th - JV created Project-3 Repo and data responsibilities assigned. 
-* [SL] Sat, July 13th at 3:00 PM EST - Pulled 2020 World and 2021-2023 US Covid Cases from Johns Hopkins Github. 
-* [SL] Sat, July 13th at 3:35 PM EST - Cleaned Up 2020 csv to have matching column headers to perform merge.
-* [SL] Sat, July 13th at 5:23 PM EST - Merged data from 04-01-2020 thru 12-01-2020
-* [SL] Sat, July 13th at 6:52 PM EST - Merged World and US data from 04-01-2020 to 03-01-2023
-* [SL] Tue, July 16th at x:xx PM EST - Created leaflet map for Covid Spread
-* [SL] Thu, July 18th at x:xx PM EST - Worked with Sean to add Gun data to map.
-* [SL] Sun, July 21st at 5:29 PM PST- Created new repository to clean CSVs and create SQLite DB.
-* [SL] Sun, July 21st at 11:05 PM PST- Removed Int, added primary keys, and created html w/ data from sqlite.
+- [StackOverflow](https://stackoverflow.com/): for reference to build and correct codes.
