@@ -12,6 +12,7 @@
     <li><a href="#Data-Sources">Data Sources</a></li>
     <li><a href="#Getting-Started">Getting Started</a></li>
     <li><a href="#Acknowledgements">Acknowledgements</a></li>
+    <li><a href="#Credits">Credits</a></li>
   </ol>
 </details>
 
@@ -71,5 +72,10 @@
 - [ChatGPT](https://chatgpt.com/): for review and correction of code as needed.
 - [Leaflet Documentation](https://leafletjs.com/reference.html): creating interactive maps.
 - [StackOverflow](https://stackoverflow.com/): for reference to build and correct codes.
+
+
+## Credits
+- <a href="https://www.flaticon.com/free-icons/hospital" title="hospital icons">Hospital icons created by Freepik - Flaticon</a>.
+- <a href="https://www.flaticon.com/free-icons/military" title="military icons">Military icons created by Nhor Phai - Flaticon</a>.
 
 <p align="right">(<a href="#readme-top">Back To Top</a>)</p>
